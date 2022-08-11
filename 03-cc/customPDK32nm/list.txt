@@ -1,0 +1,6 @@
+1. hirical schemetic design
+
+2. layout
+   inv design
+
+3. DRC/LVS

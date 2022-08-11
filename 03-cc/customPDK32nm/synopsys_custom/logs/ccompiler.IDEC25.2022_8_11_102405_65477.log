@@ -1,0 +1,222 @@
+[10:24:08.43] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Aug 11 10:24:05 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm
+              /c 
+[10:24:11.18] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
+[10:24:11.69] /r giShowFrameTabs true
+[10:24:11.69] /r giWindowId 1
+[10:24:11.70] /r giWindowGeometry 1040x800
+[10:24:12.17] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[10:29:48.39] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenreviewinvlayout} -in [gi::getWindows 1]
+[10:29:48.39] /# 
+[10:29:48.70] /i de::open review/inv/layout
+[10:29:48.73] /m Information: License 'Apex' checked out. (LICENSE-003)
+[10:29:48.78] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[10:29:48.78] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[10:29:48.87] /o 	############################################
+[10:29:48.87] /o 	--------------------------------------------
+[10:29:48.87] /o 	PDK Name................... : SAED_PDK_32_28
+[10:29:48.87] /o 	PDK Release Date........... : 25-Jun-2015
+[10:29:48.87] /o 	PDK Custom Designer Version : J-2014.12-2
+[10:29:48.87] /o 	--------------------------------------------
+[10:29:48.87] /o 	############################################
+[10:29:48.87] /o 
+[10:29:48.91] /r giWindowId 2
+[10:29:48.91] /r giWindowGeometry 1190x660
+[10:29:49.21] /o oa:0x26f51d90
+[10:29:52.94] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:29:52.94] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.529 0.137}
+[10:29:53.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:29:53.00] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.529 0.137}
+[10:29:53.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:29:53.69] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.529 0.137}
+[10:29:53.83] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:29:53.83] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.529 0.137}
+[10:29:54.78] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:29:54.78] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.529 0.137}
+[10:29:54.84] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:29:54.84] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.529 0.137}
+[10:29:54.96] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:29:54.96] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.529 0.137}
+[10:29:55.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:29:55.87] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.529 0.137}
+[10:29:59.67] /# gi::setItemSelection {lpps} -index {CO drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]]
+[10:29:59.67] /# gi::setCurrentIndex {lpps} -index {CO drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]]
+[10:29:59.72] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]]
+[10:29:59.72] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind review inv layout] -filter {%lpp =="CO drawing"}]
+[10:30:06.34] /# gi::executeAction {leRectangle} -in [gi::getWindows 2]
+[10:30:06.87] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[10:30:08.11] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[10:30:08.12] /i le::createRectangle {{0.57 0.158} {0.579 0.166}} -design [ed] -lpp {CO drawing} 
+[10:30:08.62] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 2]
+[10:30:09.91] /# gi::executeAction {leSplit} -in [gi::getWindows 2]
+[10:30:09.92] /i ile::split
+[10:30:14.11] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 2]
+[10:30:14.11] /i xt::showDRCSetup -job drc -window 2
+[10:30:14.67] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 2]] -value 676x480+616+282
+[10:30:16.54] /i gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 2]]
+[10:30:16.69] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[10:30:16.69] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[10:30:16.90] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 649x290+366+210
+[10:30:18.29] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[10:30:18.34] /# xt::physicalVerification::executePve drc 2 xtDRCExecutePve
+[10:30:18.67] /r giWindowId 3
+[10:30:18.69] /r giWindowGeometry 800x600
+[10:30:28.18] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_9
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 397 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 31 rules have violations.
+              /c There are 122 total violations.
+              /c Refer to inv.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[10:30:28.36] /w Warning: Initialize IC Validator VUE Server failed at port 9189: couldn't open socket: address already in use.
+[10:30:28.36] /m Information: Attempt to bind to an available port.
+[10:30:28.36] /m Information: IC Validator VUE Server initialized successfully at port 39328.
+[10:30:53.37] /m Information: Connection closed with 'IC Validator VUE' running on 'knuee-srv1'.
+[10:30:55.39] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[10:30:58.41] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 2]
+[10:30:58.41] /i xt::showLVSSetup -job lvs -window 2
+[10:30:59.06] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 2]] -value 838x454+562+291
+[10:31:00.29] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 2]]
+[10:31:00.46] /# xt::physicalVerification::executePve lvs 2 xtLVSExecutePve
+[10:31:00.50] /m Information: "Starting netlisting for design "review/inv/schematic"..." (NETLISTING-010)
+[10:31:00.52] /m Information: 
+[10:31:00.52] /o Checking "review/inv/schematic"
+[10:31:00.52] /o No rule violations found in "review/inv/schematic"
+[10:31:00.52] /o No Design Integrity rule violations found in "review/inv/schematic"
+[10:31:00.57] /m Information: "Netlisting design "review/inv/schematic" finished successfully." (NETLISTING-012)
+[10:31:01.09] /r giWindowId 4
+[10:31:01.11] /r giWindowGeometry 800x600
+[10:31:11.08] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_12
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 7 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inv.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[10:31:12.69] /r giWindowId 5
+[10:31:12.71] /r giWindowGeometry 1190x660
+[10:31:13.24] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x547
+[10:31:13.24] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+179+56
+[10:31:15.37] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[10:31:15.37] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.975 1.89375}
+[10:31:37.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[10:31:37.82] /i de::zoom -window [gi::getWindows 5] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {2.075 1.275}
+[10:31:39.45] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[10:31:39.45] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {2.1625 1.175}
+[10:31:42.72] /i gi::setActiveWindow 2
+[10:31:42.72] /i gi::setActiveWindow 2 -raise true
+[10:31:44.08] /i gi::setActiveWindow 4
+[10:31:44.08] /i gi::setActiveWindow 4 -raise true
+[10:31:56.05] /i gi::setActiveWindow 2
+[10:31:56.05] /i gi::setActiveWindow 2 -raise true
+[10:31:57.28] /i gi::setActiveWindow 5
+[10:31:57.28] /i gi::setActiveWindow 5 -raise true
+[10:31:59.31] /i gi::setActiveWindow 4
+[10:31:59.31] /i gi::setActiveWindow 4 -raise true
+[10:32:00.37] /i gi::setActiveWindow 2
+[10:32:00.37] /i gi::setActiveWindow 2 -raise true
+[10:32:01.17] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:32:01.17] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.511 0.175}
+[10:32:01.22] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:32:01.22] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.512 0.175}
+[10:32:01.34] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[10:32:01.34] /i de::zoom -window [gi::getWindows 2] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.512 0.175}
+[10:32:01.86] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[10:32:01.86] /i de::zoom -window [gi::getWindows 2] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.412 0.041}
+[10:32:02.40] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[10:32:02.40] /i de::addPoint {0.385 0.079} -context [db::getNext [de::getContexts -window 2]]
+[10:32:04.64] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 2]
+[10:32:04.64] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value true
+[10:32:04.96] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]] -value 200x487
+[10:32:04.97] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value 290x487
+[10:32:06.96] /i gi::setItemSelection {attributes} -index {text,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:06.96] /i gi::setCurrentIndex {attributes} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:10.67] /i gi::setField {attributes} -value {in1} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:10.67] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:12.38] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[10:32:12.38] /i de::addPoint {0.996 0.091} -context [db::getNext [de::getContexts -window 2]]
+[10:32:13.03] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[10:32:13.03] /i de::addPoint {0.969 0.074} -context [db::getNext [de::getContexts -window 2]]
+[10:32:13.34] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 2]
+[10:32:13.34] /i de::abortCommand -context [db::getNext [de::getContexts -window 2]]
+[10:32:13.53] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 2]
+[10:32:13.88] /# gi::executeAction {deSelectActive} -in [gi::getWindows 2]
+[10:32:13.88] /i de::deselectAll [db::getNext [de::getContexts -window 2]]
+[10:32:13.88] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {0.969 0.074} -index 0 -intent none]
+[10:32:13.88] /o oa:0x2e3ab080
+[10:32:14.71] /i gi::setItemSelection {attributes} -index {text,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:14.71] /i gi::setCurrentIndex {attributes} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:18.76] /i gi::setField {attributes} -value {out1} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:18.76] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]]
+[10:32:24.98] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 2]
+[10:32:24.98] /i xt::showLVSSetup -job lvs -window 2
+[10:32:25.55] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 2]] -value 838x454+562+291
+[10:32:26.68] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 2]]
+[10:32:26.82] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[10:32:26.82] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[10:32:27.06] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 649x290+366+210
+[10:32:28.15] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[10:32:28.20] /# xt::physicalVerification::executePve lvs 2 xtLVSExecutePve
+[10:32:28.22] /m Information: "Starting netlisting for design "review/inv/schematic"..." (NETLISTING-010)
+[10:32:28.23] /m Information: 
+[10:32:28.23] /o Checking "review/inv/schematic"
+[10:32:28.23] /o No rule violations found in "review/inv/schematic"
+[10:32:28.23] /o No Design Integrity rule violations found in "review/inv/schematic"
+[10:32:28.25] /m Information: "Netlisting design "review/inv/schematic" finished successfully." (NETLISTING-012)
+[10:32:38.68] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_13
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 7 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to inv.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[10:51:31.07] /m Information: Connection closed with 'IC Validator VUE' running on 'knuee-srv1'.
+[10:51:31.72] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[10:51:32.05] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+550+360
+[10:51:38.37] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[10:51:38.38] /i exit
+[10:51:38.51] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[10:51:38.80] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]] -value 419x181+490+323
+[10:51:39.57] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[10:51:40.43] /o Shutdown time: Thu Aug 11 10:51:40 2022
+[10:51:40.43] /o Elapsed session real time: 27.53 minutes
+[10:51:40.43] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/logs/ccompiler.IDEC25.2022_8_11_102405_65477.log

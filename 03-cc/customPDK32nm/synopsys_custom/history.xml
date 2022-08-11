@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Thu Aug 11 11:01:34 2022
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file mode="write" file="maskLayout" view="layout" library="review" cell="inv"/>
+                <file mode="read" file="schematic" view="schematic" library="review" cell="inv"/>
+                <file mode="write" file="maskLayout" view="layout" library="tg1" cell="INVX0_HVT"/>
+                <file mode="write" file="schematicSymbol" view="symbol" library="tg4" cell="invx0"/>
+                <file mode="write" file="maskLayout" view="layout" library="tg4" cell="invx0"/>
+        </recentFiles>
+</synopsysFile>

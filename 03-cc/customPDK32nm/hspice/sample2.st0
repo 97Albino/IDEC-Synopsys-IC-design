@@ -1,0 +1,13 @@
+****** HSPICE -- N-2017.12 linux64 (Nov 21 2017) ******
+ Input File: sample2.sp
+ lic:
+ lic: FLEXlm: SDK_11.6.8.3
+ lic: USER:   IDEC25               HOSTNAME: knuee-srv1
+ lic: HOSTID: "a4bb6dafa50d"       PID:      270938
+ lic: Using FLEXlm license file:
+ lic: 26585@143.248.230.188
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 30-jun-2023/2022.06
+ lic: 5(in_use)/47(total) FLOATING license(s) on SERVER 26585@143.248.230.188
+ lic:
+ lic: Release hspice token(s)

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="dbExportNetlistDir" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm"/>
+	<pref name="dbExportNetlistFile" value="./tg4_buf_tb.sp"/>
+	<pref name="dbExportNetlistFormat" value="HSPICE"/>
+	<pref name="dbExportNetlistLCV" value="tg4/buf_tb/schematic"/>
+	<pref name="dbImportStreamFileName" value="/home/KNUEEhdd1/idec/techfiles/saed28edk/gds/saed32nm_hvt_oa.gds"/>
+	<pref name="dbImportStreamNewLibTechRefLibs" value="SAED_PDK_32_28 "/>
+	<pref name="dbImportStreamNewLibTechType" value="reference"/>
+	<pref name="deDescendMode" value="readOnly"/>
+	<pref name="deDescendRead" value="true"/>
+	<pref name="dmNewLibTechRefs" value="SAED_PDK_32_28 "/>
+	<pref name="dmNewLibTechType" value="reference"/>
+	<pref name="giPromptCloseMultipleTabs" value="true"/>
+	<pref name="xtPDKProcess" value="SAED 32/28nm"/>
+	<pref name="xtPDKVariant" value="1P10M"/>
+</preferences>
+

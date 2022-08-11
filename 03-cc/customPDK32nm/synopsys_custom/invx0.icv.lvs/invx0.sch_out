@@ -1,0 +1,14 @@
+{netlist invx0.sch_out
+{version 2 1 0}
+{net_global VDDG VDDH VDDL VDD2 VSS VDD VDD22 VDDIO VSSIO VDD12 VSS12 }
+{cell invx0
+{port in1 out1 vdd vss}
+{inst MM0=p105 {TYPE MOS} 
+{prop M=1 NF=1 L=0.03 W=0.1}
+{pin out1=DRN in1=GATE vdd=SRC vdd=BULK}}
+{inst MM1=n105 {TYPE MOS} 
+{prop M=1 NF=1 L=0.03 W=0.1}
+{pin out1=DRN in1=GATE vss=SRC vss=BULK}}
+}
+
+}

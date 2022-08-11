@@ -1,0 +1,8 @@
+review openaccess layout inv inv icv SPICE /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -vue -stc -sf -oa_view -oa_lib_defs -oa_dm6 -i -f -c 
+schematic=/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp
+ICV_HOME_DIR=/usr/synopsys/icv/S-2021.06-SP2
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp -cell inv -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 VDD2 VDDG VDDH VDDL VDDIO VSSIO  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron
+inv
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details
+Complete

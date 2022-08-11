@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs; exec-oa22.60.021.icv icv -f openaccess -i review -c inv -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -s /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp -sf SPICE -stc inv -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs > /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/stdout.lvs.log 2>&1

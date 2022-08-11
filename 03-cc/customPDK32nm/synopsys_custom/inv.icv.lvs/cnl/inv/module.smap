@@ -1,0 +1,33 @@
+<module name="vsl: review inv schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="MM11" src="M11"/>
+<mapping dst="MM12" src="M12"/>
+</forward>
+<reverse>
+<mapping dst="M11" src="MM11"/>
+<mapping dst="M12" src="MM12"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="in1 out1 vdd vss" src="&lt;unmappedTermOrder>"/>
+<mapping dst="in1 out1 vdd vss" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="in1 out1 vdd vss"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M11"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M12"/>
+</instance_header>
+</master_instances>
+</module>

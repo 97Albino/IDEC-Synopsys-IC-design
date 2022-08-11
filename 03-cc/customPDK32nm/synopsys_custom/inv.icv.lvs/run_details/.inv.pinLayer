@@ -1,0 +1,3 @@
+DEVICE_COUNT 2
+0 1 n105 ngate_12.polygonlayer.0004 4 GATE ngate_12.polygonlayer.0004 SRC nsd.polygonlayer.0014 DRN nsd.polygonlayer.0014 BULK pwell.polygonlayer.0014
+1 1 p105 pgate_12.polygonlayer.0003 4 GATE pgate_12.polygonlayer.0003 SRC psd.polygonlayer.0013 DRN psd.polygonlayer.0013 BULK nwnr.polygonlayer.0014

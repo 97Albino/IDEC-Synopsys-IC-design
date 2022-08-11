@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep knuee-srv1 > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 73674 
+else 
+rsh knuee-srv1 kill 73674 
+ sleep 10 
+rsh knuee-srv1 kill -9 73674 
+fi

@@ -1,0 +1,14 @@
+#!/bin/sh
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details --exclude=group | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/group | awk '{print $1}'`
+echo $group > /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/group/duse_group.tmp && \
+mv /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/group/duse_group.tmp /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/group/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/TOPCELLNAME_err | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`/usr/bin/du -s --block-size=1 /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/duse_manager_res.tmp && \
+mv /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/duse_manager_res.tmp /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/duse_manager_res

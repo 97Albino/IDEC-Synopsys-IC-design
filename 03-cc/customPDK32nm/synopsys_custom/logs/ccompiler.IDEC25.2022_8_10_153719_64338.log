@@ -1,0 +1,101 @@
+[15:37:22.38] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Aug 10 15:37:19 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm
+              /c 
+[15:37:24.97] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
+[15:37:25.19] /r giShowFrameTabs true
+[15:37:25.19] /r giWindowId 1
+[15:37:25.19] /r giWindowGeometry 1040x800
+[15:37:25.67] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[15:37:27.62] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:37:27.62] /# 
+[15:37:27.93] /i gi::addWindow [dm::openLibraryManager] -to 1
+[15:37:27.93] /r giWindowId 2
+[15:37:27.93] /r giWindowGeometry 660x600+50+78
+[15:37:29.21] /i gi::setCurrentIndex {libs} -index {tg4} -in [gi::getWindows 2]
+[15:37:29.22] /i gi::setItemSelection {libs} -index {tg4} -in [gi::getWindows 2]
+[15:37:30.76] /i gi::setCurrentIndex {cells} -index {buf} -in [gi::getWindows 2]
+[15:37:30.77] /i gi::setItemSelection {cells} -index {buf} -in [gi::getWindows 2]
+[15:37:31.09] /i gi::setCurrentIndex {cells} -index {invx0_tb} -in [gi::getWindows 2]
+[15:37:31.10] /i gi::setItemSelection {cells} -index {invx0_tb} -in [gi::getWindows 2]
+[15:37:31.69] /i gi::setCurrentIndex {cells} -index {invx0} -in [gi::getWindows 2]
+[15:37:31.69] /i gi::setItemSelection {cells} -index {invx0} -in [gi::getWindows 2]
+[15:37:33.00] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:37:33.00] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:37:37.25] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:37:37.28] /m Information: License 'Apex' checked out. (LICENSE-003)
+[15:37:37.30] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[15:37:37.30] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[15:37:37.35] /o 	############################################
+[15:37:37.35] /o 	--------------------------------------------
+[15:37:37.35] /o 	PDK Name................... : SAED_PDK_32_28
+[15:37:37.35] /o 	PDK Release Date........... : 25-Jun-2015
+[15:37:37.35] /o 	PDK Custom Designer Version : J-2014.12-2
+[15:37:37.35] /o 	--------------------------------------------
+[15:37:37.35] /o 	############################################
+[15:37:37.35] /o 
+[15:37:37.39] /r giWindowId 3
+[15:37:37.39] /r giWindowGeometry 1190x660
+[15:37:40.86] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:37:40.86] /i xt::showLVSSetup -job lvs -window 3
+[15:37:41.56] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+562+291
+[15:37:42.70] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:37:42.81] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:37:42.83] /m Information: "Starting netlisting for design "tg4/invx0/schematic"..." (NETLISTING-010)
+[15:37:42.85] /o No Design Integrity rule violations found in "tg4/invx0/schematic"
+[15:37:42.87] /m Information: "Netlisting design "tg4/invx0/schematic" finished successfully." (NETLISTING-012)
+[15:37:43.19] /r giWindowId 4
+[15:37:43.21] /r giWindowGeometry 800x600
+[15:37:43.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.78] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.78] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.78] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.78] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.78] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:37:43.80] /e Error: The job 'icv_lvs_4' started on host 'localhost' with process id 65304 failed to start or complete successfully; the job's return code is 127.
+[15:46:07.55] /i gi::setActiveTab {tabs} -tabName {invx0.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:46:08.21] /i gi::setActiveTab {tabs} -tabName {invx0.LVS_ERRORS} -in [gi::getWindows 4]
+[15:46:08.97] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:46:09.61] /i gi::setActiveTab {tabs} -tabName {invx0.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:46:10.18] /i gi::setActiveTab {tabs} -tabName {invx0.LVS_ERRORS} -in [gi::getWindows 4]
+[15:57:26.57] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+179+56
+[15:57:27.64] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:57:30.20] /i gi::setActiveTab {tabs} -tabName {invx0.LVS_ERRORS} -in [gi::getWindows 4]
+[15:57:31.11] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:57:34.71] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:57:35.04] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+550+360
+[15:57:36.15] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:57:36.16] /i exit
+[15:57:36.28] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[15:57:36.57] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]] -value 419x181+490+323
+[15:57:38.12] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[15:57:38.96] /o Shutdown time: Wed Aug 10 15:57:38 2022
+[15:57:38.96] /o Elapsed session real time: 20.28 minutes
+[15:57:38.96] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/logs/ccompiler.IDEC25.2022_8_10_153719_64338.log

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVLoadRunset" value="true"/>
+	<pref name="xtLVSICVRunsetFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/icv/lvs/saed32nm_1p9m_lvs_rules.rs"/>
+	<pref name="xtLVSLayCell" value="inv"/>
+	<pref name="xtLVSLayInputNetlist" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.net"/>
+	<pref name="xtLVSLayLCV" value="review/inv/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="inv"/>
+	<pref name="xtLVSSchInputNetlist" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp"/>
+	<pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+	<pref name="xtLVSSchLCV" value="review/inv/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

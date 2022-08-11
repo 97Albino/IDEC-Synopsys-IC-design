@@ -1,0 +1,2 @@
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:89: error: schematic(schematic_file.filename = "CELLNAME.sp").  The input file is not accessible for reading.
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/CELLNAME.sp: file does not exist

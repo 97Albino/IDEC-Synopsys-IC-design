@@ -1,0 +1,4 @@
+reference openaccess layout icv INVD1 /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/saed32nm_1p9m_lvs_rules.drc.rs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -vue -oa_view -oa_lib_defs -oa_dm6 -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/usr/synopsys/icv/S-2021.06-SP2
+ICV_INCLUDES=UNSET

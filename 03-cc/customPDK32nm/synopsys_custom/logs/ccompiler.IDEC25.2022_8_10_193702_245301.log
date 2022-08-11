@@ -1,0 +1,286 @@
+[19:37:05.28] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Aug 10 19:37:02 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm
+              /c 
+[19:37:07.66] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
+[19:37:08.19] /r giShowFrameTabs true
+[19:37:08.19] /r giWindowId 1
+[19:37:08.19] /r giWindowGeometry 1040x800
+[19:37:08.65] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[19:37:09.82] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:37:09.83] /# 
+[19:37:10.13] /i gi::addWindow [dm::openLibraryManager] -to 1
+[19:37:10.13] /r giWindowId 2
+[19:37:10.13] /r giWindowGeometry 1040x641+215+131
+[19:37:10.13] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:37:10.47] /i db::setAttr geometry -of [gi::getFrames 1] -value 1390x701+5+56
+[19:37:13.80] /i gi::setCurrentIndex {libs} -index {tg4} -in [gi::getWindows 2]
+[19:37:13.81] /i gi::setItemSelection {libs} -index {tg4} -in [gi::getWindows 2]
+[19:37:15.16] /i gi::setCurrentIndex {cells} -index {invx0} -in [gi::getWindows 2]
+[19:37:15.17] /i gi::setItemSelection {cells} -index {invx0} -in [gi::getWindows 2]
+[19:37:16.37] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[19:37:16.38] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[19:37:16.96] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:37:16.96] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[19:37:17.44] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[19:37:17.45] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[19:37:18.02] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:37:18.05] /m Information: License 'Apex' checked out. (LICENSE-003)
+[19:37:18.06] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[19:37:18.06] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:37:18.10] /o 	############################################
+[19:37:18.10] /o 	--------------------------------------------
+[19:37:18.10] /o 	PDK Name................... : SAED_PDK_32_28
+[19:37:18.10] /o 	PDK Release Date........... : 25-Jun-2015
+[19:37:18.10] /o 	PDK Custom Designer Version : J-2014.12-2
+[19:37:18.10] /o 	--------------------------------------------
+[19:37:18.10] /o 	############################################
+[19:37:18.10] /o 
+[19:37:18.12] /r giWindowId 3
+[19:37:18.13] /r giWindowGeometry 1190x660
+[19:37:20.98] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[19:37:21.13] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[19:37:21.26] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[19:37:21.76] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[19:37:21.92] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[19:37:27.92] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[19:37:27.92] /i xt::showLVSSetup -job lvs -window 3
+[19:37:28.57] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+562+230
+[19:37:30.81] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[19:37:30.90] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[19:37:30.92] /m Information: "Starting netlisting for design "tg4/invx0/schematic"..." (NETLISTING-010)
+[19:37:30.94] /o No Design Integrity rule violations found in "tg4/invx0/schematic"
+[19:37:30.96] /m Information: "Netlisting design "tg4/invx0/schematic" finished successfully." (NETLISTING-012)
+[19:37:31.48] /r giWindowId 4
+[19:37:31.50] /r giWindowGeometry 800x600
+[19:37:40.88] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_11
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 7 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to invx0.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[19:37:41.06] /w Warning: Initialize IC Validator VUE Server failed at port 9189: couldn't open socket: address already in use.
+[19:37:41.06] /m Information: Attempt to bind to an available port.
+[19:37:41.06] /m Information: IC Validator VUE Server initialized successfully at port 38544.
+[19:37:45.99] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[19:37:47.27] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+-283+504
+[19:37:50.24] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+197+56
+[19:37:50.36] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:37:50.67] /i db::setAttr geometry -of [gi::getFrames 1] -value 1390x701+5+56
+[19:38:01.24] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[19:38:03.84] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:38:04.16] /i db::setAttr geometry -of [gi::getFrames 1] -value 1390x701+5+56
+[23:30:46.82] /i gi::setActiveWindow 2
+[23:30:46.82] /i gi::setActiveWindow 2 -raise true
+[23:30:48.53] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 2]
+[23:30:49.14] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[23:30:49.14] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[23:30:50.16] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[23:30:50.18] /r giWindowId 5
+[23:30:50.19] /r giWindowGeometry 1190x660
+[23:30:51.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:30:51.60] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:30:51.60] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.2125 0.6375} -index 0 -intent none]
+[23:30:51.60] /o oa:0x2e88d610
+[23:30:52.48] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:30:52.48] /i de::cycleActiveFigure [gi::getWindows 5] -direction next
+[23:30:52.48] /o oa:0x2edba1f0
+[23:30:52.48] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:30:52.48] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.2125 0.6375} -index 1 -intent none]
+[23:30:52.48] /o oa:0x2eae2020
+[23:30:53.22] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:30:53.22] /i de::cycleActiveFigure [gi::getWindows 5] -direction next
+[23:30:53.22] /o oa:0x2ed6e4b0
+[23:30:53.22] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:30:53.22] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.2125 0.6375} -index 0 -intent none]
+[23:30:53.22] /o oa:0x2e28a8d0
+[23:30:55.13] /# gi::executeAction {seDelete} -in [gi::getWindows 5]
+[23:30:55.13] /i ise::delete
+[23:30:55.26] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:30:55.26] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:30:55.26] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.2125 0.65} -index 0 -intent none]
+[23:30:55.26] /o oa:0x2ee65270
+[23:30:55.97] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:30:55.97] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:30:55.97] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.21875 0.61875} -index 0 -intent none]
+[23:30:55.97] /o oa:0x2e73bc30
+[23:30:56.81] /# gi::executeAction {seStretch} -in [gi::getWindows 5]
+[23:30:56.81] /i ise::stretch
+[23:30:57.15] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:30:57.15] /i de::addPoint {1.21875 0.61875} -context [db::getNext [de::getContexts -window 5]]
+[23:30:58.45] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:30:58.45] /i de::addPoint {1.1875 0.625} -context [db::getNext [de::getContexts -window 5]]
+[23:30:59.53] /w Warning: Nothing is bound to the 'QuoteLeft' in the current active set. (WINDOW-015)
+[23:31:00.13] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:01.15] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:01.15] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:01.15] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.38125 0.625} -index 0 -intent none]
+[23:31:01.15] /o oa:0x2dce3ae0
+[23:31:01.93] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:01.93] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:01.93] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.425 0.625} -index 0 -intent none]
+[23:31:01.93] /o oa:0x2d1e4f80
+[23:31:04.46] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:04.46] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:04.46] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.375 0.61875} -index 0 -intent none]
+[23:31:04.46] /o oa:0x2ea04a20
+[23:31:04.59] /# gi::executeAction {seStretch} -in [gi::getWindows 5]
+[23:31:04.59] /i ise::stretch
+[23:31:04.88] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:04.88] /i de::addPoint {1.375 0.61875} -context [db::getNext [de::getContexts -window 5]]
+[23:31:05.65] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:05.65] /i de::addPoint {1.41875 0.625} -context [db::getNext [de::getContexts -window 5]]
+[23:31:06.38] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:06.38] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:06.39] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.4375 0.61875} -index 0 -intent none]
+[23:31:06.39] /o oa:0x259dfb10
+[23:31:07.20] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:07.45] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:07.59] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:07.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:07.85] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:07.85] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 5]]]}]
+[23:31:08.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:08.85] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:08.85] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {0.7125 0.625} -index 0 -intent none]
+[23:31:08.85] /o oa:0x259dff70
+[23:31:09.75] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:09.75] /i de::cycleActiveFigure [gi::getWindows 5] -direction next
+[23:31:09.75] /o oa:0x2e436cb0
+[23:31:09.75] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:09.75] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {0.69375 0.61875} -index 1 -intent none]
+[23:31:09.75] /o oa:0x2ebcf890
+[23:31:10.90] /# gi::executeAction {deDescendRead} -in [gi::getWindows 5]
+[23:31:10.90] /i ide::descend 5 -inPlace false -readOnly true
+[23:31:10.92] /e Error: Could not descend in pre-selection mode. (DESIGN_COMMANDS-032)
+[23:31:12.89] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 5]
+[23:31:12.89] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value true
+[23:31:14.28] /i gi::setItemSelection {attributes} -index {width,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:14.28] /i gi::setCurrentIndex {attributes} -index {width,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:16.32] /i gi::setItemSelection {attributes} -index {points,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:16.32] /i gi::setCurrentIndex {attributes} -index {points,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:17.51] /i gi::setItemSelection {attributes} -index {} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:17.51] /i gi::setCurrentIndex {attributes} -index {} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]]
+[23:31:18.94] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:18.94] /i de::addPoint {0.70625 0.6375} -context [db::getNext [de::getContexts -window 5]]
+[23:31:19.77] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:19.77] /i de::addPoint {0.70625 0.6375} -context [db::getNext [de::getContexts -window 5]]
+[23:31:20.57] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 5]
+[23:31:20.57] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value false
+[23:31:21.15] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:21.15] /i de::addPoint {0.69375 0.63125} -context [db::getNext [de::getContexts -window 5]]
+[23:31:21.55] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 5]
+[23:31:21.55] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value true
+[23:31:22.43] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:22.43] /i de::addPoint {0.66875 0.6125} -context [db::getNext [de::getContexts -window 5]]
+[23:31:23.11] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[23:31:23.11] /i de::addPoint {0.5875 0.53125} -context [db::getNext [de::getContexts -window 5]]
+[23:31:23.87] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 5]
+[23:31:23.87] /i de::abortCommand -context [db::getNext [de::getContexts -window 5]]
+[23:31:24.10] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:24.28] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 5]
+[23:31:24.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:24.95] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:24.95] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {0.6875 0.64375} -index 0 -intent none]
+[23:31:24.95] /o oa:0x2e6a09a0
+[23:31:25.86] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 5]
+[23:31:25.86] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value false
+[23:31:26.30] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 5]
+[23:31:26.30] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value true
+[23:31:28.67] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:28.67] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:28.67] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 5]]]}]
+[23:31:29.10] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:29.10] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:29.10] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.45625 0.63125} -index 0 -intent none]
+[23:31:29.10] /o oa:0x2ea4fff0
+[23:31:31.13] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:31.13] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:31.13] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.00625 0.95} -index 0 -intent none]
+[23:31:31.13] /o oa:0x2ebd5b20
+[23:31:32.78] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:32.78] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:32.78] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.0125 0.3} -index 0 -intent none]
+[23:31:32.78] /o oa:0x2f0c6620
+[23:31:33.82] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:33.82] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:33.82] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 5]]]}]
+[23:31:34.27] /# gi::executeAction {deSaveDesignAs} -in [gi::getWindows 5]
+[23:31:34.27] /i de::showSaveDesignAs -context [db::getNext [de::getContexts -window 5]]
+[23:31:34.35] /r giDialog gi::setActiveDialog [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 5]]
+[23:31:34.68] /r giDialog db::setAttr geometry -of [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 5]] -value 411x128+495+350
+[23:31:35.73] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 5]]
+[23:31:35.73] /m Information: Saving design 'tg4 invx0 symbol'. (DESIGN_WINDOW-004)
+[23:31:38.79] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.18] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.36] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.51] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.68] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.83] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:40.95] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[23:31:42.47] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[23:31:42.47] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[23:31:42.47] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {1.20625 0.61875} -index 0 -intent none]
+[23:31:42.47] /o oa:0x2f0e2ae0
+[23:31:43.92] /i gi::setActiveWindow 2
+[23:31:43.92] /i gi::setActiveWindow 2 -raise true
+[23:31:44.98] /i gi::setActiveWindow 5
+[23:31:44.98] /i gi::setActiveWindow 5 -raise true
+[23:31:46.68] /i gi::setActiveWindow 3
+[23:31:46.68] /i gi::setActiveWindow 3 -raise true
+[23:31:47.29] /i gi::setActiveWindow 5
+[23:31:47.29] /i gi::setActiveWindow 5 -raise true
+[23:31:48.13] /i gi::setActiveWindow 2
+[23:31:48.13] /i gi::setActiveWindow 2 -raise true
+[23:31:51.82] /i gi::setCurrentIndex {libs} -index {tg1} -in [gi::getWindows 2]
+[23:31:51.84] /i gi::setItemSelection {libs} -index {tg1} -in [gi::getWindows 2]
+[23:31:56.18] /i gi::setField {cellsFilter} -value {inv} -in [gi::getWindows 2]
+[23:31:56.18] /i gi::setCurrentIndex {cells} -index {INVX0_HVT} -in [gi::getWindows 2]
+[23:31:56.18] /i gi::setItemSelection {cells} -index {INVX0_HVT} -in [gi::getWindows 2]
+[23:31:56.98] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[23:31:56.98] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[23:31:57.02] /r giWindowId 6
+[23:31:57.04] /r giWindowGeometry 1190x660
+[23:32:00.57] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[23:32:06.01] /i gi::setField {cellsFilter} -value {} -in [gi::getWindows 2]
+[23:32:06.01] /i gi::setCurrentIndex {libs} -index {SAED_PDK_32_28} -in [gi::getWindows 2]
+[23:32:06.02] /i gi::setItemSelection {libs} -index {SAED_PDK_32_28} -in [gi::getWindows 2]
+[23:32:17.46] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[23:32:17.77] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+551+360
+[23:32:19.87] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[23:32:19.88] /i exit
+[23:32:19.99] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[23:32:20.28] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+491+310
+[23:32:21.20] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[23:32:21.97] /o Shutdown time: Wed Aug 10 23:32:21 2022
+[23:32:21.97] /o Elapsed session real time: 3 hours 55.28 minutes
+[23:32:21.97] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/logs/ccompiler.IDEC25.2022_8_10_193702_245301.log

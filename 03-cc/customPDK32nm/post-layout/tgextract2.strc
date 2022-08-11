@@ -1,0 +1,41 @@
+ICV_RUNSET_REPORT_FILE : pex_runset_report_file
+BLOCK : inv1
+NETLIST_FILE:  inv1.spef
+
+REDUCTION:NO
+
+
+******** PrimeRail ********
+
+TCAD_GRD_FILE: ../saed28nm_v2.nxtgrd
+MAPPING_FILE:  pex_process_map_file
+
+
+*NETLIST_IDEAL_SPICE_FILE: tgtmp.spice
+EXTRACTION:               RC
+*EXTRACTION:               C
+REDUCTION:                Layer
+NETS:                     *
+SHORT_PINS:               NO
+NETLIST_FORMAT:           SPEF
+NETLIST_SUBCKT:           YES
+NETLIST_TAIL_COMMENTS:    YES
+NETLIST_CONNECT_SECTION:  YES
+NETLIST_NODE_SECTION:     YES
+NETLIST_NAME_MAP:         NO
+KEEP_VIA_NODES:           YES
+POWER_EXTRACT:            YES
+*EXTRA_GEOMETRY_INFO:      NODE
+EXTRA_GEOMETRY_INFO:      NONE
+WIDE_DEVICE_TERM_RESISTANCE:      RES
+
+*COUPLING_REPORT_FILE:              tgcoupling.rpt
+COUPLING_THRESHOLD_OPERATION:      OR
+*TG: Coupling cap yes/no command
+COUPLE_TO_GROUND:                  NO
+*INTRANET_CAPS:                    YES
+EXTRACT_VIA_CAPS:                  YES
+*COUPLING_AVG_THRESHOLD:            0
+*COUPLING_REL_THRESHOLD:            0.5
+COUPLING_ABS_THRESHOLD:            0.0001e-15
+

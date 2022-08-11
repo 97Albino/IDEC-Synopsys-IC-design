@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /usr/synopsys/icv/S-2021.06-SP2
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = review
+INLIB_PATH        = 
+BLOCK             = inv
+CREATE_VUE_OUTPUT = TRUE
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = OPENACCESS
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed32nm_1p9m_drc_rules.drc.rs

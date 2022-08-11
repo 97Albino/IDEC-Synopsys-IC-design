@@ -1,0 +1,18 @@
+08/11/2022 10:30:23 (DP)  Using license file: 26585@143.248.230.188
+08/11/2022 10:30:23 (DP)  Requesting 1 (ICValidator-Manager/2021.06) license.
+08/11/2022 10:30:23 (DP)    License obtained.
+08/11/2022 10:30:23 (DP)  
+08/11/2022 10:30:23 (DP)  Obtained 1 total ICValidator-Manager license.
+08/11/2022 10:30:23 (DP)  This will allow up to 4 engine processes to run.
+
+08/11/2022 10:30:24 (DLM) Requesting (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:24 (DLM)   ICValidator2-GeometryEngine license obtained.
+08/11/2022 10:30:24 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:25 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:25 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:25 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:26 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:27 (DP)  Releasing all DP licenses
+08/11/2022 10:30:27 (DLM) Releasing (ICValidator2-GeometryEngine/2021.06)
+08/11/2022 10:30:27 (DLM)   ICValidator2-GeometryEngine/2021.06 released.
+08/11/2022 10:30:27 (DLM) License manager shutting down.

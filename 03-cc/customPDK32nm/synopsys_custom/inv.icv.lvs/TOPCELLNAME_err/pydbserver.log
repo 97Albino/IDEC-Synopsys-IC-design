@@ -1,0 +1,57 @@
+
+                                  PYDB_Server 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 2007 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Removing old database /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/TOPCELLNAME_err/PYDB_inv
+Listening for connections on port 7346
+PYDB_Server Started on host knuee-srv1, Thu 08/11/2022 10:56:05
+Client knuee-srv1(73674):17 connected (1 total client)
+Verified current licenses.
+Opening file:/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/TOPCELLNAME_err/PYDB_inv?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client knuee-srv1(73772):24 connected (2 total clients)
+Client knuee-srv1(73785):25 connected (3 total clients)
+Client knuee-srv1(73785):25 connection closed
+Client knuee-srv1(73785):25 disconnected (2 clients remain)
+Client knuee-srv1(73785):25 connected (3 total clients)
+Client knuee-srv1(73772):24 connection closed
+Client knuee-srv1(73772):24 disconnected (2 clients remain)
+Client knuee-srv1(73772):24 connected (3 total clients)
+Client knuee-srv1(73772):24 connection closed
+Client knuee-srv1(73772):24 disconnected (2 clients remain)
+Client knuee-srv1(73785):25 connection closed
+Client knuee-srv1(73785):25 disconnected (1 client remains)
+Client knuee-srv1(73772):24 connected (2 total clients)
+Client knuee-srv1(73785):25 connected (3 total clients)
+Client knuee-srv1(73772):24 connection closed
+Client knuee-srv1(73785):25 connection closed
+Client knuee-srv1(73772):24 disconnected (2 clients remain)
+Client knuee-srv1(73785):25 disconnected (1 client remains)
+Generating /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+Shutdown requested by client knuee-srv1(73674):17
+0 clients remain connected
+Client knuee-srv1(73674):17 connection closed
+Overall server Time=0:00:05  User=0.03 Sys=0.04 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB

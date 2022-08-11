@@ -1,0 +1,111 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i review -c inv -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -s /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp -sf SPICE -stc inv -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs
+
+
+
+
+Parsing runset "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs"
+
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:1257: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:1405: warning: Some LVS reports change since 2019.12 release. Set environment variable 'ICV_REVERT_LVS_REPORT_IN_IDENTICAL_STRING' to see old LVS reports.
+Loaded runset from cache: /home/KNUEEhdd1/idec/IDEC25/.icvrscache/e21ad758dba5b5b7ada377d25c472e47-59083A47-4EBF-4A1D-90DB-F8EDF2C1AF9D-knuee-srv1-110637.rscache
+Cached Runset Compile Time=0:00:04 User=3.59 Sys=0.13 Mem=0.902 GB
+
+Virtual Machine Init Time=0:00:00 User=0.02 Sys=0.01 Mem=0.902 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	knuee-srv1: 2 total cores, maximum 2 commands in parallel.
+Selecting "knuee-srv1" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.05 Mem=0.902 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/inv.sum
+    /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/run_details/saed32nm_1p9m_lvs_rules.lvs.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:04
+Comparing schematic and layout netlists.
+LVS compare start time    : 2022-08-11 10:56:09
+  ICV_Compare run is   0% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is   5% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is  10% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is  15% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is  20% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is  25% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is  30% complete.    Elapsed Time=0:00:00
+  ICV_Compare run is 100% complete.    Elapsed Time=0:00:00
+LVS compare end time      : 2022-08-11 10:56:09
+Total runtime for LVS compare Time=0:00:00  User=0.38 Sys=0.05 Mem=0.015 GB
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.016 GB
+
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:05
+Unset QT_XCB_NATIVE_PAINTING for VUE
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating inv.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+
+IC Validator Run: Time=0:00:09
+
+-------------
+
+IC Validator Machine Memory Report
+knuee-srv1   : Average = 0.322 GB, Peak = 0.322 GB
+
+Overall Disk Usage Disk=0.001 GB
+Network Disk Usage Peak=0.009 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:09 Highest command Mem=0.239 GB
+
+Overall Master Mem=1.009 GB
+IC Validator is done.

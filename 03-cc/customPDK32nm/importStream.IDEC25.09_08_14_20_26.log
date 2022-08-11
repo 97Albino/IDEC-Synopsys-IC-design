@@ -1,0 +1,830 @@
+*****************************************************************************
+Tool:		importStream        S-2021.09
+*****************************************************************************
+Running: importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.09_08_14_20_26.log -lib tg1 -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -gds "/home/KNUEEhdd1/idec/techfiles/saed28edk/gds/saed32nm_hvt_oa.gds" -hierDepth 256 -propSeparator , -view layout -filterDots -useTechLayerMap -useTechObjectMap
+Started: Tue Aug  9 14:20:27 2022 (Hostname: knuee-srv1)
+
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX2_HVT as cellView tg1/TNBUFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX32_HVT as cellView tg1/TNBUFFX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX4_HVT as cellView tg1/TNBUFFX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX8_HVT as cellView tg1/TNBUFFX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XNOR2X1_HVT as cellView tg1/XNOR2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XNOR2X2_HVT as cellView tg1/XNOR2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XNOR3X1_HVT as cellView tg1/XNOR3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XNOR3X2_HVT as cellView tg1/XNOR3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XOR2X1_HVT as cellView tg1/XOR2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XOR2X2_HVT as cellView tg1/XOR2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XOR3X1_HVT as cellView tg1/XOR3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE XOR3X2_HVT as cellView tg1/XOR3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE unitTile as cellView tg1/unitTile/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFSSRX1_HVT as cellView tg1/SDFFSSRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFSSRX2_HVT as cellView tg1/SDFFSSRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFX1_HVT as cellView tg1/SDFFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFX2_HVT as cellView tg1/SDFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SHFILL128_HVT as cellView tg1/SHFILL128_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SHFILL1_HVT as cellView tg1/SHFILL1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SHFILL2_HVT as cellView tg1/SHFILL2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SHFILL3_HVT as cellView tg1/SHFILL3_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SHFILL64_HVT as cellView tg1/SHFILL64_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TIEH_HVT as cellView tg1/TIEH_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TIEL_HVT as cellView tg1/TIEL_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX16_HVT as cellView tg1/TNBUFFX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE TNBUFFX1_HVT as cellView tg1/TNBUFFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASRSX2_HVT as cellView tg1/SDFFASRSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASRX1_HVT as cellView tg1/SDFFASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASRX2_HVT as cellView tg1/SDFFASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASX1_HVT as cellView tg1/SDFFASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASX2_HVT as cellView tg1/SDFFASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNARX1_HVT as cellView tg1/SDFFNARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNARX2_HVT as cellView tg1/SDFFNARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNASRX1_HVT as cellView tg1/SDFFNASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNASRX2_HVT as cellView tg1/SDFFNASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNASX1_HVT as cellView tg1/SDFFNASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNASX2_HVT as cellView tg1/SDFFNASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNX1_HVT as cellView tg1/SDFFNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFNX2_HVT as cellView tg1/SDFFNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRASRX1_HVT as cellView tg1/RSDFFSRASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRASRX2_HVT as cellView tg1/RSDFFSRASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRASX1_HVT as cellView tg1/RSDFFSRASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRASX2_HVT as cellView tg1/RSDFFSRASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRSSRX1_HVT as cellView tg1/RSDFFSRSSRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRSSRX2_HVT as cellView tg1/RSDFFSRSSRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRX1_HVT as cellView tg1/RSDFFSRX1_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (10.032000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRX2_HVT as cellView tg1/RSDFFSRX2_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (10.032000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFX1_HVT as cellView tg1/RSDFFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFX2_HVT as cellView tg1/RSDFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFARX1_HVT as cellView tg1/SDFFARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFARX2_HVT as cellView tg1/SDFFARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE SDFFASRSX1_HVT as cellView tg1/SDFFASRSX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRNX2_HVT as cellView tg1/RSDFFNSRASRNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRQX1_HVT as cellView tg1/RSDFFNSRASRQX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRQX2_HVT as cellView tg1/RSDFFNSRASRQX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRX1_HVT as cellView tg1/RSDFFNSRASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRX2_HVT as cellView tg1/RSDFFNSRASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASX1_HVT as cellView tg1/RSDFFNSRASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASX2_HVT as cellView tg1/RSDFFNSRASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRX1_HVT as cellView tg1/RSDFFNSRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRX2_HVT as cellView tg1/RSDFFNSRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNX1_HVT as cellView tg1/RSDFFNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNX2_HVT as cellView tg1/RSDFFNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRARX1_HVT as cellView tg1/RSDFFSRARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFSRARX2_HVT as cellView tg1/RSDFFSRARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRSSRX1_HVT as cellView tg1/RDFFSRSSRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRSSRX2_HVT as cellView tg1/RDFFSRSSRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRX1_HVT as cellView tg1/RDFFSRX1_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (8.968000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRX2_HVT as cellView tg1/RDFFSRX2_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (8.968000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFX1_HVT as cellView tg1/RDFFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFX2_HVT as cellView tg1/RDFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFARX1_HVT as cellView tg1/RSDFFARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFARX2_HVT as cellView tg1/RSDFFARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNARX1_HVT as cellView tg1/RSDFFNARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNARX2_HVT as cellView tg1/RSDFFNARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRARX1_HVT as cellView tg1/RSDFFNSRARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRARX2_HVT as cellView tg1/RSDFFNSRARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RSDFFNSRASRNX1_HVT as cellView tg1/RSDFFNSRASRNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRX2_HVT as cellView tg1/RDFFNSRASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASX1_HVT as cellView tg1/RDFFNSRASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASX2_HVT as cellView tg1/RDFFNSRASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRX1_HVT as cellView tg1/RDFFNSRX1_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (7.448000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRX2_HVT as cellView tg1/RDFFNSRX2_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (7.448000, 0.555000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNX1_HVT as cellView tg1/RDFFNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNX2_HVT as cellView tg1/RDFFNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRARX1_HVT as cellView tg1/RDFFSRARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRARX2_HVT as cellView tg1/RDFFSRARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRASRX1_HVT as cellView tg1/RDFFSRASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRASRX2_HVT as cellView tg1/RDFFSRASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRASX1_HVT as cellView tg1/RDFFSRASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFSRASX2_HVT as cellView tg1/RDFFSRASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PMT2_HVT as cellView tg1/PMT2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PMT3_HVT as cellView tg1/PMT3_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFARX1_HVT as cellView tg1/RDFFARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFARX2_HVT as cellView tg1/RDFFARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNARX1_HVT as cellView tg1/RDFFNARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNARX2_HVT as cellView tg1/RDFFNARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRARX1_HVT as cellView tg1/RDFFNSRARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRARX2_HVT as cellView tg1/RDFFNSRARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRNX1_HVT as cellView tg1/RDFFNSRASRNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRNX2_HVT as cellView tg1/RDFFNSRASRNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRQX1_HVT as cellView tg1/RDFFNSRASRQX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRQX2_HVT as cellView tg1/RDFFNSRASRQX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE RDFFNSRASRX1_HVT as cellView tg1/RDFFNSRASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR2X1_HVT as cellView tg1/OR2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR2X2_HVT as cellView tg1/OR2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR2X4_HVT as cellView tg1/OR2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR3X1_HVT as cellView tg1/OR3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR3X2_HVT as cellView tg1/OR3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR3X4_HVT as cellView tg1/OR3X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR4X1_HVT as cellView tg1/OR4X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR4X2_HVT as cellView tg1/OR4X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OR4X4_HVT as cellView tg1/OR4X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PGX1_HVT as cellView tg1/PGX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PGX2_HVT as cellView tg1/PGX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PGX4_HVT as cellView tg1/PGX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE PMT1_HVT as cellView tg1/PMT1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA221X2_HVT as cellView tg1/OA221X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA222X1_HVT as cellView tg1/OA222X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA222X2_HVT as cellView tg1/OA222X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA22X1_HVT as cellView tg1/OA22X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA22X2_HVT as cellView tg1/OA22X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI21X1_HVT as cellView tg1/OAI21X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI21X2_HVT as cellView tg1/OAI21X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI221X1_HVT as cellView tg1/OAI221X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI221X2_HVT as cellView tg1/OAI221X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI222X1_HVT as cellView tg1/OAI222X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI222X2_HVT as cellView tg1/OAI222X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI22X1_HVT as cellView tg1/OAI22X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OAI22X2_HVT as cellView tg1/OAI22X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR2X0_HVT as cellView tg1/NOR2X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR2X1_HVT as cellView tg1/NOR2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR2X2_HVT as cellView tg1/NOR2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR2X4_HVT as cellView tg1/NOR2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR3X0_HVT as cellView tg1/NOR3X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR3X1_HVT as cellView tg1/NOR3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR3X2_HVT as cellView tg1/NOR3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR3X4_HVT as cellView tg1/NOR3X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR4X0_HVT as cellView tg1/NOR4X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NOR4X1_HVT as cellView tg1/NOR4X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA21X1_HVT as cellView tg1/OA21X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA21X2_HVT as cellView tg1/OA21X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE OA221X1_HVT as cellView tg1/OA221X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND3X1_HVT as cellView tg1/NAND3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND3X2_HVT as cellView tg1/NAND3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND3X4_HVT as cellView tg1/NAND3X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND4X0_HVT as cellView tg1/NAND4X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND4X1_HVT as cellView tg1/NAND4X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NBUFFX16_HVT as cellView tg1/NBUFFX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NBUFFX2_HVT as cellView tg1/NBUFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NBUFFX32_HVT as cellView tg1/NBUFFX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NBUFFX4_HVT as cellView tg1/NBUFFX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NBUFFX8_HVT as cellView tg1/NBUFFX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NMT1_HVT as cellView tg1/NMT1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NMT2_HVT as cellView tg1/NMT2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NMT3_HVT as cellView tg1/NMT3_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPX1_HVT as cellView tg1/LSUPX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPX2_HVT as cellView tg1/LSUPX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPX4_HVT as cellView tg1/LSUPX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPX8_HVT as cellView tg1/LSUPX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE MUX21X1_HVT as cellView tg1/MUX21X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE MUX21X2_HVT as cellView tg1/MUX21X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE MUX41X1_HVT as cellView tg1/MUX41X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE MUX41X2_HVT as cellView tg1/MUX41X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND2X0_HVT as cellView tg1/NAND2X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND2X1_HVT as cellView tg1/NAND2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND2X2_HVT as cellView tg1/NAND2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND2X4_HVT as cellView tg1/NAND2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE NAND3X0_HVT as cellView tg1/NAND3X0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNSSX8_HVT as cellView tg1/LSDNSSX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNX1_HVT as cellView tg1/LSDNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNX2_HVT as cellView tg1/LSDNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNX4_HVT as cellView tg1/LSDNX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNX8_HVT as cellView tg1/LSDNX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENCLX1_HVT as cellView tg1/LSUPENCLX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENCLX2_HVT as cellView tg1/LSUPENCLX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENCLX4_HVT as cellView tg1/LSUPENCLX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENCLX8_HVT as cellView tg1/LSUPENCLX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENX1_HVT as cellView tg1/LSUPENX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENX2_HVT as cellView tg1/LSUPENX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENX4_HVT as cellView tg1/LSUPENX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSUPENX8_HVT as cellView tg1/LSUPENX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLX4_HVT as cellView tg1/LSDNENCLX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLX8_HVT as cellView tg1/LSDNENCLX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENSSX1_HVT as cellView tg1/LSDNENSSX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENSSX2_HVT as cellView tg1/LSDNENSSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENSSX4_HVT as cellView tg1/LSDNENSSX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENSSX8_HVT as cellView tg1/LSDNENSSX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENX1_HVT as cellView tg1/LSDNENX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENX2_HVT as cellView tg1/LSDNENX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENX4_HVT as cellView tg1/LSDNENX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENX8_HVT as cellView tg1/LSDNENX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNSSX1_HVT as cellView tg1/LSDNSSX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNSSX2_HVT as cellView tg1/LSDNSSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNSSX4_HVT as cellView tg1/LSDNSSX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRX2_HVT as cellView tg1/LASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASX1_HVT as cellView tg1/LASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASX2_HVT as cellView tg1/LASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LATCHX1_HVT as cellView tg1/LATCHX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LATCHX2_HVT as cellView tg1/LATCHX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LNANDX1_HVT as cellView tg1/LNANDX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LNANDX2_HVT as cellView tg1/LNANDX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLSSX1_HVT as cellView tg1/LSDNENCLSSX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLSSX2_HVT as cellView tg1/LSDNENCLSSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLSSX4_HVT as cellView tg1/LSDNENCLSSX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLSSX8_HVT as cellView tg1/LSDNENCLSSX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLX1_HVT as cellView tg1/LSDNENCLX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LSDNENCLX2_HVT as cellView tg1/LSDNENCLX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORAOX4_HVT as cellView tg1/ISOLORAOX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORAOX8_HVT as cellView tg1/ISOLORAOX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORX1_HVT as cellView tg1/ISOLORX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORX2_HVT as cellView tg1/ISOLORX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORX4_HVT as cellView tg1/ISOLORX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORX8_HVT as cellView tg1/ISOLORX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LARX1_HVT as cellView tg1/LARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LARX2_HVT as cellView tg1/LARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRNX1_HVT as cellView tg1/LASRNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRNX2_HVT as cellView tg1/LASRNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRQX1_HVT as cellView tg1/LASRQX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRQX2_HVT as cellView tg1/LASRQX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE LASRX1_HVT as cellView tg1/LASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX32_HVT as cellView tg1/INVX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX4_HVT as cellView tg1/INVX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX8_HVT as cellView tg1/INVX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDAOX1_HVT as cellView tg1/ISOLANDAOX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDAOX2_HVT as cellView tg1/ISOLANDAOX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDAOX4_HVT as cellView tg1/ISOLANDAOX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDAOX8_HVT as cellView tg1/ISOLANDAOX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDX1_HVT as cellView tg1/ISOLANDX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDX2_HVT as cellView tg1/ISOLANDX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDX4_HVT as cellView tg1/ISOLANDX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLANDX8_HVT as cellView tg1/ISOLANDX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORAOX1_HVT as cellView tg1/ISOLORAOX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ISOLORAOX2_HVT as cellView tg1/ISOLORAOX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEADX2_HVT as cellView tg1/HEADX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEADX32_HVT as cellView tg1/HEADX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEADX4_HVT as cellView tg1/HEADX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEADX8_HVT as cellView tg1/HEADX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE IBUFFX16_HVT as cellView tg1/IBUFFX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE IBUFFX2_HVT as cellView tg1/IBUFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE IBUFFX32_HVT as cellView tg1/IBUFFX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE IBUFFX4_HVT as cellView tg1/IBUFFX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE IBUFFX8_HVT as cellView tg1/IBUFFX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX0_HVT as cellView tg1/INVX0_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX16_HVT as cellView tg1/INVX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX1_HVT as cellView tg1/INVX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE INVX2_HVT as cellView tg1/INVX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOTX16_HVT as cellView tg1/FOOTX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOTX2_HVT as cellView tg1/FOOTX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOTX32_HVT as cellView tg1/FOOTX32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOTX4_HVT as cellView tg1/FOOTX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOTX8_HVT as cellView tg1/FOOTX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HADDX1_HVT as cellView tg1/HADDX1_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (1.454000, 0.362000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.02, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HADDX2_HVT as cellView tg1/HADDX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEAD2X16_HVT as cellView tg1/HEAD2X16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEAD2X2_HVT as cellView tg1/HEAD2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEAD2X32_HVT as cellView tg1/HEAD2X32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEAD2X4_HVT as cellView tg1/HEAD2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEAD2X8_HVT as cellView tg1/HEAD2X8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE HEADX16_HVT as cellView tg1/HEADX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFSSRX2_HVT as cellView tg1/DFFSSRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFX1_HVT as cellView tg1/DFFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFX2_HVT as cellView tg1/DFFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DHFILLH2_HVT as cellView tg1/DHFILLH2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DHFILLHL2_HVT as cellView tg1/DHFILLHL2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DHFILLHLHLS11_HVT as cellView tg1/DHFILLHLHLS11_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FADDX1_HVT as cellView tg1/FADDX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FADDX2_HVT as cellView tg1/FADDX2_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (0.491000, 0.162000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOT2X16_HVT as cellView tg1/FOOT2X16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOT2X2_HVT as cellView tg1/FOOT2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOT2X32_HVT as cellView tg1/FOOT2X32_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOT2X4_HVT as cellView tg1/FOOT2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE FOOT2X8_HVT as cellView tg1/FOOT2X8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNARX1_HVT as cellView tg1/DFFNARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNARX2_HVT as cellView tg1/DFFNARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRNX1_HVT as cellView tg1/DFFNASRNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRNX2_HVT as cellView tg1/DFFNASRNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRQX1_HVT as cellView tg1/DFFNASRQX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRQX2_HVT as cellView tg1/DFFNASRQX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRX1_HVT as cellView tg1/DFFNASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASRX2_HVT as cellView tg1/DFFNASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASX1_HVT as cellView tg1/DFFNASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNASX2_HVT as cellView tg1/DFFNASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNX1_HVT as cellView tg1/DFFNX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFNX2_HVT as cellView tg1/DFFNX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFSSRX1_HVT as cellView tg1/DFFSSRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CLOAD1_HVT as cellView tg1/CLOAD1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DCAP_HVT as cellView tg1/DCAP_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DEC24X1_HVT as cellView tg1/DEC24X1_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (1.520000, 0.516000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.02, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (1.007000, 0.813000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (3.019000, 0.501000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (2.448000, 0.501000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (2.508000, 0.906000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DEC24X2_HVT as cellView tg1/DEC24X2_HVT/layout.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (1.159000, 0.813000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (3.475000, 0.501000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.01, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (2.904000, 0.501000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+WARNING: (IMPORT_STREAM-80100): In the path with type: '2', location: (2.964000, 0.906000), layer: '11', layer datatype: '0', the total length of the begin extension and the first segment, or the end extension and the last segment, which is equal to 0.00, is less than half of the total path width which is 0.05. Therefore, this path will be translated to the output layer '11' using the original path geometry. To remove such paths, update the GDS file used as the source of the translation.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DELLN1X2_HVT as cellView tg1/DELLN1X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DELLN2X2_HVT as cellView tg1/DELLN2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DELLN3X2_HVT as cellView tg1/DELLN3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFARX1_HVT as cellView tg1/DFFARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFARX2_HVT as cellView tg1/DFFARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFASRX1_HVT as cellView tg1/DFFASRX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFASRX2_HVT as cellView tg1/DFFASRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFASX1_HVT as cellView tg1/DFFASX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE DFFASX2_HVT as cellView tg1/DFFASX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE BUSKP_HVT as cellView tg1/BUSKP_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPRX2_HVT as cellView tg1/CGLNPRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPRX8_HVT as cellView tg1/CGLNPRX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPSX16_HVT as cellView tg1/CGLNPSX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPSX2_HVT as cellView tg1/CGLNPSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPSX4_HVT as cellView tg1/CGLNPSX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLNPSX8_HVT as cellView tg1/CGLNPSX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPRX2_HVT as cellView tg1/CGLPPRX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPRX8_HVT as cellView tg1/CGLPPRX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPSX16_HVT as cellView tg1/CGLPPSX16_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPSX2_HVT as cellView tg1/CGLPPSX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPSX4_HVT as cellView tg1/CGLPPSX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE CGLPPSX8_HVT as cellView tg1/CGLPPSX8_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI21X2_HVT as cellView tg1/AOI21X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI221X1_HVT as cellView tg1/AOI221X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI221X2_HVT as cellView tg1/AOI221X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI222X1_HVT as cellView tg1/AOI222X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI222X2_HVT as cellView tg1/AOI222X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI22X1_HVT as cellView tg1/AOI22X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI22X2_HVT as cellView tg1/AOI22X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOINVX1_HVT as cellView tg1/AOINVX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOINVX2_HVT as cellView tg1/AOINVX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOINVX4_HVT as cellView tg1/AOINVX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE BSLEX1_HVT as cellView tg1/BSLEX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE BSLEX2_HVT as cellView tg1/BSLEX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE BSLEX4_HVT as cellView tg1/BSLEX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO221X2_HVT as cellView tg1/AO221X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO222X1_HVT as cellView tg1/AO222X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO222X2_HVT as cellView tg1/AO222X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO22X1_HVT as cellView tg1/AO22X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO22X2_HVT as cellView tg1/AO22X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOBUFX1_HVT as cellView tg1/AOBUFX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOBUFX2_HVT as cellView tg1/AOBUFX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOBUFX4_HVT as cellView tg1/AOBUFX4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AODFFARX1_HVT as cellView tg1/AODFFARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AODFFARX2_HVT as cellView tg1/AODFFARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AODFFNARX1_HVT as cellView tg1/AODFFNARX1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AODFFNARX2_HVT as cellView tg1/AODFFNARX2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AOI21X1_HVT as cellView tg1/AOI21X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND2X1_HVT as cellView tg1/AND2X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND2X2_HVT as cellView tg1/AND2X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND2X4_HVT as cellView tg1/AND2X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND3X1_HVT as cellView tg1/AND3X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND3X2_HVT as cellView tg1/AND3X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND3X4_HVT as cellView tg1/AND3X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND4X1_HVT as cellView tg1/AND4X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND4X2_HVT as cellView tg1/AND4X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AND4X4_HVT as cellView tg1/AND4X4_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE ANTENNA_HVT as cellView tg1/ANTENNA_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO21X1_HVT as cellView tg1/AO21X1_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO21X2_HVT as cellView tg1/AO21X2_HVT/layout.
+INFO: (IMPORT_STREAM-80034): Translating STRUCTURE AO221X1_HVT as cellView tg1/AO221X1_HVT/layout.
+
+Primary Cell(s):
+	1.TNBUFFX2_HVT	2.TNBUFFX32_HVT	3.TNBUFFX4_HVT	4.TNBUFFX8_HVT	5.XNOR2X1_HVT	6.XNOR2X2_HVT
+	7.XNOR3X1_HVT	8.XNOR3X2_HVT	9.XOR2X1_HVT	10.XOR2X2_HVT	11.XOR3X1_HVT	12.XOR3X2_HVT
+	13.unitTile	14.SDFFSSRX1_HVT	15.SDFFSSRX2_HVT	16.SDFFX1_HVT	17.SDFFX2_HVT	18.SHFILL128_HVT
+	19.SHFILL1_HVT	20.SHFILL2_HVT	21.SHFILL3_HVT	22.SHFILL64_HVT	23.TIEH_HVT	24.TIEL_HVT
+	25.TNBUFFX16_HVT	26.TNBUFFX1_HVT	27.SDFFASRSX2_HVT	28.SDFFASRX1_HVT	29.SDFFASRX2_HVT
+	30.SDFFASX1_HVT	31.SDFFASX2_HVT	32.SDFFNARX1_HVT	33.SDFFNARX2_HVT	34.SDFFNASRX1_HVT
+	35.SDFFNASRX2_HVT	36.SDFFNASX1_HVT	37.SDFFNASX2_HVT	38.SDFFNX1_HVT	39.SDFFNX2_HVT
+	40.RSDFFSRASRX1_HVT	41.RSDFFSRASRX2_HVT	42.RSDFFSRASX1_HVT	43.RSDFFSRASX2_HVT	44.RSDFFSRSSRX1_HVT
+	45.RSDFFSRSSRX2_HVT	46.RSDFFSRX1_HVT	47.RSDFFSRX2_HVT	48.RSDFFX1_HVT	49.RSDFFX2_HVT
+	50.SDFFARX1_HVT	51.SDFFARX2_HVT	52.SDFFASRSX1_HVT	53.RSDFFNSRASRNX2_HVT	54.RSDFFNSRASRQX1_HVT
+	55.RSDFFNSRASRQX2_HVT	56.RSDFFNSRASRX1_HVT	57.RSDFFNSRASRX2_HVT	58.RSDFFNSRASX1_HVT
+	59.RSDFFNSRASX2_HVT	60.RSDFFNSRX1_HVT	61.RSDFFNSRX2_HVT	62.RSDFFNX1_HVT	63.RSDFFNX2_HVT
+	64.RSDFFSRARX1_HVT	65.RSDFFSRARX2_HVT	66.RDFFSRSSRX1_HVT	67.RDFFSRSSRX2_HVT	68.RDFFSRX1_HVT
+	69.RDFFSRX2_HVT	70.RDFFX1_HVT	71.RDFFX2_HVT	72.RSDFFARX1_HVT	73.RSDFFARX2_HVT	74.RSDFFNARX1_HVT
+	75.RSDFFNARX2_HVT	76.RSDFFNSRARX1_HVT	77.RSDFFNSRARX2_HVT	78.RSDFFNSRASRNX1_HVT	79.RDFFNSRASRX2_HVT
+	80.RDFFNSRASX1_HVT	81.RDFFNSRASX2_HVT	82.RDFFNSRX1_HVT	83.RDFFNSRX2_HVT	84.RDFFNX1_HVT
+	85.RDFFNX2_HVT	86.RDFFSRARX1_HVT	87.RDFFSRARX2_HVT	88.RDFFSRASRX1_HVT	89.RDFFSRASRX2_HVT
+	90.RDFFSRASX1_HVT	91.RDFFSRASX2_HVT	92.PMT2_HVT	93.PMT3_HVT	94.RDFFARX1_HVT	95.RDFFARX2_HVT
+	96.RDFFNARX1_HVT	97.RDFFNARX2_HVT	98.RDFFNSRARX1_HVT	99.RDFFNSRARX2_HVT	100.RDFFNSRASRNX1_HVT
+	101.RDFFNSRASRNX2_HVT	102.RDFFNSRASRQX1_HVT	103.RDFFNSRASRQX2_HVT	104.RDFFNSRASRX1_HVT
+	105.OR2X1_HVT	106.OR2X2_HVT	107.OR2X4_HVT	108.OR3X1_HVT	109.OR3X2_HVT	110.OR3X4_HVT
+	111.OR4X1_HVT	112.OR4X2_HVT	113.OR4X4_HVT	114.PGX1_HVT	115.PGX2_HVT	116.PGX4_HVT
+	117.PMT1_HVT	118.OA221X2_HVT	119.OA222X1_HVT	120.OA222X2_HVT	121.OA22X1_HVT	122.OA22X2_HVT
+	123.OAI21X1_HVT	124.OAI21X2_HVT	125.OAI221X1_HVT	126.OAI221X2_HVT	127.OAI222X1_HVT
+	128.OAI222X2_HVT	129.OAI22X1_HVT	130.OAI22X2_HVT	131.NOR2X0_HVT	132.NOR2X1_HVT	133.NOR2X2_HVT
+	134.NOR2X4_HVT	135.NOR3X0_HVT	136.NOR3X1_HVT	137.NOR3X2_HVT	138.NOR3X4_HVT	139.NOR4X0_HVT
+	140.NOR4X1_HVT	141.OA21X1_HVT	142.OA21X2_HVT	143.OA221X1_HVT	144.NAND3X1_HVT	145.NAND3X2_HVT
+	146.NAND3X4_HVT	147.NAND4X0_HVT	148.NAND4X1_HVT	149.NBUFFX16_HVT	150.NBUFFX2_HVT
+	151.NBUFFX32_HVT	152.NBUFFX4_HVT	153.NBUFFX8_HVT	154.NMT1_HVT	155.NMT2_HVT	156.NMT3_HVT
+	157.LSUPX1_HVT	158.LSUPX2_HVT	159.LSUPX4_HVT	160.LSUPX8_HVT	161.MUX21X1_HVT	162.MUX21X2_HVT
+	163.MUX41X1_HVT	164.MUX41X2_HVT	165.NAND2X0_HVT	166.NAND2X1_HVT	167.NAND2X2_HVT	168.NAND2X4_HVT
+	169.NAND3X0_HVT	170.LSDNSSX8_HVT	171.LSDNX1_HVT	172.LSDNX2_HVT	173.LSDNX4_HVT	174.LSDNX8_HVT
+	175.LSUPENCLX1_HVT	176.LSUPENCLX2_HVT	177.LSUPENCLX4_HVT	178.LSUPENCLX8_HVT	179.LSUPENX1_HVT
+	180.LSUPENX2_HVT	181.LSUPENX4_HVT	182.LSUPENX8_HVT	183.LSDNENCLX4_HVT	184.LSDNENCLX8_HVT
+	185.LSDNENSSX1_HVT	186.LSDNENSSX2_HVT	187.LSDNENSSX4_HVT	188.LSDNENSSX8_HVT	189.LSDNENX1_HVT
+	190.LSDNENX2_HVT	191.LSDNENX4_HVT	192.LSDNENX8_HVT	193.LSDNSSX1_HVT	194.LSDNSSX2_HVT
+	195.LSDNSSX4_HVT	196.LASRX2_HVT	197.LASX1_HVT	198.LASX2_HVT	199.LATCHX1_HVT	200.LATCHX2_HVT
+	201.LNANDX1_HVT	202.LNANDX2_HVT	203.LSDNENCLSSX1_HVT	204.LSDNENCLSSX2_HVT	205.LSDNENCLSSX4_HVT
+	206.LSDNENCLSSX8_HVT	207.LSDNENCLX1_HVT	208.LSDNENCLX2_HVT	209.ISOLORAOX4_HVT	210.ISOLORAOX8_HVT
+	211.ISOLORX1_HVT	212.ISOLORX2_HVT	213.ISOLORX4_HVT	214.ISOLORX8_HVT	215.LARX1_HVT
+	216.LARX2_HVT	217.LASRNX1_HVT	218.LASRNX2_HVT	219.LASRQX1_HVT	220.LASRQX2_HVT	221.LASRX1_HVT
+	222.INVX32_HVT	223.INVX4_HVT	224.INVX8_HVT	225.ISOLANDAOX1_HVT	226.ISOLANDAOX2_HVT
+	227.ISOLANDAOX4_HVT	228.ISOLANDAOX8_HVT	229.ISOLANDX1_HVT	230.ISOLANDX2_HVT	231.ISOLANDX4_HVT
+	232.ISOLANDX8_HVT	233.ISOLORAOX1_HVT	234.ISOLORAOX2_HVT	235.HEADX2_HVT	236.HEADX32_HVT
+	237.HEADX4_HVT	238.HEADX8_HVT	239.IBUFFX16_HVT	240.IBUFFX2_HVT	241.IBUFFX32_HVT	242.IBUFFX4_HVT
+	243.IBUFFX8_HVT	244.INVX0_HVT	245.INVX16_HVT	246.INVX1_HVT	247.INVX2_HVT	248.FOOTX16_HVT
+	249.FOOTX2_HVT	250.FOOTX32_HVT	251.FOOTX4_HVT	252.FOOTX8_HVT	253.HADDX1_HVT	254.HADDX2_HVT
+	255.HEAD2X16_HVT	256.HEAD2X2_HVT	257.HEAD2X32_HVT	258.HEAD2X4_HVT	259.HEAD2X8_HVT
+	260.HEADX16_HVT	261.DFFSSRX2_HVT	262.DFFX1_HVT	263.DFFX2_HVT	264.DHFILLH2_HVT	265.DHFILLHL2_HVT
+	266.DHFILLHLHLS11_HVT	267.FADDX1_HVT	268.FADDX2_HVT	269.FOOT2X16_HVT	270.FOOT2X2_HVT
+	271.FOOT2X32_HVT	272.FOOT2X4_HVT	273.FOOT2X8_HVT	274.DFFNARX1_HVT	275.DFFNARX2_HVT
+	276.DFFNASRNX1_HVT	277.DFFNASRNX2_HVT	278.DFFNASRQX1_HVT	279.DFFNASRQX2_HVT	280.DFFNASRX1_HVT
+	281.DFFNASRX2_HVT	282.DFFNASX1_HVT	283.DFFNASX2_HVT	284.DFFNX1_HVT	285.DFFNX2_HVT
+	286.DFFSSRX1_HVT	287.CLOAD1_HVT	288.DCAP_HVT	289.DEC24X1_HVT	290.DEC24X2_HVT	291.DELLN1X2_HVT
+	292.DELLN2X2_HVT	293.DELLN3X2_HVT	294.DFFARX1_HVT	295.DFFARX2_HVT	296.DFFASRX1_HVT
+	297.DFFASRX2_HVT	298.DFFASX1_HVT	299.DFFASX2_HVT	300.BUSKP_HVT	301.CGLNPRX2_HVT	302.CGLNPRX8_HVT
+	303.CGLNPSX16_HVT	304.CGLNPSX2_HVT	305.CGLNPSX4_HVT	306.CGLNPSX8_HVT	307.CGLPPRX2_HVT
+	308.CGLPPRX8_HVT	309.CGLPPSX16_HVT	310.CGLPPSX2_HVT	311.CGLPPSX4_HVT	312.CGLPPSX8_HVT
+	313.AOI21X2_HVT	314.AOI221X1_HVT	315.AOI221X2_HVT	316.AOI222X1_HVT	317.AOI222X2_HVT
+	318.AOI22X1_HVT	319.AOI22X2_HVT	320.AOINVX1_HVT	321.AOINVX2_HVT	322.AOINVX4_HVT	323.BSLEX1_HVT
+	324.BSLEX2_HVT	325.BSLEX4_HVT	326.AO221X2_HVT	327.AO222X1_HVT	328.AO222X2_HVT	329.AO22X1_HVT
+	330.AO22X2_HVT	331.AOBUFX1_HVT	332.AOBUFX2_HVT	333.AOBUFX4_HVT	334.AODFFARX1_HVT
+	335.AODFFARX2_HVT	336.AODFFNARX1_HVT	337.AODFFNARX2_HVT	338.AOI21X1_HVT	339.AND2X1_HVT
+	340.AND2X2_HVT	341.AND2X4_HVT	342.AND3X1_HVT	343.AND3X2_HVT	344.AND3X4_HVT	345.AND4X1_HVT
+	346.AND4X2_HVT	347.AND4X4_HVT	348.ANTENNA_HVT	349.AO21X1_HVT	350.AO21X2_HVT	351.AO221X1_HVT
+
+Cell Statistics:
+	CellName            Rectangles  Polygons    Paths       PathSegs    Labels      Instances   Arrays      StdVias     CustomVias  
+	AND2X1_HVT          90          0           27          0           5           0           0           0           0           
+	AND2X2_HVT          121         0           30          0           5           0           0           0           0           
+	AND2X4_HVT          169         0           36          0           5           0           0           0           0           
+	AND3X1_HVT          98          0           31          0           6           0           0           0           0           
+	AND3X2_HVT          121         0           33          0           6           0           0           0           0           
+	AND3X4_HVT          164         0           40          0           6           0           0           0           0           
+	AND4X1_HVT          100         0           34          0           7           0           0           0           0           
+	AND4X2_HVT          182         0           58          0           7           0           0           0           0           
+	AND4X4_HVT          240         0           64          0           7           0           0           0           0           
+	ANTENNA_HVT         22          0           4           0           3           0           0           0           0           
+	AO21X1_HVT          95          2           24          0           6           0           0           0           0           
+	AO21X2_HVT          101         0           37          0           6           0           0           0           0           
+	AO221X1_HVT         108         0           39          0           8           0           0           0           0           
+	AO221X2_HVT         113         0           49          0           8           0           0           0           0           
+	AO222X1_HVT         114         0           44          0           9           0           0           0           0           
+	AO222X2_HVT         121         0           51          0           9           0           0           0           0           
+	AO22X1_HVT          85          0           31          0           7           0           0           0           0           
+	AO22X2_HVT          90          0           37          0           7           0           0           0           0           
+	AOBUFX1_HVT         103         1           50          0           6           0           0           0           0           
+	AOBUFX2_HVT         120         1           54          0           6           0           0           0           0           
+	AOBUFX4_HVT         146         1           62          0           6           0           0           0           0           
+	AODFFARX1_HVT       223         1           141         0           9           0           0           0           0           
+	AODFFARX2_HVT       319         1           156         0           9           0           0           0           0           
+	AODFFNARX1_HVT      210         1           134         0           9           0           0           0           0           
+	AODFFNARX2_HVT      296         1           145         0           9           0           0           0           0           
+	AOI21X1_HVT         117         0           37          0           6           0           0           0           0           
+	AOI21X2_HVT         121         0           47          0           6           0           0           0           0           
+	AOI221X1_HVT        122         0           48          0           8           0           0           0           0           
+	AOI221X2_HVT        129         0           58          0           8           0           0           0           0           
+	AOI222X1_HVT        135         0           50          0           9           0           0           0           0           
+	AOI222X2_HVT        142         1           59          0           9           0           0           0           0           
+	AOI22X1_HVT         101         0           40          0           7           0           0           0           0           
+	AOI22X2_HVT         112         0           50          0           7           0           0           0           0           
+	AOINVX1_HVT         69          1           41          0           6           0           0           0           0           
+	AOINVX2_HVT         78          1           46          0           6           0           0           0           0           
+	AOINVX4_HVT         96          1           52          0           6           0           0           0           0           
+	BSLEX1_HVT          79          0           19          0           5           0           0           0           0           
+	BSLEX2_HVT          106         0           24          0           5           0           0           0           0           
+	BSLEX4_HVT          167         0           30          0           5           0           0           0           0           
+	BUSKP_HVT           67          0           32          0           3           0           0           0           0           
+	CGLNPRX2_HVT        269         0           110         0           6           0           0           0           0           
+	CGLNPRX8_HVT        381         0           127         0           6           0           0           0           0           
+	CGLNPSX16_HVT       836         0           233         0           6           0           0           0           0           
+	CGLNPSX2_HVT        219         0           98          0           6           0           0           0           0           
+	CGLNPSX4_HVT        287         0           111         0           6           0           0           0           0           
+	CGLNPSX8_HVT        389         0           136         0           6           0           0           0           0           
+	CGLPPRX2_HVT        246         1           110         0           6           0           0           0           0           
+	CGLPPRX8_HVT        361         1           125         0           6           0           0           0           0           
+	CGLPPSX16_HVT       748         0           202         0           6           0           0           0           0           
+	CGLPPSX2_HVT        233         0           110         0           6           0           0           0           0           
+	CGLPPSX4_HVT        327         0           123         0           6           0           0           0           0           
+	CGLPPSX8_HVT        468         0           149         0           6           0           0           0           0           
+	CLOAD1_HVT          66          0           12          0           3           0           0           0           0           
+	DCAP_HVT            50          0           18          0           2           0           0           0           0           
+	DEC24X1_HVT         139         0           83          0           8           0           0           0           0           
+	DEC24X2_HVT         159         0           88          0           8           0           0           0           0           
+	DELLN1X2_HVT        214         1           84          0           4           0           0           0           0           
+	DELLN2X2_HVT        266         1           110         0           6           0           0           0           0           
+	DELLN3X2_HVT        339         1           164         0           6           0           0           0           0           
+	DFFARX1_HVT         233         0           126         0           7           0           0           0           0           
+	DFFARX2_HVT         328         0           138         0           7           0           0           0           0           
+	DFFASRX1_HVT        243         0           133         0           8           0           0           0           0           
+	DFFASRX2_HVT        334         0           136         0           8           0           0           0           0           
+	DFFASX1_HVT         227         3           123         0           7           0           0           0           0           
+	DFFASX2_HVT         325         3           137         0           7           0           0           0           0           
+	DFFNARX1_HVT        232         0           128         0           7           0           0           0           0           
+	DFFNARX2_HVT        322         0           138         0           7           0           0           0           0           
+	DFFNASRNX1_HVT      222         0           123         0           7           0           0           0           0           
+	DFFNASRNX2_HVT      273         0           127         0           7           0           0           0           0           
+	DFFNASRQX1_HVT      232         0           125         0           7           0           0           0           0           
+	DFFNASRQX2_HVT      269         0           129         0           7           0           0           0           0           
+	DFFNASRX1_HVT       242         0           130         0           8           0           0           0           0           
+	DFFNASRX2_HVT       330         0           140         0           8           0           0           0           0           
+	DFFNASX1_HVT        230         0           128         0           7           0           0           0           0           
+	DFFNASX2_HVT        318         0           138         0           7           0           0           0           0           
+	DFFNX1_HVT          220         0           121         0           6           0           0           0           0           
+	DFFNX2_HVT          308         0           131         0           6           0           0           0           0           
+	DFFSSRX1_HVT        283         0           148         0           8           0           0           0           0           
+	DFFSSRX2_HVT        363         0           159         0           8           0           0           0           0           
+	DFFX1_HVT           222         0           118         0           6           0           0           0           0           
+	DFFX2_HVT           314         0           130         0           6           0           0           0           0           
+	DHFILLH2_HVT        11          0           7           0           3           0           0           0           0           
+	DHFILLHL2_HVT       10          0           7           0           3           0           0           0           0           
+	DHFILLHLHLS11_HVT   50          1           26          0           4           0           0           0           0           
+	FADDX1_HVT          95          0           58          0           7           0           0           0           0           
+	FADDX2_HVT          107         0           65          0           7           0           0           0           0           
+	FOOT2X16_HVT        430         2           212         0           8           0           0           0           0           
+	FOOT2X2_HVT         100         2           56          0           6           0           0           0           0           
+	FOOT2X32_HVT        803         2           383         0           13          0           0           0           0           
+	FOOT2X4_HVT         154         2           84          0           6           0           0           0           0           
+	FOOT2X8_HVT         247         2           123         0           6           0           0           0           0           
+	FOOTX16_HVT         160         2           79          0           5           0           0           0           0           
+	FOOTX2_HVT          62          2           37          0           7           0           0           0           0           
+	FOOTX32_HVT         272         2           127         0           5           0           0           0           0           
+	FOOTX4_HVT          74          2           41          0           5           0           0           0           0           
+	FOOTX8_HVT          104         2           55          0           6           0           0           0           0           
+	HADDX1_HVT          69          0           41          0           6           0           0           0           0           
+	HADDX2_HVT          81          0           49          0           6           0           0           0           0           
+	HEAD2X16_HVT        395         1           130         0           6           0           0           0           0           
+	HEAD2X2_HVT         112         1           43          0           6           0           0           0           0           
+	HEAD2X32_HVT        722         1           218         0           6           0           0           0           0           
+	HEAD2X4_HVT         149         1           63          0           6           0           0           0           0           
+	HEAD2X8_HVT         231         1           86          0           6           0           0           0           0           
+	HEADX16_HVT         210         1           53          0           5           0           0           0           0           
+	HEADX2_HVT          67          1           33          0           5           0           0           0           0           
+	HEADX32_HVT         370         1           87          0           5           0           0           0           0           
+	HEADX4_HVT          88          1           31          0           5           0           0           0           0           
+	HEADX8_HVT          130         1           39          0           5           0           0           0           0           
+	IBUFFX16_HVT        491         2           90          0           4           0           0           0           0           
+	IBUFFX2_HVT         136         1           40          0           4           0           0           0           0           
+	IBUFFX32_HVT        901         2           148         0           4           0           0           0           0           
+	IBUFFX4_HVT         187         1           47          0           4           0           0           0           0           
+	IBUFFX8_HVT         294         2           64          0           4           0           0           0           0           
+	INVX0_HVT           52          0           16          0           4           0           0           0           0           
+	INVX16_HVT          366         1           60          0           4           0           0           0           0           
+	INVX1_HVT           58          0           16          0           4           0           0           0           0           
+	INVX2_HVT           79          1           18          0           4           0           0           0           0           
+	INVX32_HVT          694         0           109         0           4           0           0           0           0           
+	INVX4_HVT           120         1           24          0           4           0           0           0           0           
+	INVX8_HVT           202         1           36          0           4           0           0           0           0           
+	ISOLANDAOX1_HVT     119         3           61          0           6           0           0           0           0           
+	ISOLANDAOX2_HVT     137         3           62          0           6           0           0           0           0           
+	ISOLANDAOX4_HVT     173         3           70          0           6           0           0           0           0           
+	ISOLANDAOX8_HVT     245         3           94          0           6           0           0           0           0           
+	ISOLANDX1_HVT       123         0           37          0           5           0           0           0           0           
+	ISOLANDX2_HVT       150         0           41          0           5           0           0           0           0           
+	ISOLANDX4_HVT       195         0           46          0           5           0           0           0           0           
+	ISOLANDX8_HVT       295         0           58          0           5           0           0           0           0           
+	ISOLORAOX1_HVT      128         3           65          0           6           0           0           0           0           
+	ISOLORAOX2_HVT      150         3           71          0           6           0           0           0           0           
+	ISOLORAOX4_HVT      173         3           84          0           6           0           0           0           0           
+	ISOLORAOX8_HVT      262         3           116         0           6           0           0           0           0           
+	ISOLORX1_HVT        75          0           28          0           5           0           0           0           0           
+	ISOLORX2_HVT        90          0           31          0           5           0           0           0           0           
+	ISOLORX4_HVT        117         0           37          0           5           0           0           0           0           
+	ISOLORX8_HVT        257         0           58          0           6           0           0           0           0           
+	LARX1_HVT           186         0           74          0           7           0           0           0           0           
+	LARX2_HVT           206         0           81          0           7           0           0           0           0           
+	LASRNX1_HVT         180         3           75          0           7           0           0           0           0           
+	LASRNX2_HVT         201         3           77          0           7           0           0           0           0           
+	LASRQX1_HVT         177         3           76          0           7           0           0           0           0           
+	LASRQX2_HVT         192         3           79          0           7           0           0           0           0           
+	LASRX1_HVT          182         3           81          0           8           0           0           0           0           
+	LASRX2_HVT          202         3           88          0           8           0           0           0           0           
+	LASX1_HVT           170         3           78          0           7           0           0           0           0           
+	LASX2_HVT           190         3           85          0           7           0           0           0           0           
+	LATCHX1_HVT         183         3           74          0           6           0           0           0           0           
+	LATCHX2_HVT         204         3           82          0           6           0           0           0           0           
+	LNANDX1_HVT         72          0           29          0           6           0           0           0           0           
+	LNANDX2_HVT         106         0           49          0           6           0           0           0           0           
+	LSDNENCLSSX1_HVT    66          0           31          0           6           0           0           0           0           
+	LSDNENCLSSX2_HVT    74          0           37          0           6           0           0           0           0           
+	LSDNENCLSSX4_HVT    89          0           43          0           6           0           0           0           0           
+	LSDNENCLSSX8_HVT    119         0           55          0           6           0           0           0           0           
+	LSDNENCLX1_HVT      116         3           50          0           8           0           0           0           0           
+	LSDNENCLX2_HVT      144         3           67          0           8           0           0           0           0           
+	LSDNENCLX4_HVT      158         3           71          0           7           0           0           0           0           
+	LSDNENCLX8_HVT      191         3           82          0           7           0           0           0           0           
+	LSDNENSSX1_HVT      151         0           62          0           5           0           0           0           0           
+	LSDNENSSX2_HVT      177         0           71          0           5           0           0           0           0           
+	LSDNENSSX4_HVT      198         0           81          0           5           0           0           0           0           
+	LSDNENSSX8_HVT      266         0           101         0           5           0           0           0           0           
+	LSDNENX1_HVT        118         3           52          0           8           0           0           0           0           
+	LSDNENX2_HVT        147         4           68          0           8           0           0           0           0           
+	LSDNENX4_HVT        161         4           71          0           8           0           0           0           0           
+	LSDNENX8_HVT        194         3           81          0           7           0           0           0           0           
+	LSDNSSX1_HVT        76          0           25          0           4           0           0           0           0           
+	LSDNSSX2_HVT        112         0           27          0           4           0           0           0           0           
+	LSDNSSX4_HVT        161         0           33          0           4           0           0           0           0           
+	LSDNSSX8_HVT        264         2           55          0           4           0           0           0           0           
+	LSDNX1_HVT          129         3           51          0           6           0           0           0           0           
+	LSDNX2_HVT          143         3           52          0           6           0           0           0           0           
+	LSDNX4_HVT          167         3           57          0           6           0           0           0           0           
+	LSDNX8_HVT          245         3           69          0           6           0           0           0           0           
+	LSUPENCLX1_HVT      143         3           59          0           7           0           0           0           0           
+	LSUPENCLX2_HVT      142         3           67          0           7           0           0           0           0           
+	LSUPENCLX4_HVT      254         3           96          0           7           0           0           0           0           
+	LSUPENCLX8_HVT      464         3           137         0           7           0           0           0           0           
+	LSUPENX1_HVT        197         3           73          0           7           0           0           0           0           
+	LSUPENX2_HVT        308         3           93          0           7           0           0           0           0           
+	LSUPENX4_HVT        325         3           101         0           7           0           0           0           0           
+	LSUPENX8_HVT        458         3           118         0           7           0           0           0           0           
+	LSUPX1_HVT          135         3           56          0           6           0           0           0           0           
+	LSUPX2_HVT          195         3           74          0           6           0           0           0           0           
+	LSUPX4_HVT          232         3           79          0           6           0           0           0           0           
+	LSUPX8_HVT          308         3           93          0           6           0           0           0           0           
+	MUX21X1_HVT         114         0           53          0           6           0           0           0           0           
+	MUX21X2_HVT         159         1           53          0           6           0           0           0           0           
+	MUX41X1_HVT         132         2           85          0           9           0           0           0           0           
+	MUX41X2_HVT         138         3           90          0           9           0           0           0           0           
+	NAND2X0_HVT         42          0           18          0           5           0           0           0           0           
+	NAND2X1_HVT         105         0           38          0           5           0           0           0           0           
+	NAND2X2_HVT         147         0           42          0           5           0           0           0           0           
+	NAND2X4_HVT         207         0           46          0           5           0           0           0           0           
+	NAND3X0_HVT         57          0           21          0           6           0           0           0           0           
+	NAND3X1_HVT         131         0           42          0           6           0           0           0           0           
+	NAND3X2_HVT         151         0           45          0           6           0           0           0           0           
+	NAND3X4_HVT         193         0           51          0           6           0           0           0           0           
+	NAND4X0_HVT         62          3           24          0           7           0           0           0           0           
+	NAND4X1_HVT         125         0           45          0           7           0           0           0           0           
+	NBUFFX16_HVT        449         2           77          0           4           0           0           0           0           
+	NBUFFX2_HVT         110         1           29          0           4           0           0           0           0           
+	NBUFFX32_HVT        818         1           132         0           4           0           0           0           0           
+	NBUFFX4_HVT         162         1           36          0           4           0           0           0           0           
+	NBUFFX8_HVT         265         2           51          0           4           0           0           0           0           
+	NMT1_HVT            31          0           10          0           5           0           0           0           0           
+	NMT2_HVT            36          0           14          0           5           0           0           0           0           
+	NMT3_HVT            46          0           18          0           5           0           0           0           0           
+	NOR2X0_HVT          94          0           36          0           5           0           0           0           0           
+	NOR2X1_HVT          94          0           36          0           5           0           0           0           0           
+	NOR2X2_HVT          106         0           39          0           5           0           0           0           0           
+	NOR2X4_HVT          135         0           45          0           5           0           0           0           0           
+	NOR3X0_HVT          95          0           41          0           6           0           0           0           0           
+	NOR3X1_HVT          95          0           41          0           6           0           0           0           0           
+	NOR3X2_HVT          107         0           44          0           6           0           0           0           0           
+	NOR3X4_HVT          133         0           50          0           6           0           0           0           0           
+	NOR4X0_HVT          98          0           43          0           7           0           0           0           0           
+	NOR4X1_HVT          98          0           43          0           7           0           0           0           0           
+	OA21X1_HVT          84          0           43          0           6           0           0           0           0           
+	OA21X2_HVT          96          0           49          0           6           0           0           0           0           
+	OA221X1_HVT         99          0           52          0           8           0           0           0           0           
+	OA221X2_HVT         110         0           59          0           8           0           0           0           0           
+	OA222X1_HVT         106         0           58          0           9           0           0           0           0           
+	OA222X2_HVT         119         0           64          0           9           0           0           0           0           
+	OA22X1_HVT          76          0           41          0           7           0           0           0           0           
+	OA22X2_HVT          84          0           49          0           7           0           0           0           0           
+	OAI21X1_HVT         96          0           53          0           6           0           0           0           0           
+	OAI21X2_HVT         108         0           59          0           6           0           0           0           0           
+	OAI221X1_HVT        118         0           61          0           8           0           0           0           0           
+	OAI221X2_HVT        131         0           67          0           8           0           0           0           0           
+	OAI222X1_HVT        126         0           66          0           9           0           0           0           0           
+	OAI222X2_HVT        138         0           73          0           9           0           0           0           0           
+	OAI22X1_HVT         101         0           52          0           7           0           0           0           0           
+	OAI22X2_HVT         113         0           59          0           7           0           0           0           0           
+	OR2X1_HVT           71          0           27          0           5           0           0           0           0           
+	OR2X2_HVT           80          0           30          0           5           0           0           0           0           
+	OR2X4_HVT           107         0           36          0           5           0           0           0           0           
+	OR3X1_HVT           78          0           30          0           6           0           0           0           0           
+	OR3X2_HVT           89          0           34          0           6           0           0           0           0           
+	OR3X4_HVT           158         0           59          0           6           0           0           0           0           
+	OR4X1_HVT           125         0           54          0           7           0           0           0           0           
+	OR4X2_HVT           139         0           57          0           7           0           0           0           0           
+	OR4X4_HVT           155         3           62          0           7           0           0           0           0           
+	PGX1_HVT            63          0           13          0           6           0           0           0           0           
+	PGX2_HVT            83          0           18          0           6           0           0           0           0           
+	PGX4_HVT            126         0           25          0           6           0           0           0           0           
+	PMT1_HVT            39          0           10          0           5           0           0           0           0           
+	PMT2_HVT            49          0           13          0           5           0           0           0           0           
+	PMT3_HVT            68          0           18          0           5           0           0           0           0           
+	RDFFARX1_HVT        659         4           326         0           9           0           0           0           0           
+	RDFFARX2_HVT        687         4           335         0           9           0           0           0           0           
+	RDFFNARX1_HVT       659         4           325         0           9           0           0           0           0           
+	RDFFNARX2_HVT       685         4           338         0           9           0           0           0           0           
+	RDFFNSRARX1_HVT     771         3           311         0           11          0           0           0           0           
+	RDFFNSRARX2_HVT     811         3           314         0           11          0           0           0           0           
+	RDFFNSRASRNX1_HVT   724         3           296         0           11          0           0           0           0           
+	RDFFNSRASRNX2_HVT   744         3           302         0           11          0           0           0           0           
+	RDFFNSRASRQX1_HVT   744         3           305         0           11          0           0           0           0           
+	RDFFNSRASRQX2_HVT   760         3           306         0           11          0           0           0           0           
+	RDFFNSRASRX1_HVT    784         3           316         0           12          0           0           0           0           
+	RDFFNSRASRX2_HVT    820         3           327         0           12          0           0           0           0           
+	RDFFNSRASX1_HVT     743         5           299         0           11          0           0           0           0           
+	RDFFNSRASX2_HVT     772         3           304         0           11          0           0           0           0           
+	RDFFNSRX1_HVT       733         3           280         0           10          0           0           0           0           
+	RDFFNSRX2_HVT       768         3           286         0           10          0           0           0           0           
+	RDFFNX1_HVT         552         3           269         0           8           0           0           0           0           
+	RDFFNX2_HVT         578         3           277         0           8           0           0           0           0           
+	RDFFSRARX1_HVT      815         3           338         0           11          0           0           0           0           
+	RDFFSRARX2_HVT      848         3           347         0           11          0           0           0           0           
+	RDFFSRASRX1_HVT     831         3           346         0           12          0           0           0           0           
+	RDFFSRASRX2_HVT     861         3           356         0           12          0           0           0           0           
+	RDFFSRASX1_HVT      746         3           298         0           11          0           0           0           0           
+	RDFFSRASX2_HVT      776         3           301         0           11          0           0           0           0           
+	RDFFSRSSRX1_HVT     636         3           295         0           11          0           0           0           0           
+	RDFFSRSSRX2_HVT     658         3           303         0           11          0           0           0           0           
+	RDFFSRX1_HVT        766         3           311         0           10          0           0           0           0           
+	RDFFSRX2_HVT        805         3           321         0           11          0           0           0           0           
+	RDFFX1_HVT          549         3           264         0           8           0           0           0           0           
+	RDFFX2_HVT          577         3           273         0           8           0           0           0           0           
+	RSDFFARX1_HVT       1161        4           397         0           11          0           0           0           0           
+	RSDFFARX2_HVT       1190        4           406         0           12          0           0           0           0           
+	RSDFFNARX1_HVT      1860        3           479         0           11          0           0           0           0           
+	RSDFFNARX2_HVT      1902        4           493         0           13          0           0           0           0           
+	RSDFFNSRARX1_HVT    1811        3           419         0           13          0           0           0           0           
+	RSDFFNSRARX2_HVT    1844        3           428         0           13          0           0           0           0           
+	RSDFFNSRASRNX1_HVT  1776        3           412         0           13          0           0           0           0           
+	RSDFFNSRASRNX2_HVT  1791        3           415         0           13          0           0           0           0           
+	RSDFFNSRASRQX1_HVT  1793        3           422         0           13          0           0           0           0           
+	RSDFFNSRASRQX2_HVT  1804        3           423         0           13          0           0           0           0           
+	RSDFFNSRASRX1_HVT   1838        3           429         0           14          0           0           0           0           
+	RSDFFNSRASRX2_HVT   1871        3           439         0           14          0           0           0           0           
+	RSDFFNSRASX1_HVT    1797        3           415         0           13          0           0           0           0           
+	RSDFFNSRASX2_HVT    1831        3           423         0           13          0           0           0           0           
+	RSDFFNSRX1_HVT      1778        3           403         0           12          0           0           0           0           
+	RSDFFNSRX2_HVT      1810        3           413         0           12          0           0           0           0           
+	RSDFFNX1_HVT        1590        3           394         0           10          0           0           0           0           
+	RSDFFNX2_HVT        1617        3           403         0           10          0           0           0           0           
+	RSDFFSRARX1_HVT     1280        3           377         0           13          0           0           0           0           
+	RSDFFSRARX2_HVT     1316        3           381         0           13          0           0           0           0           
+	RSDFFSRASRX1_HVT    1291        3           381         0           14          0           0           0           0           
+	RSDFFSRASRX2_HVT    1327        3           393         0           14          0           0           0           0           
+	RSDFFSRASX1_HVT     1799        3           414         0           13          0           0           0           0           
+	RSDFFSRASX2_HVT     1839        3           421         0           13          0           0           0           0           
+	RSDFFSRSSRX1_HVT    704         3           322         0           13          0           0           0           0           
+	RSDFFSRSSRX2_HVT    729         3           334         0           13          0           0           0           0           
+	RSDFFSRX1_HVT       1240        3           356         0           12          0           0           0           0           
+	RSDFFSRX2_HVT       1274        3           360         0           12          0           0           0           0           
+	RSDFFX1_HVT         1052        3           338         0           10          0           0           0           0           
+	RSDFFX2_HVT         1080        3           346         0           10          0           0           0           0           
+	SDFFARX1_HVT        321         0           158         0           11          0           0           0           0           
+	SDFFARX2_HVT        384         0           166         0           11          0           0           0           0           
+	SDFFASRSX1_HVT      363         3           181         0           11          0           0           0           0           
+	SDFFASRSX2_HVT      397         3           183         0           11          0           0           0           0           
+	SDFFASRX1_HVT       455         3           204         0           10          0           0           0           0           
+	SDFFASRX2_HVT       470         3           206         0           11          0           0           0           0           
+	SDFFASX1_HVT        305         3           161         0           11          0           0           0           0           
+	SDFFASX2_HVT        393         3           172         0           11          0           0           0           0           
+	SDFFNARX1_HVT       288         3           158         0           9           0           0           0           0           
+	SDFFNARX2_HVT       385         0           169         0           9           0           0           0           0           
+	SDFFNASRX1_HVT      317         0           158         0           10          0           0           0           0           
+	SDFFNASRX2_HVT      394         0           166         0           10          0           0           0           0           
+	SDFFNASX1_HVT       292         3           157         0           11          0           0           0           0           
+	SDFFNASX2_HVT       379         3           166         0           11          0           0           0           0           
+	SDFFNX1_HVT         389         3           192         0           8           0           0           0           0           
+	SDFFNX2_HVT         436         3           207         0           8           0           0           0           0           
+	SDFFSSRX1_HVT       480         3           213         0           10          0           0           0           0           
+	SDFFSSRX2_HVT       427         0           185         0           10          0           0           0           0           
+	SDFFX1_HVT          328         0           174         0           8           0           0           0           0           
+	SDFFX2_HVT          416         0           185         0           8           0           0           0           0           
+	SHFILL128_HVT       264         0           130         0           2           0           0           0           0           
+	SHFILL1_HVT         7           0           3           0           2           0           0           0           0           
+	SHFILL2_HVT         6           0           4           0           2           0           0           0           0           
+	SHFILL3_HVT         14          0           5           0           2           0           0           0           0           
+	SHFILL64_HVT        136         0           66          0           2           0           0           0           0           
+	TIEH_HVT            69          0           12          0           4           0           0           0           0           
+	TIEL_HVT            69          0           12          0           4           0           0           0           0           
+	TNBUFFX16_HVT       494         0           131         0           5           0           0           0           0           
+	TNBUFFX1_HVT        146         0           52          0           5           0           0           0           0           
+	TNBUFFX2_HVT        164         0           57          0           5           0           0           0           0           
+	TNBUFFX32_HVT       1084        0           269         0           5           0           0           0           0           
+	TNBUFFX4_HVT        227         0           64          0           5           0           0           0           0           
+	TNBUFFX8_HVT        327         0           87          0           5           0           0           0           0           
+	XNOR2X1_HVT         143         0           67          0           5           0           0           0           0           
+	XNOR2X2_HVT         195         0           66          0           5           0           0           0           0           
+	XNOR3X1_HVT         168         1           99          0           6           0           0           0           0           
+	XNOR3X2_HVT         207         1           107         0           6           0           0           0           0           
+	XOR2X1_HVT          141         1           65          0           5           0           0           0           0           
+	XOR2X2_HVT          158         1           68          0           5           0           0           0           0           
+	XOR3X1_HVT          187         0           126         0           6           0           0           0           0           
+	XOR3X2_HVT          231         0           117         0           6           0           0           0           0           
+	unitTile            2           0           0           0           0           0           0           0           0           
+
+Layer Statistics:
+	StreamLayer  StreamDataType  Layer       Purpose     Rectangles  Polygons    Paths       PathSegs    Labels      
+	46           0               DIOD        drawing     1           0           0           0           0           
+	2            0               DNW         drawing     0           0           0           0           1           
+	10           0               PO          drawing     131         0           15992       0           0           
+	31           0               M1PIN       drawing     0           0           0           0           2506        
+	11           0               M1          drawing     4187        41          27779       0           0           
+	5            0               NIMP        drawing     904         135         0           0           0           
+	29           0               HVTIMP      drawing     364         0           0           0           0           
+	1            0               NWELL       drawing     421         104         0           0           4           
+	3            0               DIFF        drawing     10035       2           0           0           0           
+	4            0               PIMP        drawing     692         163         0           0           0           
+	28           0               CO          drawing     109159      0           0           0           0           
+
+Summary of Objects:
+	Instances:                    0
+	CustomVias:                   0
+	CustomViaDef:                 0
+	Arrays:                       0
+	Polygons:                     445
+	Paths:                        43771
+	PathSegs:                     0
+	Rectangles:                   125894
+	Text:                         2511
+	Cells:                        351
+	Skipped Zero-Area Polygons:   0
+
+
+Finished:     importStream
+Time Elapsed: 0.41 seconds
+CPU Time:     0.420186 seconds
+System Time:  0.063178 seconds
+Peak VM:      8372224 bytes
+Messages:     0 error, 17 warnings

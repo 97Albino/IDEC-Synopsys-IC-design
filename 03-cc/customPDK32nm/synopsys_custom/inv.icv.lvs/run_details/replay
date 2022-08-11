@@ -1,0 +1,951 @@
+#
+# runset is /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs
+#
+runset_csum = 328
+num_hosts = 2
+events {
+S 478.0.0 1857 0
+# knuee-srv1(0):       775  1 _prescan_library
+F 478.0.0 1857 0
+S 480.0.0 1864 0
+# knuee-srv1(0):       821  1 _scan_hierarchy
+F 480.0.0 1864 0
+S 483.0.0 1871 1
+# knuee-srv1(1):      8432  1 _read_library_segment
+F 483.0.0 1871 1
+S 485.0.0 1879 0
+# knuee-srv1(0):      5333  1 _create_hierarchy_tree
+F 0 0 1
+F 485.0.0 1879 0
+S 549.0.0 2094 0
+# knuee-srv1(0):       481  1 _empty_layer
+F 549.0.0 2094 0
+S 553.0.0 2104 0
+# knuee-srv1(0):      1577  1 _optimize_hierarchy_tree
+F 553.0.0 2104 0
+S 554.0.0 2113 0
+# knuee-srv1(0):       968  1 _hierarchy_cleanup
+S 4426.0.0.4428.0.0 14139 1
+# knuee-srv1(1):      2339  1 _nettran_sch
+F 554.0.0 2113 0
+S 766.0.0 2719 0
+# knuee-srv1(0):      4007  1 _create_layer_dp
+F 4426.0.0.4428.0.0 14139 1
+S 737.0.0 2639 1
+# knuee-srv1(1):      3963  1 _create_layer_dp
+F 766.0.0 2719 0
+S 624.0.0 2334 0
+# knuee-srv1(0):      3966  1 _create_layer_dp
+F 624.0.0 2334 0
+S 616.0.0 2308 0
+# knuee-srv1(0):      3966  1 _create_layer_dp
+F 616.0.0 2308 0
+S 594.0.0 2246 0
+# knuee-srv1(0):      3972  1 _create_layer_dp
+F 594.0.0 2246 0
+S 586.0.0 2220 0
+# knuee-srv1(0):      3972  1 _create_layer_dp
+F 586.0.0 2220 0
+S 578.0.0 2194 0
+# knuee-srv1(0):      3972  1 _create_layer_dp
+F 578.0.0 2194 0
+S 570.0.0 2159 0
+# knuee-srv1(0):      3976  1 _create_layer_dp
+F 570.0.0 2159 0
+S 552.0.0 2101 0
+# knuee-srv1(0):       734  1 _generate_sibling_refref
+F 552.0.0 2101 0
+S 555.0.0 2116 0
+# knuee-srv1(0):       990  1 _update_and_pushdown_refref
+F 555.0.0 2116 0
+S 571.0.0 2171 0
+# knuee-srv1(0):      3981  1 _optimize_layer_dp
+F 571.0.0 2171 0
+S 1173.0.0 3701 0
+# knuee-srv1(0):       930  1 _buildsub
+F 1173.0.0 3701 0
+S 1203.0.0 3780 0
+# knuee-srv1(0):      1780  1 _copy
+F 1203.0.0 3780 0
+S 910.0.0 3077 0
+# knuee-srv1(0):       987  1 _copy
+F 910.0.0 3077 0
+S 1009.0.0 3289 0
+# knuee-srv1(0):      3204  1 _copy
+F 1009.0.0 3289 0
+S 1227.0.0 3829 0
+# knuee-srv1(0):      1226  1 _copy
+F 1227.0.0 3829 0
+S 579.0.0 2199 0
+# knuee-srv1(0):      3977  1 _optimize_layer_dp
+F 579.0.0 2199 0
+S 912.0.0 3082 0
+# knuee-srv1(0):       983  1 _copy
+F 912.0.0 3082 0
+S 587.0.0 2225 0
+# knuee-srv1(0):      3977  1 _optimize_layer_dp
+F 587.0.0 2225 0
+S 914.0.0 3087 0
+# knuee-srv1(0):       983  1 _copy
+F 914.0.0 3087 0
+S 595.0.0 2251 0
+# knuee-srv1(0):      3977  1 _optimize_layer_dp
+F 595.0.0 2251 0
+S 916.0.0 3092 0
+# knuee-srv1(0):       983  1 _copy
+F 916.0.0 3092 0
+S 617.0.0 2313 0
+# knuee-srv1(0):      3971  1 _optimize_layer_dp
+F 617.0.0 2313 0
+S 924.0.0 3109 0
+# knuee-srv1(0):       975  1 _copy
+F 924.0.0 3109 0
+S 1177.0.0 3710 0
+# knuee-srv1(0):      1149  1 _copy
+F 1177.0.0 3710 0
+S 1179.0.0 3715 0
+# knuee-srv1(0):      1901  1 _boolean_not_q
+F 1179.0.0 3715 0
+S 1159.0.0 3668 0
+# knuee-srv1(0):      1177  1 _copy
+F 1159.0.0 3668 0
+S 1023.0.0 3338 0
+# knuee-srv1(0):      1771  1 _copy
+F 1023.0.0 3338 0
+S 625.0.0 2339 0
+# knuee-srv1(0):      3971  1 _optimize_layer_dp
+F 625.0.0 2339 0
+S 926.0.0 3114 0
+# knuee-srv1(0):       975  1 _copy
+F 926.0.0 3114 0
+S 1085.0.0 3501 0
+# knuee-srv1(0):      1763  1 _copy
+F 1085.0.0 3501 0
+S 767.0.0 2724 0
+# knuee-srv1(0):      4012  1 _optimize_layer_dp
+F 767.0.0 2724 0
+S 1291.0.0 3963 0
+# knuee-srv1(0):      2154  1 _text_polygon
+F 1291.0.0 3963 0
+S 3281.0.0 10885 0
+# knuee-srv1(0):      4255  1 _stamp_text_q
+F 3281.0.0 10885 0
+S 4431.0.0.4442.0.0 14188 0
+# knuee-srv1(0):      6617  2 _translate_database_to_netlist_remote
+F 737.0.0 2639 1
+S 738.0.0 2644 1
+# knuee-srv1(1):      3968  1 _optimize_layer_dp
+F 738.0.0 2644 1
+S 944.0.0 3151 1
+# knuee-srv1(1):       975  1 _copy
+F 944.0.0 3151 1
+S 1077.0.0 3478 1
+# knuee-srv1(1):      1899  1 _boolean_not_q
+F 1077.0.0 3478 1
+S 3327.0.0 11040 1
+# knuee-srv1(1):      1860  1 _cell_extent
+F 3327.0.0 11040 1
+S 1008.0.0 3286 1
+# knuee-srv1(1):      3204  1 _copy
+F 1008.0.0 3286 1
+S 1188.0.0 3746 1
+# knuee-srv1(1):      2587  1 _level_one_q
+F 1188.0.0 3746 1
+S 1189.0.0 3750 1
+# knuee-srv1(1):      1637  1 _select_donut_hole
+F 1189.0.0 3750 1
+S 1193.0.0 3759 1
+# knuee-srv1(1):      1204  1 _copy
+F 1193.0.0 3759 1
+S 1000.0.0 3264 1
+# knuee-srv1(1):      1630  1 _cell_extent
+F 1000.0.0 3264 1
+S 1002.0.0 3271 1
+# knuee-srv1(1):      2193  1 _size
+F 4431.0.0.4442.0.0 14188 0
+S 556.0.0 2118 0
+# knuee-srv1(0):       766  1 _create_substrate_layer
+F 556.0.0 2118 0
+S 4287.0.0 13599 0
+# knuee-srv1(0):      1749  2 _dev_update_vue_file
+F 1002.0.0 3271 1
+S 1004.0.0 3276 1
+# knuee-srv1(1):      1903  1 _boolean_not_q
+F 4287.0.0 13599 0
+S 1309.0.0 4000 0
+# knuee-srv1(0):      1218  1 _empty_layer
+F 1309.0.0 4000 0
+S 1307.0.0 3996 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 1004.0.0 3276 1
+S 3126.0.0 10354 1
+# knuee-srv1(1):       693  1 _exploded_bulk_layer_in_via_cell
+F 1307.0.0 3996 0
+S 1305.0.0 3992 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 1305.0.0 3992 0
+S 1303.0.0 3988 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 3126.0.0 10354 1
+S 1301.0.0 3984 1
+# knuee-srv1(1):      1666  1 _empty_layer
+F 1303.0.0 3988 0
+S 1299.0.0 3980 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 1299.0.0 3980 0
+S 1297.0.0 3976 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 1301.0.0 3984 1
+S 1295.0.0 3972 1
+# knuee-srv1(1):      1666  1 _empty_layer
+F 1297.0.0 3976 0
+S 1293.0.0 3968 0
+# knuee-srv1(0):      1666  1 _empty_layer
+F 1295.0.0 3972 1
+S 1281.0.0 3938 1
+# knuee-srv1(1):      1391  1 _empty_layer
+F 1293.0.0 3968 0
+S 1279.0.0 3934 0
+# knuee-srv1(0):      1391  1 _empty_layer
+F 1281.0.0 3938 1
+S 1277.0.0 3930 1
+# knuee-srv1(1):      1391  1 _empty_layer
+F 1279.0.0 3934 0
+S 1275.0.0 3926 0
+# knuee-srv1(0):      1391  1 _empty_layer
+F 1275.0.0 3926 0
+S 1273.0.0 3922 0
+# knuee-srv1(0):      2612  1 _empty_layer
+F 1277.0.0 3930 1
+S 1271.0.0 3918 1
+# knuee-srv1(1):      2612  1 _empty_layer
+F 1273.0.0 3922 0
+S 1269.0.0 3914 0
+# knuee-srv1(0):      2612  1 _empty_layer
+F 1271.0.0 3918 1
+S 1267.0.0 3910 1
+# knuee-srv1(1):      2612  1 _empty_layer
+F 1269.0.0 3914 0
+S 1265.0.0 3906 0
+# knuee-srv1(0):      1427  1 _empty_layer
+F 1267.0.0 3910 1
+S 1263.0.0 3902 1
+# knuee-srv1(1):      1427  1 _empty_layer
+F 1265.0.0 3906 0
+S 1261.0.0 3898 0
+# knuee-srv1(0):      1427  1 _empty_layer
+F 1261.0.0 3898 0
+S 1259.0.0 3894 0
+# knuee-srv1(0):      1427  1 _empty_layer
+F 1263.0.0 3902 1
+S 1257.0.0 3890 1
+# knuee-srv1(1):      1444  1 _empty_layer
+F 1259.0.0 3894 0
+S 1255.0.0 3886 0
+# knuee-srv1(0):      1489  1 _empty_layer
+F 1257.0.0 3890 1
+S 1253.0.0 3882 1
+# knuee-srv1(1):      1489  1 _empty_layer
+F 1255.0.0 3886 0
+S 1251.0.0 3878 0
+# knuee-srv1(0):      1489  1 _empty_layer
+F 1251.0.0 3878 0
+S 1249.0.0 3874 0
+# knuee-srv1(0):      1468  1 _empty_layer
+F 1253.0.0 3882 1
+S 1247.0.0 3870 1
+# knuee-srv1(1):      1477  1 _empty_layer
+F 1249.0.0 3874 0
+S 1245.0.0 3866 0
+# knuee-srv1(0):      1477  1 _empty_layer
+F 1247.0.0 3870 1
+S 1243.0.0 3862 1
+# knuee-srv1(1):      1477  1 _empty_layer
+F 1245.0.0 3866 0
+S 1241.0.0 3858 0
+# knuee-srv1(0):      1432  1 _empty_layer
+F 1241.0.0 3858 0
+S 1239.0.0 3854 0
+# knuee-srv1(0):      1512  1 _empty_layer
+F 1243.0.0 3862 1
+S 1237.0.0 3850 1
+# knuee-srv1(1):      1467  1 _empty_layer
+F 1239.0.0 3854 0
+S 1235.0.0 3846 0
+# knuee-srv1(0):      1512  1 _empty_layer
+F 1235.0.0 3846 0
+S 1233.0.0 3842 0
+# knuee-srv1(0):      1467  1 _empty_layer
+F 1237.0.0 3850 1
+S 1231.0.0 3838 1
+# knuee-srv1(1):      1508  1 _empty_layer
+F 1233.0.0 3842 0
+S 1229.0.0 3834 0
+# knuee-srv1(0):      1463  1 _empty_layer
+F 1231.0.0 3838 1
+S 1225.0.0 3825 1
+# knuee-srv1(1):      2862  1 _empty_layer
+F 1229.0.0 3834 0
+S 1223.0.0 3821 0
+# knuee-srv1(0):      2666  1 _empty_layer
+F 1223.0.0 3821 0
+S 1221.0.0 3817 0
+# knuee-srv1(0):      1441  1 _empty_layer
+F 1225.0.0 3825 1
+S 1219.0.0 3813 1
+# knuee-srv1(1):      1462  1 _empty_layer
+F 1221.0.0 3817 0
+S 1217.0.0 3809 0
+# knuee-srv1(0):      2855  1 _empty_layer
+F 1219.0.0 3813 1
+S 1215.0.0 3805 1
+# knuee-srv1(1):      2855  1 _empty_layer
+F 1217.0.0 3809 0
+S 1213.0.0 3801 0
+# knuee-srv1(0):      1436  1 _empty_layer
+F 1215.0.0 3805 1
+S 1211.0.0 3797 1
+# knuee-srv1(1):      1445  1 _empty_layer
+F 1213.0.0 3801 0
+S 1209.0.0 3793 0
+# knuee-srv1(0):      1434  1 _empty_layer
+F 1211.0.0 3797 1
+S 1207.0.0 3789 1
+# knuee-srv1(1):       833  1 _empty_layer
+F 1209.0.0 3793 0
+S 1205.0.0 3785 0
+# knuee-srv1(0):      1445  1 _empty_layer
+F 1207.0.0 3789 1
+S 1201.0.0 3776 1
+# knuee-srv1(1):      1450  1 _empty_layer
+F 1205.0.0 3785 0
+S 1199.0.0 3772 0
+# knuee-srv1(0):      1442  1 _empty_layer
+F 1201.0.0 3776 1
+S 1197.0.0 3768 1
+# knuee-srv1(1):      2835  1 _empty_layer
+F 1199.0.0 3772 0
+S 1195.0.0 3764 0
+# knuee-srv1(0):      2623  1 _empty_layer
+F 1197.0.0 3768 1
+S 1191.0.0 3755 1
+# knuee-srv1(1):      1261  1 _empty_layer
+F 1195.0.0 3764 0
+S 1186.0.0 3742 0
+# knuee-srv1(0):      1434  1 _empty_layer
+F 1191.0.0 3755 1
+S 1175.0.0 3706 1
+# knuee-srv1(1):       800  1 _empty_layer
+F 1186.0.0 3742 0
+S 1171.0.0 3697 0
+# knuee-srv1(0):      1440  1 _empty_layer
+F 1175.0.0 3706 1
+S 1169.0.0 3693 1
+# knuee-srv1(1):      1439  1 _empty_layer
+F 1171.0.0 3697 0
+S 1167.0.0 3689 0
+# knuee-srv1(0):      1440  1 _empty_layer
+F 1169.0.0 3693 1
+S 1165.0.0 3685 1
+# knuee-srv1(1):      1439  1 _empty_layer
+F 1167.0.0 3689 0
+S 1151.0.0 3648 0
+# knuee-srv1(0):      1397  1 _empty_layer
+F 1165.0.0 3685 1
+S 1149.0.0 3644 1
+# knuee-srv1(1):      1445  1 _empty_layer
+F 1151.0.0 3648 0
+S 1147.0.0 3640 0
+# knuee-srv1(0):      1437  1 _empty_layer
+F 1149.0.0 3644 1
+S 1145.0.0 3636 1
+# knuee-srv1(1):      1437  1 _empty_layer
+F 1147.0.0 3640 0
+S 1143.0.0 3632 0
+# knuee-srv1(0):      1434  1 _empty_layer
+F 1145.0.0 3636 1
+S 1141.0.0 3628 1
+# knuee-srv1(1):      1434  1 _empty_layer
+F 1143.0.0 3632 0
+S 1139.0.0 3624 0
+# knuee-srv1(0):      1432  1 _empty_layer
+F 1141.0.0 3628 1
+S 1137.0.0 3620 1
+# knuee-srv1(1):      1390  1 _empty_layer
+F 1139.0.0 3624 0
+S 1135.0.0 3616 0
+# knuee-srv1(0):      1390  1 _empty_layer
+F 1137.0.0 3620 1
+S 1133.0.0 3612 1
+# knuee-srv1(1):      1434  1 _empty_layer
+F 1135.0.0 3616 0
+S 1131.0.0 3608 0
+# knuee-srv1(0):      1434  1 _empty_layer
+F 1133.0.0 3612 1
+S 1129.0.0 3604 1
+# knuee-srv1(1):      2616  1 _empty_layer
+F 1131.0.0 3608 0
+S 1127.0.0 3600 0
+# knuee-srv1(0):      2616  1 _empty_layer
+F 1129.0.0 3604 1
+S 1125.0.0 3596 1
+# knuee-srv1(1):      1432  1 _empty_layer
+F 1127.0.0 3600 0
+S 1123.0.0 3592 0
+# knuee-srv1(0):      1432  1 _empty_layer
+F 1125.0.0 3596 1
+S 1121.0.0 3588 1
+# knuee-srv1(1):      1432  1 _empty_layer
+F 1123.0.0 3592 0
+S 1119.0.0 3584 0
+# knuee-srv1(0):       833  1 _empty_layer
+F 1121.0.0 3588 1
+S 1117.0.0 3580 1
+# knuee-srv1(1):      1439  1 _empty_layer
+F 1119.0.0 3584 0
+S 1115.0.0 3576 0
+# knuee-srv1(0):      1439  1 _empty_layer
+F 1117.0.0 3580 1
+S 1101.0.0 3534 1
+# knuee-srv1(1):      1377  1 _empty_layer
+F 1115.0.0 3576 0
+S 1099.0.0 3530 0
+# knuee-srv1(0):      1377  1 _empty_layer
+F 1101.0.0 3534 1
+S 1097.0.0 3526 1
+# knuee-srv1(1):      1377  1 _empty_layer
+F 1099.0.0 3530 0
+S 1095.0.0 3522 0
+# knuee-srv1(0):      1377  1 _empty_layer
+F 1097.0.0 3526 1
+S 1093.0.0 3518 1
+# knuee-srv1(1):      1377  1 _empty_layer
+F 1095.0.0 3522 0
+S 1091.0.0 3514 0
+# knuee-srv1(0):      1377  1 _empty_layer
+F 1093.0.0 3518 1
+S 1089.0.0 3510 1
+# knuee-srv1(1):      1377  1 _empty_layer
+F 1091.0.0 3514 0
+S 1087.0.0 3506 0
+# knuee-srv1(0):      1377  1 _empty_layer
+F 1089.0.0 3510 1
+S 1066.0.0 3441 1
+# knuee-srv1(1):      1450  1 _empty_layer
+F 1087.0.0 3506 0
+S 1064.0.0 3437 0
+# knuee-srv1(0):      1450  1 _empty_layer
+F 1066.0.0 3441 1
+S 1062.0.0 3433 1
+# knuee-srv1(1):      1450  1 _empty_layer
+F 1064.0.0 3437 0
+S 1060.0.0 3429 0
+# knuee-srv1(0):      1450  1 _empty_layer
+F 1062.0.0 3433 1
+S 1058.0.0 3425 1
+# knuee-srv1(1):      1443  1 _empty_layer
+F 1060.0.0 3429 0
+S 1056.0.0 3421 0
+# knuee-srv1(0):      1443  1 _empty_layer
+F 1058.0.0 3425 1
+S 1054.0.0 3417 1
+# knuee-srv1(1):      1443  1 _empty_layer
+F 1056.0.0 3421 0
+S 1052.0.0 3413 0
+# knuee-srv1(0):      1443  1 _empty_layer
+F 1054.0.0 3417 1
+S 1046.0.0 3399 1
+# knuee-srv1(1):       843  1 _empty_layer
+F 1052.0.0 3413 0
+S 1037.0.0 3367 0
+# knuee-srv1(0):      1399  1 _empty_layer
+F 1046.0.0 3399 1
+S 1035.0.0 3363 1
+# knuee-srv1(1):      1399  1 _empty_layer
+F 1037.0.0 3367 0
+S 1033.0.0 3359 0
+# knuee-srv1(0):      1447  1 _empty_layer
+F 1035.0.0 3363 1
+S 1031.0.0 3355 1
+# knuee-srv1(1):      1447  1 _empty_layer
+F 1033.0.0 3359 0
+S 1029.0.0 3351 0
+# knuee-srv1(0):      1436  1 _empty_layer
+F 1031.0.0 3355 1
+S 1027.0.0 3347 1
+# knuee-srv1(1):      1436  1 _empty_layer
+F 1029.0.0 3351 0
+S 1025.0.0 3343 0
+# knuee-srv1(0):      1432  1 _empty_layer
+F 1025.0.0 3343 0
+S 1006.0.0 3282 0
+# knuee-srv1(0):      2608  1 _empty_layer
+F 1027.0.0 3347 1
+S 998.0.0 3260 1
+# knuee-srv1(1):       801  1 _empty_layer
+F 1006.0.0 3282 0
+S 996.0.0 3256 0
+# knuee-srv1(0):       795  1 _empty_layer
+F 998.0.0 3260 1
+S 994.0.0 3252 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 996.0.0 3256 0
+S 992.0.0 3248 0
+# knuee-srv1(0):       799  1 _empty_layer
+F 994.0.0 3252 1
+S 990.0.0 3244 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 992.0.0 3248 0
+S 988.0.0 3240 0
+# knuee-srv1(0):       801  1 _empty_layer
+F 990.0.0 3244 1
+S 986.0.0 3236 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 988.0.0 3240 0
+S 984.0.0 3232 0
+# knuee-srv1(0):       798  1 _empty_layer
+F 986.0.0 3236 1
+S 982.0.0 3228 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 984.0.0 3232 0
+S 980.0.0 3224 0
+# knuee-srv1(0):       789  1 _empty_layer
+F 982.0.0 3228 1
+S 978.0.0 3220 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 980.0.0 3224 0
+S 976.0.0 3216 0
+# knuee-srv1(0):       789  1 _empty_layer
+F 978.0.0 3220 1
+S 974.0.0 3212 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 976.0.0 3216 0
+S 972.0.0 3208 0
+# knuee-srv1(0):       789  1 _empty_layer
+F 974.0.0 3212 1
+S 970.0.0 3204 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 972.0.0 3208 0
+S 968.0.0 3200 0
+# knuee-srv1(0):       789  1 _empty_layer
+F 970.0.0 3204 1
+S 966.0.0 3196 1
+# knuee-srv1(1):       789  1 _empty_layer
+F 968.0.0 3200 0
+S 964.0.0 3192 0
+# knuee-srv1(0):       798  1 _empty_layer
+F 966.0.0 3196 1
+S 962.0.0 3188 1
+# knuee-srv1(1):       798  1 _empty_layer
+F 964.0.0 3192 0
+S 960.0.0 3184 0
+# knuee-srv1(0):       792  1 _empty_layer
+F 962.0.0 3188 1
+S 958.0.0 3180 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 960.0.0 3184 0
+S 956.0.0 3176 0
+# knuee-srv1(0):       792  1 _empty_layer
+F 958.0.0 3180 1
+S 954.0.0 3172 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 956.0.0 3176 0
+S 952.0.0 3168 0
+# knuee-srv1(0):       792  1 _empty_layer
+F 954.0.0 3172 1
+S 950.0.0 3164 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 952.0.0 3168 0
+S 948.0.0 3160 0
+# knuee-srv1(0):       792  1 _empty_layer
+F 950.0.0 3164 1
+S 946.0.0 3156 1
+# knuee-srv1(1):       792  1 _empty_layer
+F 948.0.0 3160 0
+S 942.0.0 3147 0
+# knuee-srv1(0):       786  1 _empty_layer
+F 946.0.0 3156 1
+S 940.0.0 3143 1
+# knuee-srv1(1):       786  1 _empty_layer
+F 942.0.0 3147 0
+S 938.0.0 3139 0
+# knuee-srv1(0):       786  1 _empty_layer
+F 940.0.0 3143 1
+S 936.0.0 3135 1
+# knuee-srv1(1):       786  1 _empty_layer
+F 938.0.0 3139 0
+S 934.0.0 3131 0
+# knuee-srv1(0):       786  1 _empty_layer
+F 936.0.0 3135 1
+S 932.0.0 3127 1
+# knuee-srv1(1):       786  1 _empty_layer
+F 934.0.0 3131 0
+S 930.0.0 3123 0
+# knuee-srv1(0):       786  1 _empty_layer
+F 932.0.0 3127 1
+S 928.0.0 3119 1
+# knuee-srv1(1):       786  1 _empty_layer
+F 930.0.0 3123 0
+S 922.0.0 3105 0
+# knuee-srv1(0):       792  1 _empty_layer
+F 928.0.0 3119 1
+S 920.0.0 3101 1
+# knuee-srv1(1):       801  1 _empty_layer
+F 922.0.0 3105 0
+S 918.0.0 3097 0
+# knuee-srv1(0):       801  1 _empty_layer
+F 920.0.0 3101 1
+S 904.0.0 3060 1
+# knuee-srv1(1):      2544  1 _empty_layer
+F 918.0.0 3097 0
+S 897.0.0 3042 0
+# knuee-srv1(0):      2544  1 _empty_layer
+F 904.0.0 3060 1
+S 890.0.0 3024 1
+# knuee-srv1(1):      2547  1 _empty_layer
+F 897.0.0 3042 0
+S 883.0.0 3006 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 890.0.0 3024 1
+S 876.0.0 2988 1
+# knuee-srv1(1):      2532  1 _empty_layer
+F 883.0.0 3006 0
+S 869.0.0 2970 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 876.0.0 2988 1
+S 862.0.0 2952 1
+# knuee-srv1(1):      2532  1 _empty_layer
+F 869.0.0 2970 0
+S 855.0.0 2934 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 862.0.0 2952 1
+S 848.0.0 2916 1
+# knuee-srv1(1):      2532  1 _empty_layer
+F 855.0.0 2934 0
+S 841.0.0 2898 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 848.0.0 2916 1
+S 834.0.0 2880 1
+# knuee-srv1(1):      2532  1 _empty_layer
+F 841.0.0 2898 0
+S 827.0.0 2862 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 834.0.0 2880 1
+S 820.0.0 2844 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 827.0.0 2862 0
+S 813.0.0 2826 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 820.0.0 2844 1
+S 806.0.0 2808 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 813.0.0 2826 0
+S 799.0.0 2790 0
+# knuee-srv1(0):      2535  1 _empty_layer
+F 806.0.0 2808 1
+S 792.0.0 2772 1
+# knuee-srv1(1):      2541  1 _empty_layer
+F 799.0.0 2790 0
+S 785.0.0 2754 0
+# knuee-srv1(0):      2535  1 _empty_layer
+F 792.0.0 2772 1
+S 783.0.0 2751 1
+# knuee-srv1(1):      2564  1 _empty_layer
+F 785.0.0 2754 0
+S 781.0.0 2748 0
+# knuee-srv1(0):      2564  1 _empty_layer
+F 783.0.0 2751 1
+S 3289.0.0 10909 1
+# knuee-srv1(1):      4255  1 _stamp_text_q
+F 781.0.0 2748 0
+S 3288.0.0 10906 0
+# knuee-srv1(0):      4255  1 _stamp_text_q
+F 3288.0.0 10906 0
+S 779.0.0 2745 0
+# knuee-srv1(0):      2564  1 _empty_layer
+F 3289.0.0 10909 1
+S 777.0.0 2742 1
+# knuee-srv1(1):      2564  1 _empty_layer
+F 779.0.0 2745 0
+S 3287.0.0 10903 0
+# knuee-srv1(0):      4255  1 _stamp_text_q
+F 777.0.0 2742 1
+S 3286.0.0 10900 1
+# knuee-srv1(1):      4255  1 _stamp_text_q
+F 3287.0.0 10903 0
+S 775.0.0 2739 0
+# knuee-srv1(0):      2564  1 _empty_layer
+F 3286.0.0 10900 1
+S 773.0.0 2736 1
+# knuee-srv1(1):      2564  1 _empty_layer
+F 775.0.0 2739 0
+S 3285.0.0 10897 0
+# knuee-srv1(0):      4255  1 _stamp_text_q
+F 773.0.0 2736 1
+S 3284.0.0 10894 1
+# knuee-srv1(1):      4255  1 _stamp_text_q
+F 3285.0.0 10897 0
+S 771.0.0 2733 0
+# knuee-srv1(0):      2564  1 _empty_layer
+F 3284.0.0 10894 1
+S 769.0.0 2730 1
+# knuee-srv1(1):      2564  1 _empty_layer
+F 771.0.0 2733 0
+S 3283.0.0 10891 0
+# knuee-srv1(0):      4255  1 _stamp_text_q
+F 769.0.0 2730 1
+S 3282.0.0 10888 1
+# knuee-srv1(1):      4255  1 _stamp_text_q
+F 3283.0.0 10891 0
+S 759.0.0 2701 0
+# knuee-srv1(0):      2541  1 _empty_layer
+F 3282.0.0 10888 1
+S 752.0.0 2683 1
+# knuee-srv1(1):      2541  1 _empty_layer
+F 759.0.0 2701 0
+S 745.0.0 2665 0
+# knuee-srv1(0):      2535  1 _empty_layer
+F 752.0.0 2683 1
+S 730.0.0 2620 1
+# knuee-srv1(1):      2532  1 _empty_layer
+F 745.0.0 2665 0
+S 723.0.0 2601 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 730.0.0 2620 1
+S 716.0.0 2583 1
+# knuee-srv1(1):      2535  1 _empty_layer
+F 723.0.0 2601 0
+S 709.0.0 2564 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 716.0.0 2583 1
+S 702.0.0 2546 1
+# knuee-srv1(1):      2535  1 _empty_layer
+F 709.0.0 2564 0
+S 695.0.0 2527 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 702.0.0 2546 1
+S 688.0.0 2509 1
+# knuee-srv1(1):      2535  1 _empty_layer
+F 695.0.0 2527 0
+S 681.0.0 2490 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 688.0.0 2509 1
+S 674.0.0 2472 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 681.0.0 2490 0
+S 667.0.0 2453 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 674.0.0 2472 1
+S 660.0.0 2435 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 667.0.0 2453 0
+S 653.0.0 2416 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 660.0.0 2435 1
+S 646.0.0 2398 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 653.0.0 2416 0
+S 639.0.0 2379 0
+# knuee-srv1(0):      2532  1 _empty_layer
+F 646.0.0 2398 1
+S 632.0.0 2361 1
+# knuee-srv1(1):      2538  1 _empty_layer
+F 639.0.0 2379 0
+S 609.0.0 2290 0
+# knuee-srv1(0):      2537  1 _empty_layer
+F 632.0.0 2361 1
+S 602.0.0 2272 1
+# knuee-srv1(1):      2546  1 _empty_layer
+F 609.0.0 2290 0
+S 551.0.0 2098 0
+# knuee-srv1(0):       238  1 _empty_layer
+F 602.0.0 2272 1
+F 551.0.0 2098 0
+S 3135.0.0 10374 0
+# knuee-srv1(0):      1145  1 _merge_device_layer
+F 0 0 1
+S 1182.0.0 3726 1
+# knuee-srv1(1):      1867  1 _boolean_and_q
+F 3135.0.0 10374 0
+S 1075.0.0 3472 0
+# knuee-srv1(0):      1865  1 _boolean_and_q
+F 1182.0.0 3726 1
+S 1184.0.0 3736 1
+# knuee-srv1(1):      1871  1 _boolean_and_q
+F 1075.0.0 3472 0
+S 1012.0.0 3299 0
+# knuee-srv1(0):      1867  1 _boolean_and_q
+F 1184.0.0 3736 1
+S 1283.0.0 3942 1
+# knuee-srv1(1):      1907  1 _boolean_not_q
+F 1012.0.0 3299 0
+S 1072.0.0 3461 0
+# knuee-srv1(0):      1867  1 _boolean_and_q
+F 1283.0.0 3942 1
+S 1285.0.0 3948 1
+# knuee-srv1(1):       999  1 _copy
+F 1285.0.0 3948 1
+S 1018.0.0 3321 1
+# knuee-srv1(1):      1869  1 _boolean_and_q
+F 1072.0.0 3461 0
+S 1289.0.0 3958 0
+# knuee-srv1(0):       993  1 _copy
+F 1289.0.0 3958 0
+S 1103.0.0 3538 0
+# knuee-srv1(0):      1047  1 _copy
+F 1103.0.0 3538 0
+S 1110.0.0 3559 0
+# knuee-srv1(0):      1865  1 _boolean_and_q
+F 1018.0.0 3321 1
+S 1040.0.0 3376 1
+# knuee-srv1(1):      1863  1 _boolean_and_q
+F 1110.0.0 3559 0
+S 1156.0.0 3660 0
+# knuee-srv1(0):      1050  1 _copy
+F 1040.0.0 3376 1
+S 1048.0.0 3403 1
+# knuee-srv1(1):      1831  1 _copy
+F 1156.0.0 3660 0
+S 1163.0.0 3679 0
+# knuee-srv1(0):      1908  1 _boolean_not_q
+F 1048.0.0 3403 1
+S 1015.0.0 3310 1
+# knuee-srv1(1):      1867  1 _boolean_and_q
+F 1015.0.0 3310 1
+S 1069.0.0 3450 1
+# knuee-srv1(1):      1869  1 _boolean_and_q
+F 1163.0.0 3679 0
+S 3195.0.0 10514 0
+# knuee-srv1(0):       935  1 _merge_device_layer
+F 1069.0.0 3450 1
+S 1287.0.0 3953 1
+# knuee-srv1(1):       993  1 _copy
+F 3195.0.0 10514 0
+S 1021.0.0 3332 0
+# knuee-srv1(0):      1867  1 _boolean_and_q
+F 1287.0.0 3953 1
+S 1106.0.0 3546 1
+# knuee-srv1(1):      1047  1 _copy
+F 1106.0.0 3546 1
+S 1113.0.0 3570 1
+# knuee-srv1(1):      1865  1 _boolean_and_q
+F 1021.0.0 3332 0
+S 1043.0.0 3387 0
+# knuee-srv1(0):      1863  1 _boolean_and_q
+F 1113.0.0 3570 1
+S 1153.0.0 3652 1
+# knuee-srv1(1):      1049  1 _copy
+F 1043.0.0 3387 0
+S 1079.0.0 3484 0
+# knuee-srv1(0):      1104  1 _boolean_or_list
+F 1153.0.0 3652 1
+S 1161.0.0 3673 1
+# knuee-srv1(1):      1908  1 _boolean_not_q
+F 1079.0.0 3484 0
+S 1083.0.0 3495 0
+# knuee-srv1(0):      1916  1 _boolean_not_q
+F 1161.0.0 3673 1
+S 3192.0.0 10507 1
+# knuee-srv1(1):       935  1 _merge_device_layer
+F 1083.0.0 3495 0
+S 1081.0.0 3489 0
+# knuee-srv1(0):      1916  1 _boolean_not_q
+F 3192.0.0 10507 1
+S 1050.0.0 3408 1
+# knuee-srv1(1):      1829  1 _copy
+F 1050.0.0 3408 1
+S 1379.0.0 4259 1
+# knuee-srv1(1):      5245  1 _preprocess_device_layer
+F 1081.0.0 3489 0
+S 1834.0.0 5825 0
+# knuee-srv1(0):      5252  1 _preprocess_device_layer
+F 1379.0.0 4259 1
+S 3132.0.0 10367 1
+# knuee-srv1(1):      1075  1 _merge_device_layer
+F 1834.0.0 5825 0
+S 3129.0.0 10360 0
+# knuee-srv1(0):      1088  1 _merge_device_layer
+F 3132.0.0 10367 1
+S 3180.0.0 10479 1
+# knuee-srv1(1):      1236  1 _merge_device_layer
+F 3129.0.0 10360 0
+S 3150.0.0 10409 0
+# knuee-srv1(0):       916  1 _merge_device_layer
+F 3150.0.0 10409 0
+S 3241.0.0 10619 0
+# knuee-srv1(0):      1041  1 _merge_device_layer
+F 3180.0.0 10479 1
+S 3183.0.0 10486 1
+# knuee-srv1(1):      1236  1 _merge_device_layer
+F 3241.0.0 10619 0
+S 3242.0.0 10621 0
+# knuee-srv1(0):       895  1 _pull_down_bulk
+F 3242.0.0 10621 0
+S 3153.0.0 10416 0
+# knuee-srv1(0):       916  1 _merge_device_layer
+F 3183.0.0 10486 1
+F 0 0 1
+F 3153.0.0 10416 0
+S 3244.0.0 10626 0
+# knuee-srv1(0):      1041  1 _merge_device_layer
+F 3244.0.0 10626 0
+S 3250.0.0 10648 0
+# knuee-srv1(0):       929  1 _pull_down_bulk
+F 3250.0.0 10648 0
+S 3266.0.0 10841 0
+# knuee-srv1(0):     26214  1 _connect_q
+F 3266.0.0 10841 0
+S 3291.0.0 10914 0
+# knuee-srv1(0):     10008  1 _text
+F 3291.0.0 10914 0
+S 3299.0.0 10938 0
+# knuee-srv1(0):     10793  1 _process_text_opens
+F 3299.0.0 10938 0
+S 3312.0.0 10991 0
+# knuee-srv1(0):      3104  1 _create_ports
+F 3312.0.0 10991 0
+S 4219.0.0 13333 0
+# knuee-srv1(0):       986  1 _create_netlist_cdb
+S 3530.0.0 11584 1
+# knuee-srv1(1):     93108  2 _mos
+F 4219.0.0 13333 0
+S 3350.0.0 11107 0
+# knuee-srv1(0):     93032  2 _mos
+F 3350.0.0 11107 0
+F 3530.0.0 11584 1
+S 4229.0.0 13372 1
+# knuee-srv1(1):      3079  1 _connect_device
+F 0 0 0
+F 4229.0.0 13372 1
+S 6790.0.0 21605 0
+# knuee-srv1(0):     11000  1 _write_extract_view
+S 4286.0.0 13597 1
+# knuee-srv1(1):      9916  1 _write_vue_info
+F 4286.0.0 13597 1
+S 4235.0.0 13395 1
+# knuee-srv1(1):      1920  1 _dev_create_acct
+F 4235.0.0 13395 1
+S 4310.0.0 13662 1
+# knuee-srv1(1):       968  1 _do_ndb
+F 4310.0.0 13662 1
+S 4482.0.0 14326 1
+# knuee-srv1(1):     17636  2 _do_compare_remote
+F 6790.0.0 21605 0
+S 4241.0.0 13409 0
+# knuee-srv1(0):       805  1 _write_mongo_netlist
+F 4241.0.0 13409 0
+S 4238.0.0 13402 0
+# knuee-srv1(0):      1115  1 _output_port_pin_data
+F 4238.0.0 13402 0
+S 4327.0.0 13711 0
+# knuee-srv1(0):       955  1 _write_icv_netlist
+F 4482.0.0 14326 1
+S 4495.0.0 14356 1
+# knuee-srv1(1):      1723  1 _do_spice
+F 4327.0.0 13711 0
+F 0 0 0
+F 4495.0.0 14356 1
+S 6830.0.0 21755 0
+# knuee-srv1(0):       385  1 _accumulate_results
+F 6830.0.0 21755 0
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Thu Aug 11 11:01:35 2022
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout"/>
+        <favoriteDevices viewType="schematic">
+                <cellView view="symbol" library="analogLib" cell="cap">
+                        <alias name="cap"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="SAED_PDK_32_28" cell="nmos4t">
+                        <alias name="nmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="SAED_PDK_32_28" cell="pmos4t">
+                        <alias name="pmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="tg4" cell="invx0">
+                        <alias name="invx0"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="tg4" cell="buf">
+                        <alias name="buf"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

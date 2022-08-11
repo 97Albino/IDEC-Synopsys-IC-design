@@ -1,0 +1,95 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i tg4 -c invx0 -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/saed32nm_1p9m_drc_rules.drc.rs
+
+
+
+
+Parsing runset "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/saed32nm_1p9m_drc_rules.drc.rs"
+
+Loaded runset from cache: /home/KNUEEhdd1/idec/IDEC25/.icvrscache/49271857e5a306ad71ec2eb80c300744-9B4EE224-F626-4DFA-B84E-507736B95225-knuee-srv1-204480.rscache
+Cached Runset Compile Time=0:00:04 User=4.05 Sys=0.22 Mem=0.903 GB
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.01 Mem=0.903 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	knuee-srv1: 2 total cores, maximum 2 commands in parallel.
+Selecting "knuee-srv1" as Primary host
+
+System Startup Time=0:00:01 User=0.01 Sys=0.06 Mem=0.903 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/run_details/invx0.sum
+    /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/run_details/saed32nm_1p9m_drc_rules.drc.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:04
+Unset QT_XCB_NATIVE_PAINTING for VUE
+
+Completing error storage...
+  Overall error storage time: User=0.02 Sys=0.02 Mem=0.001 GB
+
+Generating invx0.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+
+IC Validator Run: Time=0:00:09
+
+-------------
+
+IC Validator Machine Memory Report
+knuee-srv1   : Average = 0.161 GB, Peak = 0.161 GB
+
+Overall Disk Usage Disk=0.009 GB
+Network Disk Usage Peak=0.011 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:09 Highest command Mem=0.161 GB
+
+Overall Master Mem=1.010 GB
+IC Validator is done.

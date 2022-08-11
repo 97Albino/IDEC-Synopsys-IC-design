@@ -1,0 +1,35 @@
+73683:11 Aug 10:56:01.799 : Launched Redis process 73684 on port 32889. Attempting to connect...
+73684:C 11 Aug 2022 10:56:01.806 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+73684:C 11 Aug 2022 10:56:01.806 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=73684, just started
+73684:C 11 Aug 2022 10:56:01.806 # Configuration loaded
+73684:M 11 Aug 2022 10:56:01.808 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+73684:M 11 Aug 2022 10:56:01.808 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+73684:M 11 Aug 2022 10:56:01.808 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+73684:M 11 Aug 2022 10:56:01.809 * Running mode=standalone, port=32889.
+73684:M 11 Aug 2022 10:56:01.809 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+73684:M 11 Aug 2022 10:56:01.809 # Server initialized
+73684:M 11 Aug 2022 10:56:01.809 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+73684:M 11 Aug 2022 10:56:01.809 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+73684:M 11 Aug 2022 10:56:01.811 * Ready to accept connections
+73683:11 Aug 10:56:01.812 : Successfully connected to Redis at 127.0.0.1:32889
+73683:11 Aug 10:56:01.813 : Successfully connected to local Redis instance at knuee-srv1:32889
+73689:11 Aug 10:56:10.467 : [11 Aug 10:56:01.847] Service 'cluster' registered on knuee-srv1:52910
+73690:11 Aug 10:56:10.467 : [11 Aug 10:56:01.848] Service 'lock_manager' registered on knuee-srv1:43467
+73692:11 Aug 10:56:10.468 : [11 Aug 10:56:01.852] Service 'memory_manager' registered on knuee-srv1:60498
+73693:11 Aug 10:56:10.468 : [11 Aug 10:56:01.853] Service 'cleanup' registered on knuee-srv1:52985
+73691:11 Aug 10:56:10.468 : [11 Aug 10:56:01.904] Service 'hdb' registered on knuee-srv1:59133
+73713:11 Aug 10:56:10.468 : [11 Aug 10:56:05.695] Service 'license_manager' registered on knuee-srv1:36040
+73674:11 Aug 10:56:10.468 : [11 Aug 10:56:06.088] Service 'add_host' registered on knuee-srv1:36590
+73730:11 Aug 10:56:10.468 : [11 Aug 10:56:06.121] Per-host service 'worker_pool' registered on knuee-srv1:33059
+73730:11 Aug 10:56:10.468 : [11 Aug 10:56:06.121] Per-host service 'host_stats' registered on knuee-srv1:36551
+73689:11 Aug 10:56:10.468 : [11 Aug 10:56:10.406] Removing service 'service:cluster'
+73690:11 Aug 10:56:10.468 : [11 Aug 10:56:10.406] Removing service 'service:lock_manager'
+73691:11 Aug 10:56:10.469 : [11 Aug 10:56:10.406] Removing service 'service:hdb'
+73692:11 Aug 10:56:10.469 : [11 Aug 10:56:10.406] Removing service 'service:memory_manager'
+73713:11 Aug 10:56:10.469 : [11 Aug 10:56:10.413] Removing service 'service:license_manager'
+73730:11 Aug 10:56:10.469 : [11 Aug 10:56:10.414] Removing service 'service:worker_pool:knuee-srv1'
+73730:11 Aug 10:56:10.469 : [11 Aug 10:56:10.414] Removing service 'service:host_stats:knuee-srv1'
+73674:11 Aug 10:56:10.469 : [11 Aug 10:56:10.444] Removing service 'service:add_host'
+73683:11 Aug 10:56:10.469 : Parent died. Exiting.
+73684:M 11 Aug 2022 10:56:10.469 # User requested shutdown...
+73684:M 11 Aug 2022 10:56:10.469 # Redis is now ready to exit, bye bye...

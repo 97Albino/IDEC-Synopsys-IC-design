@@ -1,0 +1,18 @@
+_XSERVTransMakeAllCOTSServerListeners: failed to create listener for inet6
+_XSERVTransMakeAllCOTSServerListeners: failed to create listener for inet
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Thu Aug 11 10:56:10 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 79945
+ vncext:      created VNC server for screen 0
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Internal error:   Could not resolve keysym XF86AudioMicMute
+> Internal error:   Could not resolve keysym XF86WWAN
+> Internal error:   Could not resolve keysym XF86RFKill
+Errors from xkbcomp are not fatal to the X server

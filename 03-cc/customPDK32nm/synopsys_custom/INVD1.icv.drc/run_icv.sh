@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc; exec-oa22.60.021.icv icv -f openaccess -i reference -c INVD1 -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/saed32nm_1p9m_lvs_rules.drc.rs > /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/stdout.drc.log 2>&1

@@ -1,0 +1,73 @@
+BEGIN_FILE_CONFIG
+UNITS=GB
+MEMORY_REPORT=HOST
+END_FILE_CONFIG
+
+
+                                  ICV_Manager 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Called as: icv -f openaccess -i reference -c INVD1 -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/saed32nm_1p9m_lvs_rules.drc.rs
+ 
+
+-------------
+
+Production Environment Variables
+
+HOME = "/home/KNUEEhdd1/idec/IDEC25"
+ICV_HOME_DIR = "/usr/synopsys/icv/S-2021.06-SP2"
+PATH = "/usr/synopsys/icv/S-2021.06-SP2/bin/LINUX64_L31el:/usr/synopsys/icv/S-2021.06-SP2/contrib/bin/LINUX64_L31el:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/OA/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/OA/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/usr/synopsys/icv/S-2021.06-SP2/bin:/usr/synopsys/primewave/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/cuda/bin:/usr/local/cuda/bin:/bin"
+SNPSLMD_LICENSE_FILE = "26585@143.248.230.188"
+USER = "IDEC25"
+
+5 production environment variables set.
+
+-------------
+
+Debug Environment Variables
+
+0 debug environment variables set.
+
+-------------
+
+Runset Checksum Section
+***********************
+
+saed32nm_1p9m_lvs_rules.lvs.rs : c7434e593bf261a509d23c1d09c3f81b : /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs
+runset : ef0c31c40cbbb4843beeda5360088e7d
+
+End Runset Checksum Section
+***************************
+
+FTW N/A
+skipped fill-opt because no known fill command was scanned
+LVS single connect optimization is enabled. 
+Automatic Small Cell determination enabled
+Small Cell not enabled
+Timestamp: 4.99608 sec: Start build segment #0
+Timestamp: 5.00095 sec: Finish build segment #0
+Timestamp: 5.00096 sec: DP was busy for 0.00487 sec
+Virtual Machine Init Time=0:00:01 User=0.03 Sys=0.01 Mem=0.902 GB
+
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:89: error: schematic(schematic_file.filename = "CELLNAME.sp").  The input file is not accessible for reading.
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/CELLNAME.sp: file does not exist
+
+IC Validator VM exited with a run-time error

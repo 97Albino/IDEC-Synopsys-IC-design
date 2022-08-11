@@ -1,0 +1,12 @@
+* XREF SPICE	Thu Aug 11 10:56:10 2022	inv
+* icv_netlist Version RHEL64 S-2021.06-SP2.6831572 2021/08/30
+
+* Top of hierarchy  cell=inv
+.subckt inv vss vdd in1 out1
+M_MM11 out1 in1 vss vss n105  l=1.5e-08 w=7e-08 nf=1 m=1 ad=9.94e-15 as=8.89e-15
++	 ps=3.94e-07 pd=4.24e-07 SCC=0.0175061 SCA=794.009 SCB=0.0357222 nrd=2.02857
++	 nrs=1.81429
+M_MM12 out1 in1 vdd vdd p105  l=1.5e-08 w=7.3e-08 nf=1 m=1 ad=1.0293e-14 as=8.979e-15
++	 ps=3.92e-07 pd=4.28e-07 SCC=0.0535566 SCA=3886.04 SCB=0.126641 nrd=1.93151
++	 nrs=1.68493
+.ends inv

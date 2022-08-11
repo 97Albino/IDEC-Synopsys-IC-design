@@ -1,0 +1,42 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i reference -c INVD1 -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/saed32nm_1p9m_lvs_rules.drc.rs
+
+
+
+
+Parsing runset "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/saed32nm_1p9m_lvs_rules.drc.rs"
+
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:1257: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:1405: warning: Some LVS reports change since 2019.12 release. Set environment variable 'ICV_REVERT_LVS_REPORT_IN_IDENTICAL_STRING' to see old LVS reports.
+Loaded runset from cache: /home/KNUEEhdd1/idec/IDEC25/.icvrscache/e21ad758dba5b5b7ada377d25c472e47-59083A47-4EBF-4A1D-90DB-F8EDF2C1AF9D-knuee-srv1-110637.rscache
+Cached Runset Compile Time=0:00:04 User=4.55 Sys=0.17 Mem=0.902 GB
+
+Virtual Machine Init Time=0:00:01 User=0.03 Sys=0.01 Mem=0.902 GB
+
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.lvs/saed32nm_1p9m_lvs_rules.lvs.rs:89: error: schematic(schematic_file.filename = "CELLNAME.sp").  The input file is not accessible for reading.
+/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVD1.icv.drc/CELLNAME.sp: file does not exist
+
+
+IC Validator VM exited with a run-time error
+IC Validator Run: Time=0:00:05
+IC Validator did not complete.

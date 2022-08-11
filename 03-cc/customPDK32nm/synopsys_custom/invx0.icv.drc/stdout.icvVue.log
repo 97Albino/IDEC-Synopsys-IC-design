@@ -1,0 +1,101 @@
+Unset QT_XCB_NATIVE_PAINTING for VUE
+  + INFO: Connected to Custom Compiler at 40277.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc
+L setTopLayLCV tg4/invx0/layout
+L openLCV tg4/invx0/layout
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+L setCurLayLCV tg4/invx0/layout
+L openLCV tg4/invx0/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/KNUEEhdd1/idec/IDEC25/.synopsys/icv/vue_tmp_000000/highlight_20220810165210_000000.oas 6e1641fcaeec94d88c0668fc6fe3e034
+
+< LAYOUT: zoom_extents >
+L setViewPort 0.86825 0.094875 0.90575 0.096125
+
+< LAYOUT: drc_error >
+L addErrorDescription Distance: 0
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc
+L setTopLayLCV tg4/invx0/layout
+L openLCV tg4/invx0/layout
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+L setCurLayLCV tg4/invx0/layout
+L openLCV tg4/invx0/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/KNUEEhdd1/idec/IDEC25/.synopsys/icv/vue_tmp_000000/highlight_20220810165509_000001.oas 6e1641fcaeec94d88c0668fc6fe3e034
+
+< LAYOUT: zoom_extents >
+L setViewPort 0.86825 0.094875 0.90575 0.096125
+
+< LAYOUT: drc_error >
+L addErrorDescription Distance: 0
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+  + INFO: Close the connection with Custom Compiler.

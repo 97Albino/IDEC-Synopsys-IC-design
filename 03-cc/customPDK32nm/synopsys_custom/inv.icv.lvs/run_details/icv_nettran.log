@@ -1,0 +1,35 @@
+/* ICV_Nettran: RHEL64 S-2021.06-SP2.6831572 2021/08/30 */
+/* Created:  8/11/2022  10:56   */
+
+                                  ICV_Nettran 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Options: -sp /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp -cell inv -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 VDD2 VDDG VDDH VDDL VDDIO VSSIO -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron 
+
+Pre-parsing "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp" netlist ...
+Reading "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/inv.icv.lvs/inv.icv.sp" netlist ...
+Loading cell "inv" ...
+[Nettran Report] Reading Netlist(s): Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+Processing Hierarchy ...
+[Nettran Report] Post Process: Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+Writing NDB netlist ...
+[Nettran Report] Output Netlist: Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+Translation completed.
+[Nettran Report] Nettran Total Runtime: Check Time=0:00:00  User=0.13 Sys=0.03 Mem=0.009 GB

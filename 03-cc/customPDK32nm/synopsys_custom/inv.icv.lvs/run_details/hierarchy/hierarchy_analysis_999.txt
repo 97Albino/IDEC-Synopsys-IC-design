@@ -1,0 +1,65 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains a single entry
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ inv                                           |         0.000,         0.000,              1,              1,       100.00 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains a single entry
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ inv                                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 6 entries
+Original table contains 6 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ COi                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ DIFFi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ PIMPi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

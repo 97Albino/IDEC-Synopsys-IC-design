@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "N-2017.12 linux64"
+* "format" "HSP"
+* "rundate" "16:06:17 08/09/2022 "
+* "netlist" "sample1.sp "
+* "runtitle" "*modified hspice netlist"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   0.            
++ ou1 =   1.0499        
++ vdd =   1.0500        
+***   END: Saved Operating Point ***                     

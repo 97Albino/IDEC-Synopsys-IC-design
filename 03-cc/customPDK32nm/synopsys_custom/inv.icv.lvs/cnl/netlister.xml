@@ -1,0 +1,77 @@
+<netlister tool="auCdl">
+<procedures>
+<procedure ID="0" command="nl::spiceAllowNameMap"/>
+<procedure ID="1" command="nl::cdlIsTextModule"/>
+<procedure ID="2" command="nl::isModuleUpToDate"/>
+<procedure ID="3" command="nl::saveModuleState"/>
+<procedure ID="4" command="nl::internal::crossViewCheckCDL"/>
+<procedure ID="5" command="nl::utils::_preNetlist"/>
+</procedures>
+<events>
+<event ID="0" command="nl::netlistMainHandler"/>
+<event ID="1" command="nl::cdlNetlistBegin"/>
+<event ID="2" command="nl::cdlNetlistBody"/>
+<event ID="3" command="nl::internal::cdlTextModule"/>
+<event ID="4" command="nl::moduleHandler"/>
+<event ID="5" command="nl::modulePreprocessHandler"/>
+<event ID="6" command="nl::cdlModuleHeader"/>
+<event ID="7" command="nl::moduleBodyHandler"/>
+<event ID="8" command="nl::nlPrintCdlInstance"/>
+<event ID="9" command=""/>
+<event ID="10" command="nl::instHeaderHandler"/>
+<event ID="11" command="nl::cdlModuleFooter"/>
+<event ID="12" command="nl::cdlNetlistEnd"/>
+</events>
+<attributes>
+<attribute nameMapProc="nl::internal::cdlNameMapProc"/>
+<attribute supportsFeedthroughs="0"/>
+<attribute amsWorkerMode="0"/>
+<attribute shortNetsByJumper="0"/>
+<attribute collectGlobals="1"/>
+<attribute instOrder="0"/>
+<attribute scalarizeTerminals="0"/>
+<attribute scalarizeInsts="1"/>
+<attribute instHeaderOrder="0"/>
+<attribute commentPrefix="*"/>
+<attribute indentDepth="2"/>
+<attribute lineMaxLength="80"/>
+<attribute lineWrapSuffix=""/>
+<attribute ignoreParasitics="0"/>
+<attribute processNetTypes="0"/>
+<attribute keepBitOrderForSorting="0"/>
+<attribute checkLeafTerminals=""/>
+<attribute ignoredConnectDefsPref=""/>
+<attribute sortInstHeaders="0"/>
+<attribute sortInsts="0"/>
+<attribute domain="1"/>
+<attribute moduleOrder="1"/>
+<attribute defaultNetlistProc="nl::nlPrintCdlInstance"/>
+<attribute instPostProc=""/>
+<attribute instHeaderProc="nl::instHeaderHandler"/>
+<attribute isTextModuleProc="nl::cdlIsTextModule"/>
+<attribute modulePreprocessProc="nl::modulePreprocessHandler"/>
+<attribute moduleProc="nl::internal::cdlTextModule"/>
+<attribute netlistMainProc="nl::netlistMainHandler"/>
+<attribute saveModuleStateProc="nl::saveModuleState"/>
+<attribute crossViewCheckProc="nl::internal::crossViewCheckCDL"/>
+<attribute textModuleProc="nl::cdlIsTextModule"/>
+<attribute netlistBeginProc="nl::cdlNetlistBegin"/>
+<attribute netlistBodyProc="nl::cdlNetlistBody"/>
+<attribute netlistEndProc="nl::cdlNetlistEnd"/>
+<attribute moduleBodyProc="nl::moduleBodyHandler"/>
+<attribute moduleFooterProc="nl::cdlModuleFooter"/>
+<attribute moduleHeaderProc="nl::cdlModuleHeader"/>
+<attribute checkModuleProc="nl::isModuleUpToDate"/>
+<attribute allowNameMapProc="nl::spiceAllowNameMap"/>
+<keepBitOrder value="0"/>
+</attributes>
+<validationProcs/>
+<expressionsMapping>
+<valueProc name="nl::hspiceValue"/>
+<designVarProc name=""/>
+<unaryOperatorProc name="nl::hspiceUnaryOperator"/>
+<binaryOperatorProc name=""/>
+<ternaryOperatorProc name="nl::hspiceTernaryOperator"/>
+<functionProc name=""/>
+</expressionsMapping>
+</netlister>

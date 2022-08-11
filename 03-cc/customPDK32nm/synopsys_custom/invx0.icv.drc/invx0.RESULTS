@@ -1,0 +1,163 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i tg4 -c invx0 -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/saed32nm_1p9m_drc_rules.drc.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        tg4
+Top cell name:          invx0
+Layout format:          OPENACCESS
+Runset file:            /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/saed32nm_1p9m_drc_rules.drc.rs
+Working directory:      /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc
+Run details directory:  /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/invx0.icv.drc/run_details
+Layout error file:      invx0.LAYOUT_ERRORS
+User name:              IDEC25
+Time started:           2022/08/10 04:54:37PM
+Time ended:             2022/08/10 04:54:46PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+397 total rules were run.
+0 rules NOT EXECUTED.
+11 rules have violations.
+There are 37 total violations.
+Refer to invx0.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                                                       Violations Found
+CO.B.1                                                     v = 2
+CO.E.12                                                    v = 2
+CO.E.7/CO.E.12                                             v = 1
+CO.S.3                                                     v = 6
+CO.S.3                                                     v = 4
+CO.S.5                                                     v = 1
+CO.W.1                                                     v = 9
+M1.S.1                                                     v = 3
+NIMP.E.3                                                   v = 4
+PIMP.E.3                                                   v = 4
+PO.G.2:PO(>0.1) spacing to PO(>0.1) must be exact          v = 1
+0.182,PO(>0.1) spacing to PO(<0.1) must be exact 
+0.152,PO(<0.1) spacing to PO(<0.1) must be exact 0.122 
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 33
+ Empty Utilized Assign Layers = 26
+ Non-Empty Utilized Assign Layers = 7
+Pruned Assign Layers = 53
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 10000000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/KNUEEhdd1/idec/IDEC25"
+ICV_HOME_DIR = "/usr/synopsys/icv/S-2021.06-SP2"
+PATH = "/usr/synopsys/icv/S-2021.06-SP2/bin/LINUX64_L31el:/usr/synopsys/icv/S-2021.06-SP2/contrib/bin/LINUX64_L31el:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/OA/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/OA/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/usr/synopsys/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/usr/synopsys/icv/S-2021.06-SP2/bin:/usr/synopsys/primewave/S-2021.09/bin:/usr/synopsys/customcompiler/S-2021.09/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/cuda/bin:/usr/local/cuda/bin:/bin"
+SNPSLMD_LICENSE_FILE = "26585@143.248.230.188"
+USER = "IDEC25"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+0 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ knuee-srv1 (2/72)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Gold 5220 CPU @ 2.20GHz
+   CPU:   72 cpu 3238 MHz
+   Cores: 36 HT
+   RAM:   187.383 GB
+   Swap:  15.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:09
+Peak Single Command Memory = 0.161 GB
+Peak Disk Usage = 0.009 GB
+Network Disk Usage Peak=0.011 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+
+Distributed Host Memory Usage
+ knuee-srv1 (2/72)  ....  Average=0.161 GB, Peak=0.161 GB / 187.383 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

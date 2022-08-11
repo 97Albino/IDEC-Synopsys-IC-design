@@ -1,0 +1,11 @@
+{NETLIST inv
+{VERSION 2 0 0}
+
+{CELL inv
+    {PORT in1 out1 vss vdd }
+    {INST M2=p105 {TYPE MOS} {COORD x=0.575 y=0.240 }{PROP n="p105" Length=0.015 Width=0.073 Mult=1 NF=1 }
+	{PIN out1=DRN in1=GATE vdd=SRC vdd=BULK }}
+    {INST M1=n105 {TYPE MOS} {COORD x=0.575 y=0.089 }{PROP n="n105" Length=0.015 Width=0.07 Mult=1 NF=1 }
+	{PIN out1=DRN in1=GATE vss=SRC vss=BULK }}
+}
+}
