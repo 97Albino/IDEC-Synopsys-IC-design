@@ -1,0 +1,27 @@
+
+Load ICV ICCII menu file: /usr/synopsys/icv/S-2021.06-SP2/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE WARNING: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2447
+
+icc2_shell> open_block /home/KNUEEhdd1/idec/IDEC25/01-aes/aes:aes_cipher_top/route_opt.design
+Information: User units loaded from library 'saed32_hvt|saed32_hvt_std' (LNK-040)
+Opening block 'aes:aes_cipher_top/route_opt.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Begin building search trees for block aes:aes_cipher_top/route_opt.design
+Done building search trees for block aes:aes_cipher_top/route_opt.design (time 0s)
+icc2_shell> link_block
+Using libraries: aes saed32_hvt
+Warning: In library aes, no block views exist for block aes_cipher_top. (LNK-064)
+Visiting block aes:aes_cipher_top/route_opt.design
+Design 'aes_cipher_top' was successfully linked.
+1
+icc2_shell> exit
+Maximum memory usage for this session: 361.14 MB
+CPU usage for this session:    111 seconds (  0.03 hours)
+Elapsed time for this session:    903 seconds (  0.25 hours)
+Thank you for using IC Compiler II.
+

@@ -1,0 +1,159 @@
+[14:04:24.35] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Aug 11 14:04:20 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm
+              /c 
+[14:04:27.17] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
+[14:04:27.70] /r giShowFrameTabs true
+[14:04:27.70] /r giWindowId 1
+[14:04:27.70] /r giWindowGeometry 1040x800
+[14:04:28.17] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[14:04:30.24] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:04:30.24] /# 
+[14:04:30.55] /i gi::addWindow [dm::openLibraryManager] -to 1
+[14:04:30.55] /r giWindowId 2
+[14:04:30.55] /r giWindowGeometry 660x600+50+78
+[14:04:33.50] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:04:33.50] /i db::showImportStream
+[14:04:33.54] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[14:04:33.54] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:04:33.60] /o 	############################################
+[14:04:33.60] /o 	--------------------------------------------
+[14:04:33.60] /o 	PDK Name................... : SAED_PDK_32_28
+[14:04:33.60] /o 	PDK Release Date........... : 25-Jun-2015
+[14:04:33.60] /o 	PDK Custom Designer Version : J-2014.12-2
+[14:04:33.60] /o 	--------------------------------------------
+[14:04:33.60] /o 	############################################
+[14:04:33.60] /o 
+[14:04:33.69] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:04:33.97] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+379+65
+[14:04:38.21] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+105
+[14:04:48.43] /i gi::setField {libName} -value {tg1} -in [gi::getDialogs {dbImportStream}]
+[14:04:51.67] /i gi::pressButton {fileNameBrowse} -in [gi::getDialogs {dbImportStream}]
+[14:05:22.37] /r giFileDialog accept ../../01-aes/aes.gds
+[14:05:26.83] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportStream}]
+[14:05:26.86] /m Information: License 'Apex' checked out. (LICENSE-003)
+[14:05:26.92] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[14:05:27.25] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 377x82+704+381
+[14:05:30.03] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {giPrompt}]
+[14:05:30.09] /# xt::createJob importStream  -type batch -cmdLine " cd \"/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm\"; importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_05_30.log -gds \"/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.gds \" -lib tg1 -view layout -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -hierDepth 256 -filterDots  -useTechLayerMap  -useTechObjectMap  -propSeparator , -id e0b41d98 " -runDesc "Translates GDSII data to the OpenAccess database." -exitProc "data_io::exit_proc" -files "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_05_30.log"
+[14:05:30.09] /m Information: "Starting Stream Import." (DATA_IO_COMMANDS-001)
+[14:05:31.57] /m Information: "Stream import finished successfully with 0 error, 163 warnings." (DATA_IO_COMMANDS-002)
+[14:05:31.64] /w Warning: Could not execute Tcl procedure '::xt::physicalVerification::_private::variantPrefValueChangeProc'. Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'. (PREFERENCE-077)
+[14:05:32.02] /i gi::setCurrentIndex {libs} -index {tg1} -in [gi::getWindows 2]
+[14:05:32.04] /i gi::setItemSelection {libs} -index {tg1} -in [gi::getWindows 2]
+[14:06:14.47] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+179+56
+[14:06:15.12] /i gi::setCurrentIndex {cells} -index {LSUPX1_HVT} -in [gi::getWindows 2]
+[14:06:15.12] /i gi::setItemSelection {cells} -index {LSUPX1_HVT} -in [gi::getWindows 2]
+[14:06:15.32] /i gi::setCurrentIndex {cells} -index {LSUPENCLX4_HVT} -in [gi::getWindows 2]
+[14:06:15.32] /i gi::setItemSelection {cells} -index {LSUPENCLX4_HVT} -in [gi::getWindows 2]
+[14:06:20.10] /i gi::setCurrentIndex {cells} -index {AO21X1_HVT} -in [gi::getWindows 2]
+[14:06:20.11] /i gi::setItemSelection {cells} -index {AO21X1_HVT} -in [gi::getWindows 2]
+[14:06:20.60] /i gi::setCurrentIndex {cells} -index {ANTENNA_HVT} -in [gi::getWindows 2]
+[14:06:20.60] /i gi::setItemSelection {cells} -index {ANTENNA_HVT} -in [gi::getWindows 2]
+[14:06:21.56] /i gi::setCurrentIndex {cells} -index {AND2X2_HVT} -in [gi::getWindows 2]
+[14:06:21.56] /i gi::setItemSelection {cells} -index {AND2X2_HVT} -in [gi::getWindows 2]
+[14:06:21.73] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:06:21.73] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:06:21.77] /r giWindowId 3
+[14:06:21.77] /r giWindowGeometry 1190x660
+[14:06:24.23] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:06:28.19] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:06:28.19] /i db::showImportStream
+[14:06:28.30] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:06:28.58] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+68
+[14:06:41.95] /i gi::setCurrentIndex {cells} -index {SDFFX1_HVT} -in [gi::getWindows 2]
+[14:06:41.96] /i gi::setItemSelection {cells} -index {SDFFX1_HVT} -in [gi::getWindows 2]
+[14:06:55.31] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:06:55.31] /i db::showImportStream
+[14:06:55.42] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:06:55.74] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+65
+[14:07:33.27] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+593+122
+[14:07:35.27] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+606+141
+[14:07:35.98] /i gi::setField {techTypeDefault} -value {true} -in [gi::getDialogs {dbImportStream}]
+[14:07:39.79] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportStream}]
+[14:07:39.84] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[14:07:40.16] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 377x82+729+417
+[14:07:41.04] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {giPrompt}]
+[14:07:41.06] /# xt::createJob importStream  -type batch -cmdLine " cd \"/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm\"; importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_07_41.log -gds \"/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.gds \" -lib tg1 -view layout -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -hierDepth 256 -filterDots  -useTechLayerMap  -useTechObjectMap  -propSeparator , -id e0b41d90 " -runDesc "Translates GDSII data to the OpenAccess database." -exitProc "data_io::exit_proc" -files "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_07_41.log"
+[14:07:41.06] /m Information: "Starting Stream Import." (DATA_IO_COMMANDS-001)
+[14:07:42.17] /m Information: "Stream import finished successfully with 0 error, 17 warnings." (DATA_IO_COMMANDS-002)
+[14:07:42.24] /w Warning: Could not execute Tcl procedure '::xt::physicalVerification::_private::variantPrefValueChangeProc'. Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'. (PREFERENCE-077)
+[14:07:43.21] /i gi::setCurrentIndex {libs} -index {tg2} -in [gi::getWindows 2]
+[14:07:43.22] /i gi::setItemSelection {libs} -index {tg2} -in [gi::getWindows 2]
+[14:07:43.70] /i gi::setCurrentIndex {libs} -index {tg1} -in [gi::getWindows 2]
+[14:07:43.72] /i gi::setItemSelection {libs} -index {tg1} -in [gi::getWindows 2]
+[14:07:47.61] /i gi::setCurrentIndex {cells} -index {aes_cipher_top} -in [gi::getWindows 2]
+[14:07:47.61] /i gi::setItemSelection {cells} -index {aes_cipher_top} -in [gi::getWindows 2]
+[14:07:48.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:07:48.62] /r giWindowId 4
+[14:07:48.62] /r giWindowGeometry 1190x660
+[14:07:50.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.15] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.22] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.22] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.38] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.38] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.45] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.91] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.783 95.441}
+[14:07:50.94] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.94] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.783 95.325}
+[14:07:51.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[14:07:51.52] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {157.469 94.415}
+[14:07:52.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[14:07:52.10] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {157.352 94.15}
+[14:07:53.21] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:53.21] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.518 94.349}
+[14:24:43.34] /i gi::setActiveWindow 2
+[14:24:43.34] /i gi::setActiveWindow 2 -raise true
+[14:24:45.93] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setField {cellsFilter} -value {inv} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setCurrentIndex {cells} -index {INVX1_HVT} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setItemSelection {cells} -index {INVX1_HVT} -in [gi::getWindows 2]
+[14:24:52.60] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:24:52.62] /r giWindowId 5
+[14:24:52.64] /r giWindowGeometry 1190x660
+[14:24:54.85] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:24:54.85] /i de::zoom -window [gi::getWindows 5] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.485 0.823}
+[14:24:54.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:24:54.87] /i de::zoom -window [gi::getWindows 5] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.485 0.823}
+[14:24:55.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:24:55.63] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.471 0.885}
+[14:24:56.88] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:24:56.88] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.615 1.026}
+[14:24:58.67] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:58.67] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:58.85] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:58.85] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.22] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:24:59.22] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.39] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:24:59.39] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.86] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:59.86] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:25:00.40] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:25:00.40] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]

@@ -1,0 +1,44 @@
+[14:03:10.29] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Aug 11 14:03:06 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25/01-aes
+              /c 
+[14:03:13.20] /r giShowFrameTabs true
+[14:03:13.20] /r giWindowId 1
+[14:03:13.21] /r giWindowGeometry 1040x800
+[14:03:13.67] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[14:03:17.08] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:03:17.09] /# 
+[14:03:17.39] /i gi::addWindow [dm::openLibraryManager] -to 1
+[14:03:17.39] /r giWindowId 2
+[14:03:17.39] /r giWindowGeometry 660x600+50+78
+[14:04:00.19] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[14:04:01.98] /i exit
+[14:04:02.05] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:04:02.37] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 419x181+490+323
+[14:04:03.30] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:04:04.04] /o Shutdown time: Thu Aug 11 14:04:04 2022
+[14:04:04.04] /o Elapsed session real time: 0.9 minutes
+[14:04:04.04] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/01-aes/synopsys_custom/logs/ccompiler.IDEC25.2022_8_11_140306_123845.log

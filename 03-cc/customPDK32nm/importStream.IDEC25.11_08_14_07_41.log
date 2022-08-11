@@ -1,0 +1,52 @@
+*****************************************************************************
+Tool:		importStream        S-2021.09
+*****************************************************************************
+Running: importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_07_41.log -lib tg1 -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -gds "/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.gds" -hierDepth 256 -propSeparator , -view layout -filterDots -useTechLayerMap -useTechObjectMap
+Started: Thu Aug 11 14:07:41 2022 (Hostname: knuee-srv1)
+
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12SQ_C_1200_1200_1_2_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12SQ_1200_1200_1_2_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA23SQ_1200_1200_1_2_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA23SQ_C_1200_1200_1_2_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12SQ_C_1200_1200_2_1_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12SQ_1200_1200_2_1_1/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12BAR_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA23SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA34SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA45SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA12BAR/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA56SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA67SQ_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA34BAR_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/$$VIA23BAR_C/layout cellView already exists
+WARNING: (IMPORT_STREAM-12014): Skipping translation. tg1/aes_cipher_top/layout cellView already exists
+
+Primary Cell(s):
+
+Cell Statistics:
+	CellName  Rectangles  Polygons    Paths       PathSegs    Labels      Instances   Arrays      StdVias     CustomVias  
+
+Layer Statistics:
+	StreamLayer  StreamDataType  Layer       Purpose     Rectangles  Polygons    Paths       PathSegs    Labels      
+
+Summary of Objects:
+	Instances:                    0
+	CustomVias:                   0
+	CustomViaDef:                 0
+	Arrays:                       0
+	Polygons:                     0
+	Paths:                        0
+	PathSegs:                     0
+	Rectangles:                   0
+	Text:                         0
+	Cells:                        0
+	Skipped Zero-Area Polygons:   0
+
+
+Finished:     importStream
+Time Elapsed: 0.12 seconds
+CPU Time:     0.272135 seconds
+System Time:  0.046536 seconds
+Peak VM:      7680000 bytes
+Messages:     0 error, 17 warnings

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      IDEC25
+HostName                       knuee-srv1
+ProcessIdentifier              128229
+ProcessCreationTime_UTC        1660194263
+ProcessCreationTime_Readable   Thu 11 Aug 2022 02:04:23 PM KST KST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/tg1/INVX1_HVT/layout/layout.oa.cdslck
+TimeEditLocked                 Thu 11 Aug 2022 02:24:52 PM KST KST

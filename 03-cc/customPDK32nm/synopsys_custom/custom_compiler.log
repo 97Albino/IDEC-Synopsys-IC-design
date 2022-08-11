@@ -1,4 +1,4 @@
-[10:52:30.42] /o 
+[14:04:24.35] /o 
               /c                                 Custom Compiler 
               /c 
               /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
@@ -21,195 +21,139 @@
               /c 
               /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
               /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
-              /c Execution time: Thu Aug 11 10:52:27 2022
+              /c Execution time: Thu Aug 11 14:04:20 2022
               /c Host: knuee-srv1
               /c Working directory: /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm
               /c 
-[10:52:32.86] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
-[10:52:33.19] /r giShowFrameTabs true
-[10:52:33.19] /r giWindowId 1
-[10:52:33.19] /r giWindowGeometry 1040x800
-[10:52:33.61] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
-[10:52:35.34] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
-[10:52:35.34] /# 
-[10:52:35.64] /i gi::addWindow [dm::openLibraryManager] -to 1
-[10:52:35.64] /r giWindowId 2
-[10:52:35.64] /r giWindowGeometry 660x600+50+78
-[10:52:37.86] /i gi::setCurrentIndex {libs} -index {review} -in [gi::getWindows 2]
-[10:52:37.87] /i gi::setItemSelection {libs} -index {review} -in [gi::getWindows 2]
-[10:52:39.28] /i gi::setCurrentIndex {cells} -index {inv} -in [gi::getWindows 2]
-[10:52:39.28] /i gi::setItemSelection {cells} -index {inv} -in [gi::getWindows 2]
-[10:52:40.60] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
-[10:52:40.60] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
-[10:52:41.03] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
-[10:52:41.03] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
-[10:52:41.33] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
-[10:52:41.34] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
-[10:52:42.24] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
-[10:52:42.24] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
-[10:52:43.45] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
-[10:52:43.45] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
-[10:52:44.74] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
-[10:52:44.74] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
-[10:52:45.24] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
-[10:52:45.27] /m Information: License 'Apex' checked out. (LICENSE-003)
-[10:52:45.28] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
-[10:52:45.29] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
-[10:52:45.33] /o 	############################################
-[10:52:45.33] /o 	--------------------------------------------
-[10:52:45.33] /o 	PDK Name................... : SAED_PDK_32_28
-[10:52:45.33] /o 	PDK Release Date........... : 25-Jun-2015
-[10:52:45.33] /o 	PDK Custom Designer Version : J-2014.12-2
-[10:52:45.33] /o 	--------------------------------------------
-[10:52:45.33] /o 	############################################
-[10:52:45.33] /o 
-[10:52:45.35] /r giWindowId 3
-[10:52:45.35] /r giWindowGeometry 1190x660
-[10:52:46.98] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
-[10:52:47.78] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
-[10:52:47.79] /i ile::split
-[10:52:53.92] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
-[10:52:53.92] /i xt::showLVSSetup -job lvs -window 3
-[10:52:54.50] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+562+291
-[10:53:00.16] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:53:00.25] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
-[10:53:00.27] /m Information: "Starting netlisting for design "review/inv/schematic"..." (NETLISTING-010)
-[10:53:00.28] /m Information: 
-[10:53:00.28] /o Checking "review/inv/schematic"
-[10:53:00.28] /o No rule violations found in "review/inv/schematic"
-[10:53:00.28] /o No Design Integrity rule violations found in "review/inv/schematic"
-[10:53:00.30] /m Information: "Netlisting design "review/inv/schematic" finished successfully." (NETLISTING-012)
-[10:53:00.85] /r giWindowId 4
-[10:53:00.86] /r giWindowGeometry 800x600
-[10:53:10.68] /m Information: 
-              /c =============================
-              /c JobID: icv_lvs_14
-              /c --- ERROR SUMMARY -----------
-              /c LVS Device Extraction Error Summary
-              /c 7 total rules were run.
-              /c 0 rules NOT EXECUTED.
-              /c 0 rules have violations.
-              /c There are 0 total violations.
-              /c Refer to inv.LAYOUT_ERRORS
-              /c =============================
-              /c 
-[10:53:10.86] /w Warning: Initialize IC Validator VUE Server failed at port 9189: couldn't open socket: address already in use.
-[10:53:10.86] /m Information: Attempt to bind to an available port.
-[10:53:10.86] /m Information: IC Validator VUE Server initialized successfully at port 40495.
-[10:53:16.17] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+181+56
-[10:53:27.68] /i gi::setActiveTab {tabs} -tabName {inv.LVS_ERRORS} -in [gi::getWindows 4]
-[10:53:34.06] /i gi::setActiveTab {tabs} -tabName {inv.LAYOUT_ERRORS} -in [gi::getWindows 4]
-[10:53:37.39] /i gi::setActiveTab {tabs} -tabName {inv.RESULTS} -in [gi::getWindows 4]
-[10:53:38.43] /i gi::setActiveTab {tabs} -tabName {saed32nm_1p9m_lvs_rules.lvs.rs} -in [gi::getWindows 4]
-[10:53:39.37] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 4]
-[10:53:40.93] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:53:56.61] /i gi::setActiveWindow 3
-[10:53:56.61] /i gi::setActiveWindow 3 -raise true
-[10:54:02.63] /# gi::executeAction {xtLVSDebug} -in [gi::getWindows 3]
-[10:54:02.63] /i xt::physicalVerification::startDebugger lvs 3
-[10:54:18.85] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
-[10:54:18.85] /i xt::showLVSSetup -job lvs -window 3
-[10:54:19.37] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+562+291
-[10:54:27.74] /i gi::pressButton {/apply} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:54:27.81] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
-[10:54:27.82] /m Information: "Starting netlisting for design "review/inv/schematic"..." (NETLISTING-010)
-[10:54:27.84] /m Information: 
-[10:54:27.84] /o Checking "review/inv/schematic"
-[10:54:27.84] /o No rule violations found in "review/inv/schematic"
-[10:54:27.84] /o No Design Integrity rule violations found in "review/inv/schematic"
-[10:54:27.85] /m Information: "Netlisting design "review/inv/schematic" finished successfully." (NETLISTING-012)
-[10:54:30.79] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+1043+243
-[10:54:35.77] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+1220+222
-[10:54:38.38] /m Information: 
-              /c =============================
-              /c JobID: icv_lvs_15
-              /c --- ERROR SUMMARY -----------
-              /c LVS Device Extraction Error Summary
-              /c 7 total rules were run.
-              /c 0 rules NOT EXECUTED.
-              /c 0 rules have violations.
-              /c There are 0 total violations.
-              /c Refer to inv.LAYOUT_ERRORS
-              /c =============================
-              /c 
-[10:54:47.42] /i gi::setActiveTab {tabs} -tabName {inv.LVS_ERRORS} -in [gi::getWindows 4]
-[10:55:00.12] /i gi::setActiveTab {tabs} -tabName {inv.LAYOUT_ERRORS} -in [gi::getWindows 4]
-[10:55:01.88] /i gi::setActiveTab {tabs} -tabName {inv.RESULTS} -in [gi::getWindows 4]
-[10:55:13.46] /i gi::setActiveTab {tabs} -tabName {saed32nm_1p9m_lvs_rules.lvs.rs} -in [gi::getWindows 4]
-[10:55:14.78] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 4]
-[10:55:16.31] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:55:19.56] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+537+213
-[10:55:21.11] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:25.22] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:34.99] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:35.95] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:36.74] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:39.66] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:41.23] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:42.40] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:43.58] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:44.66] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:55:59.52] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/loadRunset} -value {true} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:56:00.40] /i gi::pressButton {/apply} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:56:00.46] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
-[10:56:00.48] /m Information: "Starting netlisting for design "review/inv/schematic"..." (NETLISTING-010)
-[10:56:00.49] /m Information: 
-[10:56:00.49] /o Checking "review/inv/schematic"
-[10:56:00.49] /o No rule violations found in "review/inv/schematic"
-[10:56:00.49] /o No Design Integrity rule violations found in "review/inv/schematic"
-[10:56:00.51] /m Information: "Netlisting design "review/inv/schematic" finished successfully." (NETLISTING-012)
-[10:56:00.72] /i gi::setActiveWindow 4
-[10:56:00.72] /i gi::setActiveWindow 4 -raise true
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.00] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.01] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.01] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.01] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:01.01] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
-[10:56:08.44] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+545+99
-[10:56:10.73] /m Information: 
-              /c =============================
-              /c JobID: icv_lvs_16
-              /c --- ERROR SUMMARY -----------
-              /c LVS Device Extraction Error Summary
-              /c 7 total rules were run.
-              /c 0 rules NOT EXECUTED.
-              /c 0 rules have violations.
-              /c There are 0 total violations.
-              /c Refer to inv.LAYOUT_ERRORS
-              /c =============================
-              /c 
-[10:56:12.36] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+933+154
-[10:56:15.79] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+38+56
-[10:56:19.77] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+566+154
-[10:56:31.61] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/loadRunset} -value {false} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:56:34.59] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
-[10:56:36.27] /i gi::setActiveWindow 3
-[10:56:36.27] /i gi::setActiveWindow 3 -raise true
-[10:56:42.28] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
-[10:56:42.28] /i de::addPoint {1.011 -0.122} -context [db::getNext [de::getContexts -window 3]]
-[10:56:48.33] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
-[10:56:48.33] /i de::addPoint {1.015 0.494} -context [db::getNext [de::getContexts -window 3]]
-[10:56:58.05] /# gi::executeAction {xtLVSViewOutputs} -in [gi::getWindows 3]
-[10:56:58.05] /i xt::physicalVerification::viewJobOutputs lvs 3
-[10:57:00.76] /i gi::setActiveWindow 3
-[10:57:00.76] /i gi::setActiveWindow 3 -raise true
-[10:57:08.70] /# gi::executeAction {xtPVEOptions} -in [gi::getWindows 3]
-[10:57:08.70] /i xt::showPveOptions
-[10:57:08.78] /i gi::setActiveDialog [gi::getDialogs {xtShowPveOptions}]
-[10:57:09.00] /i db::setAttr geometry -of [gi::getDialogs {xtShowPveOptions}] -value 445x116+608+309
-[10:57:11.63] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtShowPveOptions}]
-[11:01:30.57] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
-[11:01:30.89] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+409+360
-[11:01:33.04] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
-[11:01:33.05] /i exit
-[11:01:33.18] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 3]]
-[11:01:33.47] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 3]] -value 419x181+349+323
-[11:01:34.44] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 3]]
-[11:01:35.23] /o Shutdown time: Thu Aug 11 11:01:35 2022
-[11:01:35.23] /o Elapsed session real time: 9.08 minutes
-[11:01:35.23] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/logs/ccompiler.IDEC25.2022_8_11_105227_71271.log
+[14:04:27.17] /w Warning: Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'.
+[14:04:27.70] /r giShowFrameTabs true
+[14:04:27.70] /r giWindowId 1
+[14:04:27.70] /r giWindowGeometry 1040x800
+[14:04:28.17] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[14:04:30.24] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:04:30.24] /# 
+[14:04:30.55] /i gi::addWindow [dm::openLibraryManager] -to 1
+[14:04:30.55] /r giWindowId 2
+[14:04:30.55] /r giWindowGeometry 660x600+50+78
+[14:04:33.50] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:04:33.50] /i db::showImportStream
+[14:04:33.54] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[14:04:33.54] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:04:33.60] /o 	############################################
+[14:04:33.60] /o 	--------------------------------------------
+[14:04:33.60] /o 	PDK Name................... : SAED_PDK_32_28
+[14:04:33.60] /o 	PDK Release Date........... : 25-Jun-2015
+[14:04:33.60] /o 	PDK Custom Designer Version : J-2014.12-2
+[14:04:33.60] /o 	--------------------------------------------
+[14:04:33.60] /o 	############################################
+[14:04:33.60] /o 
+[14:04:33.69] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:04:33.97] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+379+65
+[14:04:38.21] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+105
+[14:04:48.43] /i gi::setField {libName} -value {tg1} -in [gi::getDialogs {dbImportStream}]
+[14:04:51.67] /i gi::pressButton {fileNameBrowse} -in [gi::getDialogs {dbImportStream}]
+[14:05:22.37] /r giFileDialog accept ../../01-aes/aes.gds
+[14:05:26.83] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportStream}]
+[14:05:26.86] /m Information: License 'Apex' checked out. (LICENSE-003)
+[14:05:26.92] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[14:05:27.25] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 377x82+704+381
+[14:05:30.03] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {giPrompt}]
+[14:05:30.09] /# xt::createJob importStream  -type batch -cmdLine " cd \"/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm\"; importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_05_30.log -gds \"/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.gds \" -lib tg1 -view layout -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -hierDepth 256 -filterDots  -useTechLayerMap  -useTechObjectMap  -propSeparator , -id e0b41d98 " -runDesc "Translates GDSII data to the OpenAccess database." -exitProc "data_io::exit_proc" -files "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_05_30.log"
+[14:05:30.09] /m Information: "Starting Stream Import." (DATA_IO_COMMANDS-001)
+[14:05:31.57] /m Information: "Stream import finished successfully with 0 error, 163 warnings." (DATA_IO_COMMANDS-002)
+[14:05:31.64] /w Warning: Could not execute Tcl procedure '::xt::physicalVerification::_private::variantPrefValueChangeProc'. Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'. (PREFERENCE-077)
+[14:05:32.02] /i gi::setCurrentIndex {libs} -index {tg1} -in [gi::getWindows 2]
+[14:05:32.04] /i gi::setItemSelection {libs} -index {tg1} -in [gi::getWindows 2]
+[14:06:14.47] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x701+179+56
+[14:06:15.12] /i gi::setCurrentIndex {cells} -index {LSUPX1_HVT} -in [gi::getWindows 2]
+[14:06:15.12] /i gi::setItemSelection {cells} -index {LSUPX1_HVT} -in [gi::getWindows 2]
+[14:06:15.32] /i gi::setCurrentIndex {cells} -index {LSUPENCLX4_HVT} -in [gi::getWindows 2]
+[14:06:15.32] /i gi::setItemSelection {cells} -index {LSUPENCLX4_HVT} -in [gi::getWindows 2]
+[14:06:20.10] /i gi::setCurrentIndex {cells} -index {AO21X1_HVT} -in [gi::getWindows 2]
+[14:06:20.11] /i gi::setItemSelection {cells} -index {AO21X1_HVT} -in [gi::getWindows 2]
+[14:06:20.60] /i gi::setCurrentIndex {cells} -index {ANTENNA_HVT} -in [gi::getWindows 2]
+[14:06:20.60] /i gi::setItemSelection {cells} -index {ANTENNA_HVT} -in [gi::getWindows 2]
+[14:06:21.56] /i gi::setCurrentIndex {cells} -index {AND2X2_HVT} -in [gi::getWindows 2]
+[14:06:21.56] /i gi::setItemSelection {cells} -index {AND2X2_HVT} -in [gi::getWindows 2]
+[14:06:21.73] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:06:21.73] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:06:21.77] /r giWindowId 3
+[14:06:21.77] /r giWindowGeometry 1190x660
+[14:06:24.23] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:06:28.19] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:06:28.19] /i db::showImportStream
+[14:06:28.30] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:06:28.58] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+68
+[14:06:41.95] /i gi::setCurrentIndex {cells} -index {SDFFX1_HVT} -in [gi::getWindows 2]
+[14:06:41.96] /i gi::setItemSelection {cells} -index {SDFFX1_HVT} -in [gi::getWindows 2]
+[14:06:55.31] /# gi::executeAction {dbShowImportStream} -in [gi::getWindows 2]
+[14:06:55.31] /i db::showImportStream
+[14:06:55.42] /i gi::setActiveDialog [gi::getDialogs {dbImportStream}]
+[14:06:55.74] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+581+65
+[14:07:33.27] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+593+122
+[14:07:35.27] /i db::setAttr geometry -of [gi::getDialogs {dbImportStream}] -value 622x634+606+141
+[14:07:35.98] /i gi::setField {techTypeDefault} -value {true} -in [gi::getDialogs {dbImportStream}]
+[14:07:39.79] /i gi::pressButton {ok} -in [gi::getDialogs {dbImportStream}]
+[14:07:39.84] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt}]
+[14:07:40.16] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt}] -value 377x82+729+417
+[14:07:41.04] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {giPrompt}]
+[14:07:41.06] /# xt::createJob importStream  -type batch -cmdLine " cd \"/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm\"; importStream -logFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_07_41.log -gds \"/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.gds \" -lib tg1 -view layout -libDefFile /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -hierDepth 256 -filterDots  -useTechLayerMap  -useTechObjectMap  -propSeparator , -id e0b41d90 " -runDesc "Translates GDSII data to the OpenAccess database." -exitProc "data_io::exit_proc" -files "/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/importStream.IDEC25.11_08_14_07_41.log"
+[14:07:41.06] /m Information: "Starting Stream Import." (DATA_IO_COMMANDS-001)
+[14:07:42.17] /m Information: "Stream import finished successfully with 0 error, 17 warnings." (DATA_IO_COMMANDS-002)
+[14:07:42.24] /w Warning: Could not execute Tcl procedure '::xt::physicalVerification::_private::variantPrefValueChangeProc'. Reference to undefined environment variable 'SAED32_28_PDK' found while processing '$SAED32_28_PDK/icv/drc/saed32nm_1p9m_drc_rules.rs'. (PREFERENCE-077)
+[14:07:43.21] /i gi::setCurrentIndex {libs} -index {tg2} -in [gi::getWindows 2]
+[14:07:43.22] /i gi::setItemSelection {libs} -index {tg2} -in [gi::getWindows 2]
+[14:07:43.70] /i gi::setCurrentIndex {libs} -index {tg1} -in [gi::getWindows 2]
+[14:07:43.72] /i gi::setItemSelection {libs} -index {tg1} -in [gi::getWindows 2]
+[14:07:47.61] /i gi::setCurrentIndex {cells} -index {aes_cipher_top} -in [gi::getWindows 2]
+[14:07:47.61] /i gi::setItemSelection {cells} -index {aes_cipher_top} -in [gi::getWindows 2]
+[14:07:48.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:07:48.62] /r giWindowId 4
+[14:07:48.62] /r giWindowGeometry 1190x660
+[14:07:50.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.15] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.22] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.22] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.38] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.38] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.45] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.419 90.94}
+[14:07:50.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.91] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.783 95.441}
+[14:07:50.94] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:50.94] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.783 95.325}
+[14:07:51.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[14:07:51.52] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {157.469 94.415}
+[14:07:52.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[14:07:52.10] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {157.352 94.15}
+[14:07:53.21] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[14:07:53.21] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {157.518 94.349}
+[14:24:43.34] /i gi::setActiveWindow 2
+[14:24:43.34] /i gi::setActiveWindow 2 -raise true
+[14:24:45.93] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setField {cellsFilter} -value {inv} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setCurrentIndex {cells} -index {INVX1_HVT} -in [gi::getWindows 2]
+[14:24:52.10] /i gi::setItemSelection {cells} -index {INVX1_HVT} -in [gi::getWindows 2]
+[14:24:52.60] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:24:52.62] /r giWindowId 5
+[14:24:52.64] /r giWindowGeometry 1190x660
+[14:24:54.85] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:24:54.85] /i de::zoom -window [gi::getWindows 5] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.485 0.823}
+[14:24:54.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:24:54.87] /i de::zoom -window [gi::getWindows 5] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {0.485 0.823}
+[14:24:55.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:24:55.63] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.471 0.885}
+[14:24:56.88] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:24:56.88] /i de::zoom -window [gi::getWindows 5] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {0.615 1.026}
+[14:24:58.67] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:58.67] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:58.85] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:58.85] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.22] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:24:59.22] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.39] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:24:59.39] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:24:59.86] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 5]
+[14:24:59.86] /i de::pan -window [gi::getWindows 5] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[14:25:00.40] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 5]
+[14:25:00.40] /i de::pan -window [gi::getWindows 5] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
