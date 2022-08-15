@@ -1,0 +1,31 @@
+Parsing option_file: xtract.tech (EX-304)
+Initializing extraction ... (EX-724)
+Reading binary grd file /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32nm_1p9m_Cmin.nxtgrd ... (EX-135)
+Extracting partition 1
+Extracted 275923 capacitors, 422820 resistors, 401132 nodes
+Reduced to 72209 nodes,  (81.9987%)
+Reduced to 66600 resistors,  (84.2486%)
+Reduced to 78400 capacitors: 6191 Cc and 72209 Cg (71.5863%)
+Extracting partition 2
+Extracted 112097 capacitors, 170631 resistors, 162447 nodes
+Reduced to 31567 nodes,  (80.5678%)
+Reduced to 28325 resistors,  (83.3999%)
+Reduced to 35779 capacitors: 4212 Cc and 31567 Cg (68.0821%)
+Extracting partition 3
+Extracted 111643 capacitors, 172238 resistors, 163510 nodes
+Reduced to 32944 nodes,  (79.852%)
+Reduced to 29377 resistors,  (82.9439%)
+Reduced to 36636 capacitors: 3692 Cc and 32944 Cg (67.1847%)
+Extracting partition 4
+Extracted 40387 capacitors, 61087 resistors, 58188 nodes
+Reduced to 13242 nodes,  (77.2427%)
+Reduced to 11367 resistors,  (81.3921%)
+Reduced to 15498 capacitors: 2256 Cc and 13242 Cg (61.6263%)
+  
+xTract_partition1 Elp=00:00:07 Cpu=00:00:07 Usr=6.9    Sys=0.7    Mem=936.8 
+xTract_partition2 Elp=00:00:04 Cpu=00:00:03 Usr=2.8    Sys=0.4    Mem=682.6 
+xTract_partition3 Elp=00:00:03 Cpu=00:00:03 Usr=2.9    Sys=0.4    Mem=682.5 
+xTract_partition4 Elp=00:00:01 Cpu=00:00:00 Usr=0.9    Sys=0.0    Mem=388.4 
+xTractor          Elp=00:00:16 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=336.3 
+  
+Done          Elp=00:00:16 Cpu=00:00:15 Usr=13.7   Sys=1.7    Mem=936.8 

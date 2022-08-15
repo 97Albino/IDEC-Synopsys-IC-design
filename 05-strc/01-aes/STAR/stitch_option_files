@@ -1,0 +1,6 @@
+../STAR/convert_gpd.tech
+../STAR/netlist.tech
+../STAR/netlist_assembly1.tech
+../STAR/netlist_part1.tech
+pre_stitch.tech
+stitch.tech

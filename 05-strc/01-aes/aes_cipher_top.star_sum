@@ -1,0 +1,410 @@
+
+                                  StarRC (TM)
+
+               Version S-2021.06-SP2 for linux64 - Aug 24, 2021 
+
+                    Copyright (c) 1999 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ExecName: /usr/synopsys/starrc/S-2021.06-SP2/linux64_starrc/bin/StarXtract
+Version: S-2021.06-SP2
+Built on: Aug 24 2021 18:42:11
+Start Time: Thu Aug 11 15:28:14 2022
+
+Host ............ knuee-srv1
+
+xTractorName: /usr/synopsys/starrc/S-2021.06-SP2/linux64_starrc/bin/xTractor
+Version: S-2021.06-SP2
+Built on: Aug 24 2021 18:41:50
+
+Called as: StarXtract tgStrc.file 
+Run Directory: /home/KNUEEhdd1/idec/IDEC25/05-strc/01-aes
+WARNING: NDM design 'aes_cipher_top' without bounding box cached in its library will degrade Setup
+         performance (SX-3023)
+
+WARNING: INPUT_NAMES_ESCAPE_REMOVAL is enabled, please make sure that the net select commands remove
+         the escape at the same time. (SX-3860)
+
+Block ........... aes_cipher_top/route_opt
+Star Directory .. /home/KNUEEhdd1/idec/IDEC25/05-strc/01-aes/STAR
+WARNING: Running StarRC in single corner mode will result in degraded runtime for design flows where
+         multiple corners are used.  For optimal runtime, add the necessary commands to configure
+         the Simultaneous Multicorner flow (CORNERS_FILE and SELECTED_CORNERS). (SX-3552)
+NDM DB ....... /home/KNUEEhdd1/idec/IDEC25/05-strc/01-aes/aes:aes
+ Ref Libs ....... /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32_hvt.ndm:saed32_hvt
+  Setup         Elp=00:00:03 Cpu=00:00:01 Usr=1.4    Sys=0.0    Mem=560.9 
+Done
+
+Map Layers:  Thu Aug 11 15:28:17 2022
+WARNING: MAPPING_FILE layer "DIFF" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal1_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal2_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal3_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal4_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal5_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal6_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal7_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal8_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal9_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: Layer "PO" has no connections. (SX-1851)
+  Warnings: 11    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=565.7 
+Done
+
+Build HN:  Thu Aug 11 15:28:19 2022
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=593.7 
+Done
+
+Process Cells:  Thu Aug 11 15:28:19 2022
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 
+Done
+
+Translate_part1 DB:  Thu Aug 11 15:28:22 2022
+  Warnings: 0    Errors: 0
+  Translate_part1 Elp=00:00:01 Cpu=00:00:01 Usr=1.3    Sys=0.0    Mem=562.0 
+Done
+
+XinCombine:  Thu Aug 11 15:28:25 2022
+  Warnings: 0    Errors: 0
+  XinCombine    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Done
+
+PartitionPP:  Thu Aug 11 15:28:27 2022
+  Warnings: 0    Errors: 0
+  PartitionPP   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+Done
+
+Merge Index:  Thu Aug 11 15:28:29 2022
+  Warnings: 0    Errors: 0
+  MergeIndex    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+Done
+
+Merge GPD Instance Pins:  Thu Aug 11 15:28:31 2022
+  Warnings: 0    Errors: 0
+  MergeGpdInstPins Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+Done
+
+GPD XtractSetup:  Thu Aug 11 15:28:33 2022
+  Warnings: 0    Errors: 0
+  GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+Done
+
+Netlist Setup:  Thu Aug 11 15:28:36 2022
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=386.1 
+Done
+
+Netlist Assembly Setup:  Thu Aug 11 15:28:40 2022
+  Warnings: 0    Errors: 0
+  NetlistAssemblySetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Done
+
+Clean Directory:  Thu Aug 11 15:28:43 2022
+  Warnings: 0    Errors: 0
+  CleanDirectory Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Done
+
+GPD NameMap:  Thu Aug 11 15:28:45 2022
+  Warnings: 0    Errors: 0
+  GPD_NameMap   Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=388.0 
+Done
+
+Stitch Pre Process 1:  Thu Aug 11 15:28:47 2022
+  Warnings: 0    Errors: 0
+  StitchPreProcess1 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+Done
+
+xTract_part1 DB:  Thu Aug 11 15:28:49 2022
+Extracting partition 1
+Completed   0%  Time=00:00:00  RemainingTime=00:00:14  Mem=766.285
+Completed   1%  Time=00:00:00  RemainingTime=00:00:11  Mem=767.223
+Completed   2%  Time=00:00:00  RemainingTime=00:00:08  Mem=767.723
+Completed   3%  Time=00:00:00  RemainingTime=00:00:07  Mem=768.473
+Completed   4%  Time=00:00:00  RemainingTime=00:00:08  Mem=772.66
+Completed   5%  Time=00:00:00  RemainingTime=00:00:07  Mem=773.598
+Completed  10%  Time=00:00:00  RemainingTime=00:00:08  Mem=783.223
+Completed  15%  Time=00:00:01  RemainingTime=00:00:06  Mem=789.785
+Completed  20%  Time=00:00:01  RemainingTime=00:00:05  Mem=795.848
+Completed  25%  Time=00:00:01  RemainingTime=00:00:05  Mem=804.348
+Completed  30%  Time=00:00:01  RemainingTime=00:00:04  Mem=812.473
+Completed  35%  Time=00:00:02  RemainingTime=00:00:03  Mem=819.848
+Completed  40%  Time=00:00:02  RemainingTime=00:00:03  Mem=827.41
+Completed  45%  Time=00:00:02  RemainingTime=00:00:03  Mem=838.973
+Completed  50%  Time=00:00:02  RemainingTime=00:00:03  Mem=846.723
+Completed  55%  Time=00:00:03  RemainingTime=00:00:02  Mem=855.973
+Completed  60%  Time=00:00:03  RemainingTime=00:00:02  Mem=864.098
+Completed  65%  Time=00:00:03  RemainingTime=00:00:02  Mem=873.41
+Completed  70%  Time=00:00:03  RemainingTime=00:00:02  Mem=880.598
+Completed  75%  Time=00:00:03  RemainingTime=00:00:02  Mem=890.348
+Completed  80%  Time=00:00:04  RemainingTime=00:00:01  Mem=899.66
+Completed  85%  Time=00:00:04  RemainingTime=00:00:01  Mem=910.41
+Completed  90%  Time=00:00:04  RemainingTime=00:00:01  Mem=918.098
+Completed  95%  Time=00:00:04  RemainingTime=00:00:01  Mem=926.285
+Completed 100%  Time=00:00:05  RemainingTime=00:00:00  Mem=936.238
+Extracted 275923 capacitors, 422820 resistors, 401132 nodes
+Reduced to 72209 nodes,  (81.9987%)
+Reduced to 66600 resistors,  (84.2486%)
+Reduced to 78400 capacitors: 6191 Cc and 72209 Cg (71.5863%)
+Extracting partition 2
+Completed   0%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.074
+Completed   1%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.551
+Completed   2%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.738
+Completed   3%  Time=00:00:00  RemainingTime=00:00:03  Mem=608.176
+Completed   4%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.363
+Completed   5%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.988
+Completed  10%  Time=00:00:00  RemainingTime=00:00:02  Mem=617.871
+Completed  15%  Time=00:00:00  RemainingTime=00:00:01  Mem=620.059
+Completed  20%  Time=00:00:00  RemainingTime=00:00:02  Mem=626.871
+Completed  25%  Time=00:00:00  RemainingTime=00:00:02  Mem=629.496
+Completed  30%  Time=00:00:00  RemainingTime=00:00:02  Mem=632.309
+Completed  35%  Time=00:00:00  RemainingTime=00:00:02  Mem=634.809
+Completed  40%  Time=00:00:00  RemainingTime=00:00:02  Mem=638.121
+Completed  45%  Time=00:00:00  RemainingTime=00:00:02  Mem=640.871
+Completed  50%  Time=00:00:01  RemainingTime=00:00:01  Mem=646.934
+Completed  55%  Time=00:00:01  RemainingTime=00:00:01  Mem=649.871
+Completed  60%  Time=00:00:01  RemainingTime=00:00:01  Mem=653.059
+Completed  65%  Time=00:00:01  RemainingTime=00:00:01  Mem=657.371
+Completed  70%  Time=00:00:01  RemainingTime=00:00:01  Mem=660.871
+Completed  75%  Time=00:00:01  RemainingTime=00:00:01  Mem=663.496
+Completed  80%  Time=00:00:01  RemainingTime=00:00:01  Mem=666.309
+Completed  85%  Time=00:00:01  RemainingTime=00:00:01  Mem=672.184
+Completed  90%  Time=00:00:01  RemainingTime=00:00:01  Mem=675.434
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=677.871
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=682.059
+Extracted 112097 capacitors, 170631 resistors, 162447 nodes
+Reduced to 31567 nodes,  (80.5678%)
+Reduced to 28325 resistors,  (83.3999%)
+Reduced to 35779 capacitors: 4212 Cc and 31567 Cg (68.0821%)
+Extracting partition 3
+Completed   0%  Time=00:00:00  RemainingTime=00:00:03  Mem=606.395
+Completed   1%  Time=00:00:00  RemainingTime=00:00:02  Mem=606.645
+Completed   2%  Time=00:00:00  RemainingTime=00:00:02  Mem=607.02
+Completed   3%  Time=00:00:00  RemainingTime=00:00:02  Mem=607.457
+Completed   4%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.707
+Completed   5%  Time=00:00:00  RemainingTime=00:00:02  Mem=609.52
+Completed  10%  Time=00:00:00  RemainingTime=00:00:02  Mem=618.777
+Completed  15%  Time=00:00:00  RemainingTime=00:00:02  Mem=622.152
+Completed  20%  Time=00:00:00  RemainingTime=00:00:02  Mem=626.34
+Completed  25%  Time=00:00:00  RemainingTime=00:00:02  Mem=629.027
+Completed  30%  Time=00:00:00  RemainingTime=00:00:02  Mem=632.027
+Completed  35%  Time=00:00:00  RemainingTime=00:00:02  Mem=636.34
+Completed  40%  Time=00:00:00  RemainingTime=00:00:02  Mem=641.09
+Completed  45%  Time=00:00:01  RemainingTime=00:00:01  Mem=644.465
+Completed  50%  Time=00:00:01  RemainingTime=00:00:01  Mem=647.277
+Completed  55%  Time=00:00:01  RemainingTime=00:00:01  Mem=651.34
+Completed  60%  Time=00:00:01  RemainingTime=00:00:01  Mem=658.027
+Completed  65%  Time=00:00:01  RemainingTime=00:00:01  Mem=660.715
+Completed  70%  Time=00:00:01  RemainingTime=00:00:01  Mem=663.777
+Completed  75%  Time=00:00:01  RemainingTime=00:00:01  Mem=666.902
+Completed  80%  Time=00:00:01  RemainingTime=00:00:01  Mem=669.652
+Completed  85%  Time=00:00:01  RemainingTime=00:00:01  Mem=672.09
+Completed  90%  Time=00:00:02  RemainingTime=00:00:00  Mem=676.777
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=678.965
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=681.965
+Extracted 111643 capacitors, 172238 resistors, 163510 nodes
+Reduced to 32944 nodes,  (79.852%)
+Reduced to 29377 resistors,  (82.9439%)
+Reduced to 36636 capacitors: 3692 Cc and 32944 Cg (67.1847%)
+Extracting partition 4
+Completed   0%  Time=00:00:00  RemainingTime=00:00:01  Mem=363.012
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.012
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.137
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.262
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.324
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.512
+Completed  10%  Time=00:00:00  RemainingTime=00:00:01  Mem=366.488
+Completed  15%  Time=00:00:00  RemainingTime=00:00:01  Mem=367.801
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=368.863
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=369.988
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=371.051
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=372.113
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=373.301
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=375.113
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=378.066
+Completed  55%  Time=00:00:00  RemainingTime=00:00:00  Mem=379.316
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=380.191
+Completed  65%  Time=00:00:00  RemainingTime=00:00:00  Mem=381.129
+Completed  70%  Time=00:00:00  RemainingTime=00:00:00  Mem=382.129
+Completed  75%  Time=00:00:00  RemainingTime=00:00:00  Mem=383.441
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=384.379
+Completed  85%  Time=00:00:00  RemainingTime=00:00:00  Mem=385.254
+Completed  90%  Time=00:00:00  RemainingTime=00:00:00  Mem=386.191
+Completed  95%  Time=00:00:00  RemainingTime=00:00:00  Mem=387.316
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=387.879
+Extracted 40387 capacitors, 61087 resistors, 58188 nodes
+Reduced to 13242 nodes,  (77.2427%)
+Reduced to 11367 resistors,  (81.3921%)
+Reduced to 15498 capacitors: 2256 Cc and 13242 Cg (61.6263%)
+  Warnings: 0    Errors: 0
+  xTract_part1  Elp=00:00:16 Cpu=00:00:15 Usr=13.7   Sys=1.7    Mem=936.8 
+Done
+
+Stitch Pre Process 2:  Thu Aug 11 15:29:09 2022
+  Warnings: 0    Errors: 0
+  StitchPreProcess2 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=261.8 
+Done
+
+Stitch_part1 DB:  Thu Aug 11 15:29:12 2022
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=264.777
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=265.297
+  Warnings: 0    Errors: 0
+  Stitch_part1  Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=265.3 
+Done
+
+xTract Post Process DB:  Thu Aug 11 15:29:16 2022
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=263.3 
+Done
+
+Report Violations:  Thu Aug 11 15:29:18 2022
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Done
+
+Report Opens:  Thu Aug 11 15:29:20 2022
+  Warnings: 0    Errors: 0
+  ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Done
+
+Netlist_assembly1 DB:  Thu Aug 11 15:29:23 2022
+  Warnings: 0    Errors: 0
+  Netlist_assembly1 Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=264.9 
+Done
+
+GPD Post Process:  Thu Aug 11 15:29:25 2022
+  Warnings: 0    Errors: 0
+  GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.9 
+Done
+
+GPD Converter Part 1:  Thu Aug 11 15:29:28 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter1 Elp=00:00:00 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=274.7 
+Done
+
+GPD Converter Part 2:  Thu Aug 11 15:29:32 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter2 Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=265.4 
+Done
+
+GPD Converter Merge:  Thu Aug 11 15:29:35 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=261.8 
+Done
+  
+Setup                Elp=00:00:03 Cpu=00:00:01 Usr=1.4    Sys=0.0    Mem=560.9 
+Layers               Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=565.7 
+HN                   Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=593.7 
+Cells                Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 
+Translate_part1      Elp=00:00:01 Cpu=00:00:01 Usr=1.3    Sys=0.0    Mem=562.0 
+XinCombine           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+PartitionPP          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+MergeIndex           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+MergeGpdInstPins     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+GPD_XtractSetup      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+NetlistSetup         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=386.1 
+NetlistAssemblySetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+CleanDirectory       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+GPD_NameMap          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=388.0 
+StitchPreProcess1    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+xTract_part1         Elp=00:00:16 Cpu=00:00:15 Usr=13.7   Sys=1.7    Mem=936.8 
+StitchPreProcess2    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=261.8 
+Stitch_part1         Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=265.3 
+xTractPP             Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=263.3 
+ReportViolations     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+ReportOpens          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.5 
+Netlist_assembly1    Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=264.9 
+GPD_PostProcess      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=385.9 
+GPD_Converter1       Elp=00:00:00 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=274.7 
+GPD_Converter2       Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=265.4 
+GPD_Converter_merge  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=261.8 
+  
+Done          Elp=00:00:23 Cpu=00:00:20 Usr=18.5   Sys=1.7    Mem=936.8 
+
+End Time: Thu Aug 11 15:29:39 2022
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:03 Cpu=00:00:01 Mem=560.9  |Aug 11 15:28:17 |knuee-srv1
+CPU_01 |*Layers                    Elp=00:00:00 Cpu=00:00:00 Mem=565.7  |Aug 11 15:28:17 |knuee-srv1
+CPU_01 |*HN                        Elp=00:00:00 Cpu=00:00:00 Mem=593.7  |Aug 11 15:28:19 |knuee-srv1
+CPU_01 |*Cells                     Elp=00:00:01 Cpu=00:00:00 Mem=589.5  |Aug 11 15:28:20 |knuee-srv1
+CPU_01 |*Translate_DP              Elp=00:00:01 Cpu=00:00:01 Mem=562    |Aug 11 15:28:23 |knuee-srv1
+CPU_01 |*XinCombine                Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:25 |knuee-srv1
+CPU_01 |*PartitionPP               Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:27 |knuee-srv1
+CPU_01 |*MergeIndex                Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:29 |knuee-srv1
+CPU_01 |*MergeGpdInstPins          Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:31 |knuee-srv1
+CPU_01 |*GPD_XtractSetup           Elp=00:00:01 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:34 |knuee-srv1
+CPU_01 |*NetlistSetup              Elp=00:00:02 Cpu=00:00:00 Mem=386.1  |Aug 11 15:28:38 |knuee-srv1
+CPU_01 |*NetlistAssemblySetup      Elp=00:00:01 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:41 |knuee-srv1
+CPU_01 |*CleanDirectory            Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:43 |knuee-srv1
+CPU_01 |*GPD_NameMap               Elp=00:00:00 Cpu=00:00:00 Mem=388    |Aug 11 15:28:45 |knuee-srv1
+CPU_01 |*StitchPreProcess1         Elp=00:00:00 Cpu=00:00:00 Mem=0      |Aug 11 15:28:47 |knuee-srv1
+CPU_01 |*xTract_DP                 Elp=00:00:18 Cpu=00:00:15 Mem=936.8  |Aug 11 15:29:05 |knuee-srv1
+CPU_01 |*StitchPreProcess2         Elp=00:00:05 Cpu=00:00:00 Mem=261.8  |Aug 11 15:29:10 |knuee-srv1
+CPU_01 |*Stitch_DP                 Elp=00:00:02 Cpu=00:00:00 Mem=265.3  |Aug 11 15:29:14 |knuee-srv1
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=263.3  |Aug 11 15:29:16 |knuee-srv1
+CPU_01 |*ReportViolations          Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:29:18 |knuee-srv1
+CPU_01 |*ReportOpens               Elp=00:00:01 Cpu=00:00:00 Mem=385.5  |Aug 11 15:29:21 |knuee-srv1
+CPU_01 |*Netlist_assembly_DP       Elp=00:00:00 Cpu=00:00:00 Mem=264.9  |Aug 11 15:29:23 |knuee-srv1
+CPU_01 |*GPD_PostProcess           Elp=00:00:01 Cpu=00:00:00 Mem=385.9  |Aug 11 15:29:26 |knuee-srv1
+CPU_01 |*GPD_Converter_DP          Elp=00:00:05 Cpu=00:00:00 Mem=274.7  |Aug 11 15:29:33 |knuee-srv1
+CPU_01 |*GPD_Converter_merge       Elp=00:00:00 Cpu=00:00:00 Mem=261.8  |Aug 11 15:29:35 |knuee-srv1
+----------------------------------------------------------------------------------------------
+Start Time: Thu Aug 11 15:28:14 2022
+End Time: Thu Aug 11 15:29:26 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:01:12 Cpu= 00:00:19 Peak_Mem(MB)=936.8
+PreXtraction:    Elp=00:00:33 Cpu= 00:00:03 Peak_Mem(MB)=593.7
+Xtraction:       Elp=00:00:18 Cpu= 00:00:15 Peak_Mem(MB)=936.8
+PostXtraction:   Elp=00:00:21 Cpu= 00:00:00 Peak_Mem(MB)=385.9
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:07 Cpu= 00:00:00 Peak_Mem(MB)=274.7
+----------------------------------------------------------------------------------------------
+
+
+NOTE: Simultaneous Multicorner (SMC) is now the default mode for StarRC gate-level extraction.
+By running SMC, the overall runtime can be reduced by up to 2x with the same level of accuracy
+as single corner extraction. For more information, consult the Simultaneous Multicorner Section
+in the StarRC User Guide.
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+SX-1813 (x  10)|Warning      |MAPPING_FILE LAYER "()" IS NOT A VALID DATABASE LAYER AND WILL BE REMOVED.
+SX-1851 (x   1)|Warning      |LAYER "()" HAS NO CONNECTIONS.
+SX-3023 (x   1)|Warning      |NDM DESIGN '()' WITHOUT BOUNDING BOX CACHED IN ITS LIBRARY WILL DEGRADE SETUP PERFORMANCE
+SX-3552 (x   1)|Warning      |RUNNING STARRC IN SINGLE CORNER MODE WILL RESULT IN DEGRADED RUNTIME FOR DESIGN FLOWS WHERE MULTIPLE CORNERS ARE USED.  FOR OPTIMAL RUNTIME, ADD THE NECESSARY COMMANDS TO CONFIGURE THE SIMULTANEOUS MULTICORNER FLOW (CORNERS_FILE AND SELECTED_CORNERS).
+SX-3860 (x   1)|Warning      |INPUT_NAMES_ESCAPE_REMOVAL IS ENABLED, PLEASE MAKE SURE THAT THE NET SELECT COMMANDS REMOVE THE ESCAPE AT THE SAME TIME.
+

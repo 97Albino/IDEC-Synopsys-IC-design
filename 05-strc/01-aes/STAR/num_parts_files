@@ -1,0 +1,11 @@
+../STAR/convert_gpd.tech
+../STAR/netlist.tech
+../STAR/netlist_assembly1.tech
+../STAR/netlist_merge_begin.tech
+../STAR/netlist_merge_end.tech
+../STAR/netlist_part1.tech
+../STAR/pre_stitch.tech
+../STAR/split_netlist.tech
+../STAR/stitch.tech
+../STAR/xt_charmode_netlist.tech
+../STAR/xtract.tech

@@ -1,0 +1,73 @@
+1660199330.046096: using the client-supplied worker ID 1
+1660199330.046170: This is MTC2 for worker 1.
+1660199330.046176: Task file is xtract_bundle_status.
+1660199330.046181: pid 174214 ppid 174213 pgrp 173629
+1660199330.046195: Worker mutex name is tasks/lock/xtract_worker_1.lck.
+1660199330.046198: In get_next_task
+1660199330.046200: Locking task file.
+1660199330.046205: Task file locked.
+1660199330.046207: Reading task file.
+1660199330.046221: Task file read successfully.
+1660199330.046223: 0 completed, 0 failed, 0 running, 4 unscheduled, 0 rescheduled of 4 tasks.
+1660199330.046226: Writing task file.
+1660199330.046298: Task file written successfully.
+1660199330.046301: Picking up next unscheduled task 1.
+1660199330.046303: Unlocking task file.
+1660199330.046308: Task file unlocked.
+1660199330.046312: extracting partition 1
+1660199337.757992: extraction of partition 1 completed with status 0
+1660199337.758033: In get_next_task
+1660199337.758041: Locking task file.
+1660199337.758081: Task file locked.
+1660199337.758087: Reading task file.
+1660199337.758150: Task file read successfully.
+1660199337.758157: 0 completed, 0 failed, 1 running, 3 unscheduled, 0 rescheduled of 4 tasks.
+1660199337.758166: Task 1 has completed, 1/0/4/3 tasks completed/failed/total/pending.
+1660199337.758177: Writing task file.
+1660199337.758335: Task file written successfully.
+1660199337.758344: Picking up next unscheduled task 2.
+1660199337.758350: Unlocking task file.
+1660199337.758368: Task file unlocked.
+1660199337.758377: extracting partition 2
+1660199341.107697: extraction of partition 2 completed with status 0
+1660199341.107732: In get_next_task
+1660199341.107739: Locking task file.
+1660199341.107776: Task file locked.
+1660199341.107783: Reading task file.
+1660199341.107852: Task file read successfully.
+1660199341.107861: 1 completed, 0 failed, 1 running, 2 unscheduled, 0 rescheduled of 4 tasks.
+1660199341.107870: Task 2 has completed, 2/0/4/2 tasks completed/failed/total/pending.
+1660199341.107879: Writing task file.
+1660199341.108030: Task file written successfully.
+1660199341.108038: Picking up next unscheduled task 3.
+1660199341.108045: Unlocking task file.
+1660199341.108063: Task file unlocked.
+1660199341.108072: extracting partition 3
+1660199344.501097: extraction of partition 3 completed with status 0
+1660199344.501142: In get_next_task
+1660199344.501151: Locking task file.
+1660199344.501186: Task file locked.
+1660199344.501194: Reading task file.
+1660199344.501252: Task file read successfully.
+1660199344.501260: 2 completed, 0 failed, 1 running, 1 unscheduled, 0 rescheduled of 4 tasks.
+1660199344.501270: Task 3 has completed, 3/0/4/1 tasks completed/failed/total/pending.
+1660199344.501287: Writing task file.
+1660199344.501434: Task file written successfully.
+1660199344.501444: Picking up next unscheduled task 4.
+1660199344.501452: Unlocking task file.
+1660199344.501471: Task file unlocked.
+1660199344.501481: extracting partition 4
+1660199345.486352: extraction of partition 4 completed with status 0
+1660199345.486389: In get_next_task
+1660199345.486397: Locking task file.
+1660199345.486439: Task file locked.
+1660199345.486446: Reading task file.
+1660199345.486498: Task file read successfully.
+1660199345.486506: 3 completed, 0 failed, 1 running, 0 unscheduled, 0 rescheduled of 4 tasks.
+1660199345.486516: Task 4 has completed, 4/0/4/0 tasks completed/failed/total/pending.
+1660199345.486525: All tasks have completed, returing false [1].
+1660199345.486532: Writing task file.
+1660199345.486672: Task file written successfully.
+1660199345.486681: Unlocking task file.
+1660199345.486699: Task file unlocked.
+1660199345.486707: MTC for worker 1 is destroyed synchronously.

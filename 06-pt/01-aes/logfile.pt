@@ -1,0 +1,293 @@
+Error: Library Compiler executable path is not set. (PT-063)
+
+                                 PrimeTime (R)
+
+               Version Q-2019.12-SP4 for linux64 - May 28, 2020 
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+sh date
+Thu Aug 11 16:50:09 KST 2022
+remove_design -all
+Error: Nothing matched for designs: there are none loaded (SEL-005)
+0
+#design library
+set techlib "/home/KNUEEhdd1/idec/techfiles/saed28edk"
+/home/KNUEEhdd1/idec/techfiles/saed28edk
+set tmpStr $techlib/saed32hvt_ff0p95v125c.db
+/home/KNUEEhdd1/idec/techfiles/saed28edk/saed32hvt_ff0p95v125c.db
+set target_library $tmpStr
+/home/KNUEEhdd1/idec/techfiles/saed28edk/saed32hvt_ff0p95v125c.db
+set link_library "* $target_library"
+* /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32hvt_ff0p95v125c.db
+set top_design aes_cipher_top
+aes_cipher_top
+read_verilog ../../01-aes/aes.icc2.v
+1
+current_design $top_design
+Information: current_design won't return any data before link (DES-071)
+link
+ view mode is 2
+Loading db file '/home/KNUEEhdd1/idec/techfiles/saed28edk/saed32hvt_ff0p95v125c.db'
+Loading verilog file '/home/KNUEEhdd1/idec/IDEC25/01-aes/aes.icc2.v'
+Linking design aes_cipher_top...
+Information: Removing 22 unneeded designs..... (LNK-034)
+Information: 233 (79.25%) library cells are unused in library saed32hvt_ff0p95v125c..... (LNK-045)
+Information: total 233 library cells are unused (LNK-046)
+Design 'aes_cipher_top' was successfully linked.
+Information: There are 11631 leaf cells, ports, hiers and 12165 nets in the design (LNK-047)
+1
+read_sdc ../../02-dc/01-aes/aes.sdc
+
+Reading SDC version 2.1...
+1
+1
+read_parasitics -pin_cap_included -keep_capacitive_coupling -increment "../../05-strc/01-aes/aes_cipher_top.spef"
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+1
+complete_net_parasitics -complete_with zero
+1
+#report_annotated_parasitiics -check
+#report timing
+report_timing -nets -nosplit
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Building multi voltage information for entire design. (MV-022)
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+Warning: Parasitics on the net "rst" have been overridden, because the net is part of an ideal network. (PTE-084)
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nets
+	-max_paths 1
+	-sort_by slack
+Design : aes_cipher_top
+Version: Q-2019.12-SP4
+Date   : Thu Aug 11 16:50:12 2022
+****************************************
+
+
+  Startpoint: sa33_reg[0]
+               (rising edge-triggered flip-flop clocked by myCLK)
+  Endpoint: sa30_reg[3]
+               (rising edge-triggered flip-flop clocked by myCLK)
+  Path Group: myCLK
+  Path Type: max
+
+  Point                              Fanout       Incr       Path
+  ----------------------------------------------------------------------
+  clock myCLK (rise edge)                         0.00       0.00
+  clock network delay (ideal)                     0.00       0.00
+  sa33_reg[0]/CLK (DFFX1_HVT)                     0.00       0.00 r
+  sa33_reg[0]/Q (DFFX1_HVT)                       0.11 &     0.11 f
+  sa33[0] (net)                         3 
+  us33/U428/Y (AND2X1_HVT)                        0.05 &     0.16 f
+  us33/n399 (net)                       3 
+  us33/U35/Y (INVX0_HVT)                          0.02 &     0.18 r
+  us33/n69 (net)                        2 
+  us33/U334/Y (OR2X1_HVT)                         0.06 &     0.24 r
+  us33/n66 (net)                        5 
+  us33/U504/Y (INVX0_HVT)                         0.06 &     0.29 f
+  us33/net22083 (net)                   5 
+  us33/U89/Y (INVX0_HVT)                          0.05 &     0.35 r
+  us33/n434 (net)                       4 
+  us33/U128/Y (INVX0_HVT)                         0.07 &     0.41 f
+  us33/n450 (net)                       5 
+  us33/U301/Y (NAND2X0_HVT)                       0.04 &     0.46 r
+  us33/n709 (net)                       2 
+  us33/U23/Y (AND4X1_HVT)                         0.05 &     0.51 r
+  us33/n38 (net)                        1 
+  us33/U397/Y (AND2X1_HVT)                        0.04 &     0.54 r
+  us33/n94 (net)                        1 
+  us33/U10/Y (AND3X1_HVT)                         0.05 &     0.59 r
+  us33/n15 (net)                        2 
+  us33/U402/Y (AND2X1_HVT)                        0.03 &     0.62 r
+  us33/n165 (net)                       1 
+  us33/U401/Y (AND2X1_HVT)                        0.03 &     0.65 r
+  us33/n141 (net)                       1 
+  us33/U404/Y (AND2X1_HVT)                        0.03 &     0.68 r
+  us33/n137 (net)                       1 
+  us33/U400/Y (AND3X1_HVT)                        0.04 &     0.72 r
+  us33/n135 (net)                       1 
+  us33/U406/Y (AND2X1_HVT)                        0.03 &     0.75 r
+  us33/n166 (net)                       1 
+  us33/U414/Y (NAND4X0_HVT)                       0.04 &     0.79 f
+  us33/n112 (net)                       1 
+  us33/U22/Y (NOR2X1_HVT)                         0.04 &     0.83 r
+  us33/n36 (net)                        2 
+  us33/U439/Y (AND2X1_HVT)                        0.03 &     0.86 r
+  us33/n378 (net)                       1 
+  us33/U441/Y (AND2X1_HVT)                        0.03 &     0.89 r
+  us33/n92 (net)                        1 
+  us33/U58/Y (NAND3X0_HVT)                        0.12 &     1.01 f
+  us33/d[7] (net)                       4 
+  U604/Y (XNOR2X2_HVT)                            0.10 &     1.11 f
+  n275 (net)                            4 
+  U585/Y (XNOR3X1_HVT)                            0.12 &     1.22 f
+  n281 (net)                            1 
+  U584/Y (XOR2X1_HVT)                             0.07 &     1.30 r
+  n279 (net)                            1 
+  U583/Y (AO22X1_HVT)                             0.05 &     1.35 r
+  N229 (net)                            1 
+  sa30_reg[3]/D (DFFX1_HVT)                       0.00 &     1.35 r
+  data arrival time                                          1.35
+
+  clock myCLK (rise edge)                         5.00       5.00
+  clock network delay (ideal)                     0.00       5.00
+  clock reconvergence pessimism                   0.00       5.00
+  sa30_reg[3]/CLK (DFFX1_HVT)                                5.00 r
+  library setup time                             -0.04       4.96
+  data required time                                         4.96
+  ----------------------------------------------------------------------
+  data required time                                         4.96
+  data arrival time                                         -1.35
+  ----------------------------------------------------------------------
+  slack (MET)                                                3.62
+
+
+1
+source $techlib/scripts/reportTNS.tcl
+ReportTNS
+Group **async_default** Worst Negative Slack : 100000
+Group **async_default** Total Negative Slack : 0
+Group **async_default** Total Positive Slack : 0
+
+Group **clock_gating_default** Worst Negative Slack : 100000
+Group **clock_gating_default** Total Negative Slack : 0
+Group **clock_gating_default** Total Positive Slack : 0
+
+Group **default** Worst Negative Slack : 100000
+Group **default** Total Negative Slack : 0
+Group **default** Total Positive Slack : 0
+
+Group myCLK Worst Negative Slack : 100000
+Group myCLK Total Negative Slack : 0
+Group myCLK Total Positive Slack : 0
+
+------------------------------------------
+Design Worst Negative Slack : 100000
+Design Total Negative Slack : 0
+Design Total Positive Slack : 0
+set power_enable_analysis TRUE
+Information: Checked out license 'PrimePower' (PT-019)
+TRUE
+set power_analysis_mode averaged
+averaged
+# Set default activity values.
+#set inPorts [all_inputs]
+#set theClocks [get_clock]
+#set clockNames [get_attribute $theClocks full_name]
+#set inPortsNoClock [remove_from_collection $inPorts $clockNames]
+#set_switching_activity -static_probability 0.5 -toggle_rate 0.2 $inPortsNoClock -period 2
+#set_switching_activity -static_probability 0.5 -toggle_rate 0.1 -type registers -hierarchy -period 2
+# Report power.
+update_power
+Warning: Neither event file or switching activity data present for power estimation. The command will propagate switching activity values for power calculation.  (PWR-246)
+Information: Running switching activity propagation with 4 threads!
+Information: Running averaged power analysis... (PWR-601)
+Information: Running power calculation with 4 threads. (PWR-602)
+1
+check_power
+Information: Checking 'out_of_table_range'.
+Warning: There are 794 out_of_range ramps.
+Warning: There are 11237 out_of_range loads.
+Information: Checking 'missing_table'.
+Information: Checking 'missing_function'.
+0
+report_power -verbose -nosplit
+****************************************
+Report : Averaged Power
+	-verbose
+	-nosplit
+Design : aes_cipher_top
+Version: Q-2019.12-SP4
+Date   : Thu Aug 11 16:50:13 2022
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ff0p95v125c (File: /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32hvt_ff0p95v125c.db)
+
+
+Operating Conditions: ff0p95v125c   Library: saed32hvt_ff0p95v125c
+Wire Load Model Mode: enclosed
+
+Cell               Design       Wire_model  Library       Selection_type
+--------------------------------------------------------------------------------
+                   aes_cipher_top 35000     saed32hvt_ff0p95v125c automatic-by-area
+us00               aes_sbox_0   8000        saed32hvt_ff0p95v125c automatic-by-area
+us01               aes_sbox_19  8000        saed32hvt_ff0p95v125c automatic-by-area
+us02               aes_sbox_18  8000        saed32hvt_ff0p95v125c automatic-by-area
+us03               aes_sbox_17  8000        saed32hvt_ff0p95v125c automatic-by-area
+us10               aes_sbox_16  8000        saed32hvt_ff0p95v125c automatic-by-area
+us11               aes_sbox_15  8000        saed32hvt_ff0p95v125c automatic-by-area
+us12               aes_sbox_14  8000        saed32hvt_ff0p95v125c automatic-by-area
+us13               aes_sbox_13  8000        saed32hvt_ff0p95v125c automatic-by-area
+us20               aes_sbox_12  8000        saed32hvt_ff0p95v125c automatic-by-area
+us21               aes_sbox_11  8000        saed32hvt_ff0p95v125c automatic-by-area
+us22               aes_sbox_10  8000        saed32hvt_ff0p95v125c automatic-by-area
+us23               aes_sbox_9   8000        saed32hvt_ff0p95v125c automatic-by-area
+us30               aes_sbox_8   8000        saed32hvt_ff0p95v125c automatic-by-area
+us31               aes_sbox_7   8000        saed32hvt_ff0p95v125c automatic-by-area
+us32               aes_sbox_6   8000        saed32hvt_ff0p95v125c automatic-by-area
+us33               aes_sbox_5   8000        saed32hvt_ff0p95v125c automatic-by-area
+u0                 aes_key_expand_128 8000  saed32hvt_ff0p95v125c automatic-by-area
+u0/r0              aes_rcon     ForQA       saed32hvt_ff0p95v125c automatic-by-area
+u0/u0              aes_sbox_4   8000        saed32hvt_ff0p95v125c automatic-by-area
+u0/u1              aes_sbox_3   8000        saed32hvt_ff0p95v125c automatic-by-area
+u0/u2              aes_sbox_2   8000        saed32hvt_ff0p95v125c automatic-by-area
+u0/u3              aes_sbox_1   8000        saed32hvt_ff0p95v125c automatic-by-area
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           2.353e-03 2.573e-05 1.085e-04 2.487e-03 ( 9.33%)  i
+register                -1.334e-03 4.750e-05 5.664e-03 4.377e-03 (16.42%) 
+combinational           -3.613e-04 5.012e-04    0.0197    0.0198 (74.25%) 
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 5.745e-04   ( 2.15%)
+  Cell Internal Power  = 6.574e-04   ( 2.47%)
+  Cell Leakage Power   =    0.0254   (95.38%)
+                         ---------
+Total Power            =    0.0267  (100.00%)
+
+1
+start_gui
+pt_shell> exit
+Suppressed Messages Summary:
+Id          Severity      Occurrences   Suppressed
+-------------------------------------------------------------------------------
+CMD-005     Error                  12           12
+Total 1 type of message is suppressed
+
+Timing updates: 1 (1 implicit, 0 explicit) (0 incremental, 1 full, 0 logical)
+Noise updates: 0 (0 implicit, 0 explicit) (0 incremental, 0 full)
+Maximum memory usage for this session: 1432.92 MB
+CPU usage for this session: 1715 seconds 
+Elapsed time for this session: 73623 seconds
+Diagnostics summary: 2 errors, 3 warnings, 13 informationals
+
+Thank you for using pt_shell!

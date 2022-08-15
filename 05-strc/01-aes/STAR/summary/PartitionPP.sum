@@ -1,0 +1,8 @@
+  
+createTopCutCoords Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+loadNetSet         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+printTextCountFile Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+groupXtrJobs       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+PartitionPP        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 

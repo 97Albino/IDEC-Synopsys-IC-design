@@ -1,0 +1,13 @@
+run_in_same_process: start time = 1660199299
+width: 1.75e+06 dbunit: 10000
+Expand search distance from: 20000 to: 110000
+Cells not flattened due to FLATTEN_CACHE_TOTAL_FLAT_COUNT_THRESHOLD: (15000000K)
+Cell     FlatCount   Accumulated     
+create_xin_writer; sort_xin_in_memory NO cut_trap NO track_fill_detection NO
+  
+InitDB          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+ImportCells     Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 
+Cells           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=589.4 
+BuildPinIndexDB Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=589.4 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 

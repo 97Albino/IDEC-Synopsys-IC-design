@@ -1,0 +1,8 @@
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+  
+InitDB          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+ImportCells     Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 
+Cells           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=589.4 
+BuildPinIndexDB Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=589.4 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=589.5 

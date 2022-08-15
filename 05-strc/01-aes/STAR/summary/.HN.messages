@@ -1,0 +1,26 @@
+run_in_same_process: start time = 1660199299
+NDM Non-Stream Mode for HN!
+sortTrie = 0
+_sort_def = 0
+combine_loc (173792) = 0
+run_in_same_process: start time = 1660199299
+NDM Non-Stream Mode for HN!
+sortTrie = 0
+_sort_def = 0
+checks = 0
+sortTrie = 0
+_sortInsArray = 0
+token_task (173790) = 0
+idxInit = 0
+dumpSigTokens = 0
+_open = 0
+_write_globals = 0
+_write_defs = 0
+_close = 0
+main_thread (173790) = 0
+free = 0
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=560.9 
+HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=593.7 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=593.7 

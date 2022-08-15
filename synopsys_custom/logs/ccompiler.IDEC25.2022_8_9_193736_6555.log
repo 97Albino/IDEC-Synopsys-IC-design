@@ -1,0 +1,66 @@
+[19:37:39.19] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /usr/synopsys/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Aug  9 19:37:36 2022
+              /c Host: knuee-srv1
+              /c Working directory: /home/KNUEEhdd1/idec/IDEC25
+              /c 
+[19:37:41.70] /r giShowFrameTabs true
+[19:37:41.70] /r giWindowId 1
+[19:37:41.70] /r giWindowGeometry 1040x800
+[19:37:42.08] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+179+56
+[19:37:45.27] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:37:45.57] /i db::setAttr geometry -of [gi::getFrames 1] -value 1390x701+5+56
+[19:37:49.65] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:37:49.66] /# 
+[19:37:49.96] /i gi::addWindow [dm::openLibraryManager] -to 1
+[19:37:49.96] /r giWindowId 2
+[19:37:49.96] /r giWindowGeometry 660x600+50+78
+[19:37:52.01] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:37:52.01] /r giMenuAccess db::getNext [gi::getMenus dmLibraryContextMenu]
+[19:37:54.37] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:38:48.66] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:38:48.66] /r giMenuAccess db::getNext [gi::getMenus dmLibraryContextMenu]
+[19:38:53.07] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:38:53.07] /r giMenuAccess db::getNext [gi::getMenus dmLibraryContextMenu]
+[19:38:56.70] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 2]
+[19:38:56.70] /i dm::showNewLibrary -parent 2
+[19:38:56.80] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:38:57.04] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+461+122
+[19:39:01.39] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[19:39:02.28] /i gi::setCurrentIndex {libs} -index {sheets} -in [gi::getWindows 2]
+[19:39:13.72] /i gi::setField {libName} -value {test} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:39:13.72] /i gi::setField {techRefs} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:39:14.67] /i gi::pressButton {m_browse_libs} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:39:14.73] /i gi::setActiveDialog [gi::getDialogs {dmTechRefs} -parent [gi::getWindows 2]]
+[19:39:14.97] /i db::setAttr geometry -of [gi::getDialogs {dmTechRefs} -parent [gi::getWindows 2]] -value 330x307+515+162
+[19:39:20.74] /i gi::pressButton {cancel} -in [gi::getDialogs {dmTechRefs} -parent [gi::getWindows 2]]
+[19:39:20.75] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:39:25.78] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[19:39:27.87] /i exit
+[19:39:27.94] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[19:39:28.27] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+491+310
+[19:39:29.48] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[19:39:30.23] /o Shutdown time: Tue Aug  9 19:39:30 2022
+[19:39:30.23] /o Elapsed session real time: 1.85 minutes
+[19:39:30.23] /o Session terminated. Log is at /home/KNUEEhdd1/idec/IDEC25/synopsys_custom/logs/ccompiler.IDEC25.2022_8_9_193736_6555.log

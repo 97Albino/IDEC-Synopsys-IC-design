@@ -1,0 +1,26 @@
+-dp_stitch
+-num_cores 1
+-num_parts 4
+-bidirectional
+-i xout
+-xout_nn_stitch 394
+-fine_dbu
+-stitch_overlap_dist 1
+-stitch_num_jobs 1
+-skip_xtract_pp xout_split
+-random_access_xout
+-xout_offset_file xout_offset
+-stitched_nodes_prefix stitched_nodes
+-bidirectional
+-layer_info layer_info
+-inter_pic_level_connections
+-new_dp_stitching_in_extraction 3
+-local_nodeids
+-new_ip_handling
+-gpd_dir ../aes_cipher_top.gpd
+-direct_gpd
+-nco_setup_file gpd_connect_open_nets
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000
+-consistent_open_instance_port

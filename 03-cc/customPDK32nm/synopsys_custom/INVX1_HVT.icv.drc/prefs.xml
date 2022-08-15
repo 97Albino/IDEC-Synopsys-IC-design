@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVRunsetFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/icv/drc/saed32nm_1p9m_drc_rules.rs"/>
+	<pref name="xtDRCLayCell" value="INVX1_HVT"/>
+	<pref name="xtDRCLayLCV" value="tg1/INVX1_HVT/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVX1_HVT.icv.drc/INVX1_HVT.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVX1_HVT.icv.drc/INVX1_HVT.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

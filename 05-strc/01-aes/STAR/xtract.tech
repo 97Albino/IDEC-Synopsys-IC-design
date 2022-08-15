@@ -1,0 +1,120 @@
+-abs_cap_threshold_xt 3e-15
+-rel_cap_threshold_xt 0.03
+-disable_skip_pcell_tcap_filter
+-abutment_merge_mode 4
+-clean_ctext
+-layer_based_nxtgrd_read
+-noncritical_min_area 0.25
+-noncritical_min_length 0.25
+-new_dp_stitching_in_extraction 3
+-local_nodeids
+-new_res_rc
+-new_res_environment 2
+-new_res_optimization 1
+-res_cache_hash_size 50000
+-limit_handle_long_contacts
+-rx_enclosure_simple
+-new_ip_handling
+-process_point_based_ip
+-consistent_open_instance_port
+-new_cap_environment 6
+-new_cap_environment_nondominant 1
+-new_cap_model 1
+-ground_non_reciprocal_fill_coupling
+-thickness_var_threshold 0.05
+-thickness_var_threshold_discard 0.02
+-new_cap_plane_limit 4.0
+-new_cap_simple_via_pad_model 2
+-abstract_polygon_mode 1
+-abstract_pattern_expand_mode 5
+-fill_pattern_generation_mode 5
+-via_enclosure_modeling 1
+-fast_env_nondominant_scan_wmin_threshold 2.0
+-edge_cap_cache_hash_size 65000
+-fringe_cap_cache_hash_size 10000
+-cap_area_cache_hash_size 25000
+-tv_cache_hash_size 25000
+-single_cap_node_delay_threshold 12.0
+-max_ccap_merge_length 5.0
+-abstract_polygon_area_tuning_factor 0.6
+-abstract_polygon_via_tuning_factor 0.7
+-use_relaxed_area_cap_env_merge
+-new_cap_sort_small_environments 8
+-max_env_model_length_multiple 0.0
+-max_model_length_ratio 0.0
+-simple_model_plane_limit 0.0
+-max_env_prune_length_multiple 2.0
+-max_prune_length_ratio 1.0
+-max_via_env_prune_length_multiple 2.0
+-fill_extraction_abs_threshold 1e-19
+-new_cap_fill_extract_iterations 2
+-full_cap_fill_mode
+-last_fill_iteration_simple
+-fast_fill_model 5
+-select_pruned_fill_polygons 1
+-use_effective_edge_cap_to_ground
+-use_partition_based_density
+-ignore_reconnected_fill_in_ip_location
+-stage_id 1
+-o xout
+-clean_via
+-handle_45_polygons
+-nonmanhattan_ratio 0.95
+-nonmanhattan_tolerance 5
+-enhanced_via_model_for_via_coverage
+-adjust_rpv_by_via_count
+-ignore_ek_stub_for_ip
+-filter
+-dsd 25
+-full_chip_xin xin
+-message_suppression_limit  100
+-i xin
+-tcad_file /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32nm_1p9m_Cmin.nxtgrd
+-layer_info layer_info
+-GVM_skip 
+-GV_m0_factor 0
+-GV_shielding_ext -1
+-detect_VT 0
+-operating_temperature 100
+-density_based_thickness
+-enable_tall_contact_modeling
+-xm 400
+-extraction RC
+-keep_via_nodes 0
+-reduction_high_small_r_rel_threshold 0.9
+-max_tdecm_level 2
+-rfr 0.99
+-suppress_file xtract.sup
+-extra_geometry_info node
+-vert_parts
+-cut_thickness 1
+-overlap_dist 2
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-max_virtual_via_segmentation_number 1000000
+-net_segment_cut_length 20
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-fine_dbu
+-calc_text_count
+-num_parts 4
+-bidirectional
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-random_access_xout
+-lateral_cap_scaling_mode 2
+-stitch_overlap_dist 1
+-new_current_direction_for_em
+-gpd_dir ../aes_cipher_top.gpd
+-direct_gpd
+-nco_setup_file gpd_connect_open_nets
+-enhanced_via_extraction
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000
+-vertical_gate_resistance
+-persistent_extractor_mode 3
+-enhanced_obs_short_reporting
+-warning_mos_gate_delta_for_via_on_gate 
+-enhanced_evws_resistance_accuracy
+-enhanced_evws_resistance_accuracy_max_coor_size 8
+-prefer_fill_style_pn_over_xin_pn

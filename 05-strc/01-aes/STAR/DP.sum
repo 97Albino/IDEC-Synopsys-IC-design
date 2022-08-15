@@ -1,0 +1,39 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:03 Cpu=00:00:01 Mem=560.9  |Aug 11 15:28:17 |knuee-srv1
+CPU_01 |*Layers                    Elp=00:00:00 Cpu=00:00:00 Mem=565.7  |Aug 11 15:28:17 |knuee-srv1
+CPU_01 |*HN                        Elp=00:00:00 Cpu=00:00:00 Mem=593.7  |Aug 11 15:28:19 |knuee-srv1
+CPU_01 |*Cells                     Elp=00:00:01 Cpu=00:00:00 Mem=589.5  |Aug 11 15:28:20 |knuee-srv1
+CPU_01 |*Translate_DP              Elp=00:00:01 Cpu=00:00:01 Mem=562    |Aug 11 15:28:23 |knuee-srv1
+CPU_01 |*XinCombine                Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:25 |knuee-srv1
+CPU_01 |*PartitionPP               Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:27 |knuee-srv1
+CPU_01 |*MergeIndex                Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:29 |knuee-srv1
+CPU_01 |*MergeGpdInstPins          Elp=00:00:00 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:31 |knuee-srv1
+CPU_01 |*GPD_XtractSetup           Elp=00:00:01 Cpu=00:00:00 Mem=561.5  |Aug 11 15:28:34 |knuee-srv1
+CPU_01 |*NetlistSetup              Elp=00:00:02 Cpu=00:00:00 Mem=386.1  |Aug 11 15:28:38 |knuee-srv1
+CPU_01 |*NetlistAssemblySetup      Elp=00:00:01 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:41 |knuee-srv1
+CPU_01 |*CleanDirectory            Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:28:43 |knuee-srv1
+CPU_01 |*GPD_NameMap               Elp=00:00:00 Cpu=00:00:00 Mem=388    |Aug 11 15:28:45 |knuee-srv1
+CPU_01 |*StitchPreProcess1         Elp=00:00:00 Cpu=00:00:00 Mem=0      |Aug 11 15:28:47 |knuee-srv1
+CPU_01 |*xTract_DP                 Elp=00:00:18 Cpu=00:00:15 Mem=936.8  |Aug 11 15:29:05 |knuee-srv1
+CPU_01 |*StitchPreProcess2         Elp=00:00:05 Cpu=00:00:00 Mem=261.8  |Aug 11 15:29:10 |knuee-srv1
+CPU_01 |*Stitch_DP                 Elp=00:00:02 Cpu=00:00:00 Mem=265.3  |Aug 11 15:29:14 |knuee-srv1
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=263.3  |Aug 11 15:29:16 |knuee-srv1
+CPU_01 |*ReportViolations          Elp=00:00:00 Cpu=00:00:00 Mem=385.5  |Aug 11 15:29:18 |knuee-srv1
+CPU_01 |*ReportOpens               Elp=00:00:01 Cpu=00:00:00 Mem=385.5  |Aug 11 15:29:21 |knuee-srv1
+CPU_01 |*Netlist_assembly_DP       Elp=00:00:00 Cpu=00:00:00 Mem=264.9  |Aug 11 15:29:23 |knuee-srv1
+CPU_01 |*GPD_PostProcess           Elp=00:00:01 Cpu=00:00:00 Mem=385.9  |Aug 11 15:29:26 |knuee-srv1
+CPU_01 |*GPD_Converter_DP          Elp=00:00:05 Cpu=00:00:00 Mem=274.7  |Aug 11 15:29:33 |knuee-srv1
+CPU_01 |*GPD_Converter_merge       Elp=00:00:00 Cpu=00:00:00 Mem=261.8  |Aug 11 15:29:35 |knuee-srv1
+----------------------------------------------------------------------------------------------
+Start Time: Thu Aug 11 15:28:14 2022
+End Time: Thu Aug 11 15:29:26 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:01:12 Cpu= 00:00:19 Peak_Mem(MB)=936.8
+PreXtraction:    Elp=00:00:33 Cpu= 00:00:03 Peak_Mem(MB)=593.7
+Xtraction:       Elp=00:00:18 Cpu= 00:00:15 Peak_Mem(MB)=936.8
+PostXtraction:   Elp=00:00:21 Cpu= 00:00:00 Peak_Mem(MB)=385.9
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:07 Cpu= 00:00:00 Peak_Mem(MB)=274.7
+----------------------------------------------------------------------------------------------

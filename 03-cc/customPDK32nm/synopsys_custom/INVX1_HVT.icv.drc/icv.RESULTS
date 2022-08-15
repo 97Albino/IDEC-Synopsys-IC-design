@@ -1,0 +1,33 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i tg1 -c INVX1_HVT -oa_view layout -oa_lib_defs /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/lib.defs -oa_dm6 -vue /home/KNUEEhdd1/idec/IDEC25/03-cc/customPDK32nm/synopsys_custom/INVX1_HVT.icv.drc/saed32nm_1p9m_drc_rules.drc.rs
+
+"ICValidator2-GeometryEngine" license denied!
+User/host not on INCLUDE list for feature.
+Feature:       ICValidator2-GeometryEngine
+License path:  26585@143.248.230.188:
+FlexNet Licensing error:-39,147
+No such feature exists.
+Feature:       HERCULES_MANAGER
+License path:  26585@143.248.230.188:
+FlexNet Licensing error:-5,147
+IC Validator did not complete.

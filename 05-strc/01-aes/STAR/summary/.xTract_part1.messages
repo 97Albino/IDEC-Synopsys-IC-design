@@ -1,0 +1,206 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+Reading binary grd file /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32nm_1p9m_Cmin.nxtgrd ... (EX-135)
+Process 1R 1C
+use_partitioned_sig2idx is Inactive
+Extracting partition 1
+[XinLoad] Xin reading and cleaning duration is 0.59 seconds.
+Ary stats nx=222 ny=221 dx=8823 dy=8849 nentry=1120712  max/cell=82 av/cell=22.8428
+ Stats DB 1 483657 0 0 0 0 0 292337 49285 0
+[DBinit] Import design duration is 0.55 seconds.
+----- Extracting 6320 nets ----- 
+Completed   0%  Time=00:00:00  RemainingTime=00:00:14  Mem=766.285
+Completed   1%  Time=00:00:00  RemainingTime=00:00:11  Mem=767.223
+Completed   2%  Time=00:00:00  RemainingTime=00:00:08  Mem=767.723
+Completed   3%  Time=00:00:00  RemainingTime=00:00:07  Mem=768.473
+Completed   4%  Time=00:00:00  RemainingTime=00:00:08  Mem=772.66
+Completed   5%  Time=00:00:00  RemainingTime=00:00:07  Mem=773.598
+Completed  10%  Time=00:00:00  RemainingTime=00:00:08  Mem=783.223
+ Processing 1000 of 6320 nets (15.8228%) ...
+Completed  15%  Time=00:00:01  RemainingTime=00:00:06  Mem=789.785
+Completed  20%  Time=00:00:01  RemainingTime=00:00:05  Mem=795.848
+Completed  25%  Time=00:00:01  RemainingTime=00:00:05  Mem=804.348
+Completed  30%  Time=00:00:01  RemainingTime=00:00:04  Mem=812.473
+ Processing 2000 of 6320 nets (31.6456%) ...
+Completed  35%  Time=00:00:02  RemainingTime=00:00:03  Mem=819.848
+Completed  40%  Time=00:00:02  RemainingTime=00:00:03  Mem=827.41
+Completed  45%  Time=00:00:02  RemainingTime=00:00:03  Mem=838.973
+ Processing 3000 of 6320 nets (47.4684%) ...
+Completed  50%  Time=00:00:02  RemainingTime=00:00:03  Mem=846.723
+Completed  55%  Time=00:00:03  RemainingTime=00:00:02  Mem=855.973
+Completed  60%  Time=00:00:03  RemainingTime=00:00:02  Mem=864.098
+ Processing 4000 of 6320 nets (63.2911%) ...
+Completed  65%  Time=00:00:03  RemainingTime=00:00:02  Mem=873.41
+Completed  70%  Time=00:00:03  RemainingTime=00:00:02  Mem=880.598
+Completed  75%  Time=00:00:03  RemainingTime=00:00:02  Mem=890.348
+ Processing 5000 of 6320 nets (79.1139%) ...
+Completed  80%  Time=00:00:04  RemainingTime=00:00:01  Mem=899.66
+Completed  85%  Time=00:00:04  RemainingTime=00:00:01  Mem=910.41
+Completed  90%  Time=00:00:04  RemainingTime=00:00:01  Mem=918.098
+ Processing 6000 of 6320 nets (94.9367%) ...
+Completed  95%  Time=00:00:04  RemainingTime=00:00:01  Mem=926.285
+Completed 100%  Time=00:00:05  RemainingTime=00:00:00  Mem=936.238
+[NetExtr] Net extraction duration is 5.51 seconds.
+ CapExtractionCounters PolyExt=67638 PolyExtReal=67638 CapEnvD=1495236 CapEnvND=67642 NumCap=5327822 OtFgain=25864 Area=1062661 EdgeSingle=235760 EdgeSingleFringe=90009 EdgeMulti=591932 EdgeMultiFringe=54460 CacheEdgeQuery=827692 CacheEdgeHit=656417 CacheFringeQuery=160656 CacheFringeHit=135016 CacheAreaQuery=1362873 CacheAreaHit=1290639 TVEnginesQuery=861662
+[Extract] Core extraction duration is 5.52 seconds.
+----- Reducing 6320 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 275923 capacitors, 422820 resistors, 401132 nodes
+Reduced to 72209 nodes,  (81.9987%)
+Reduced to 66600 resistors,  (84.2486%)
+Reduced to 78400 capacitors: 6191 Cc and 72209 Cg (71.5863%)
+[Reduc] Fill and Net reduction duration is 0.37 seconds.
+[CircWrt] Final circuit write duration is 0.42 seconds.
+noTVengine: 11 layers
+Partition 1 total time is 7.63 seconds.
+INFO: child process for partition 1 [pid: 174241] exited with status 0
+Extracting partition 2
+[XinLoad] Xin reading and cleaning duration is 0.19 seconds.
+Ary stats nx=200 ny=91 dx=9730 dy=9761 nentry=379974  max/cell=89 av/cell=20.8777
+ Stats DB 2 178291 0 0 0 0 0 99880 20020 0
+[DBinit] Import design duration is 0.15 seconds.
+----- Extracting 2697 nets ----- 
+Completed   0%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.074
+Completed   1%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.551
+Completed   2%  Time=00:00:00  RemainingTime=00:00:03  Mem=607.738
+Completed   3%  Time=00:00:00  RemainingTime=00:00:03  Mem=608.176
+Completed   4%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.363
+Completed   5%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.988
+Completed  10%  Time=00:00:00  RemainingTime=00:00:02  Mem=617.871
+Completed  15%  Time=00:00:00  RemainingTime=00:00:01  Mem=620.059
+Completed  20%  Time=00:00:00  RemainingTime=00:00:02  Mem=626.871
+Completed  25%  Time=00:00:00  RemainingTime=00:00:02  Mem=629.496
+Completed  30%  Time=00:00:00  RemainingTime=00:00:02  Mem=632.309
+Completed  35%  Time=00:00:00  RemainingTime=00:00:02  Mem=634.809
+ Processing 1000 of 2697 nets (37.0782%) ...
+Completed  40%  Time=00:00:00  RemainingTime=00:00:02  Mem=638.121
+Completed  45%  Time=00:00:00  RemainingTime=00:00:02  Mem=640.871
+Completed  50%  Time=00:00:01  RemainingTime=00:00:01  Mem=646.934
+Completed  55%  Time=00:00:01  RemainingTime=00:00:01  Mem=649.871
+Completed  60%  Time=00:00:01  RemainingTime=00:00:01  Mem=653.059
+Completed  65%  Time=00:00:01  RemainingTime=00:00:01  Mem=657.371
+Completed  70%  Time=00:00:01  RemainingTime=00:00:01  Mem=660.871
+ Processing 2000 of 2697 nets (74.1565%) ...
+Completed  75%  Time=00:00:01  RemainingTime=00:00:01  Mem=663.496
+Completed  80%  Time=00:00:01  RemainingTime=00:00:01  Mem=666.309
+Completed  85%  Time=00:00:01  RemainingTime=00:00:01  Mem=672.184
+Completed  90%  Time=00:00:01  RemainingTime=00:00:01  Mem=675.434
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=677.871
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=682.059
+[NetExtr] Net extraction duration is 2.45 seconds.
+ CapExtractionCounters PolyExt=27368 PolyExtReal=27368 CapEnvD=573542 CapEnvND=27370 NumCap=1971108 OtFgain=9636 Area=396005 EdgeSingle=96939 EdgeSingleFringe=30752 EdgeMulti=219136 EdgeMultiFringe=20367 CacheEdgeQuery=316075 CacheEdgeHit=238735 CacheFringeQuery=56190 CacheFringeHit=45750 CacheAreaQuery=506461 CacheAreaHit=467704 TVEnginesQuery=322368
+[Extract] Core extraction duration is 2.46 seconds.
+----- Reducing 2697 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 112097 capacitors, 170631 resistors, 162447 nodes
+Reduced to 31567 nodes,  (80.5678%)
+Reduced to 28325 resistors,  (83.3999%)
+Reduced to 35779 capacitors: 4212 Cc and 31567 Cg (68.0821%)
+[Reduc] Fill and Net reduction duration is 0.18 seconds.
+[CircWrt] Final circuit write duration is 0.19 seconds.
+noTVengine: 11 layers
+Partition 2 total time is 3.29 seconds.
+INFO: child process for partition 2 [pid: 174337] exited with status 0
+Extracting partition 3
+[XinLoad] Xin reading and cleaning duration is 0.19 seconds.
+Ary stats nx=92 ny=197 dx=9761 dy=9881 nentry=375700  max/cell=88 av/cell=20.7294
+ Stats DB 3 176685 0 0 0 0 0 98055 20009 0
+[DBinit] Import design duration is 0.16 seconds.
+----- Extracting 2761 nets ----- 
+Completed   0%  Time=00:00:00  RemainingTime=00:00:03  Mem=606.395
+Completed   1%  Time=00:00:00  RemainingTime=00:00:02  Mem=606.645
+Completed   2%  Time=00:00:00  RemainingTime=00:00:02  Mem=607.02
+Completed   3%  Time=00:00:00  RemainingTime=00:00:02  Mem=607.457
+Completed   4%  Time=00:00:00  RemainingTime=00:00:02  Mem=608.707
+Completed   5%  Time=00:00:00  RemainingTime=00:00:02  Mem=609.52
+Completed  10%  Time=00:00:00  RemainingTime=00:00:02  Mem=618.777
+Completed  15%  Time=00:00:00  RemainingTime=00:00:02  Mem=622.152
+Completed  20%  Time=00:00:00  RemainingTime=00:00:02  Mem=626.34
+Completed  25%  Time=00:00:00  RemainingTime=00:00:02  Mem=629.027
+Completed  30%  Time=00:00:00  RemainingTime=00:00:02  Mem=632.027
+Completed  35%  Time=00:00:00  RemainingTime=00:00:02  Mem=636.34
+ Processing 1000 of 2761 nets (36.2188%) ...
+Completed  40%  Time=00:00:00  RemainingTime=00:00:02  Mem=641.09
+Completed  45%  Time=00:00:01  RemainingTime=00:00:01  Mem=644.465
+Completed  50%  Time=00:00:01  RemainingTime=00:00:01  Mem=647.277
+Completed  55%  Time=00:00:01  RemainingTime=00:00:01  Mem=651.34
+Completed  60%  Time=00:00:01  RemainingTime=00:00:01  Mem=658.027
+Completed  65%  Time=00:00:01  RemainingTime=00:00:01  Mem=660.715
+Completed  70%  Time=00:00:01  RemainingTime=00:00:01  Mem=663.777
+ Processing 2000 of 2761 nets (72.4375%) ...
+Completed  75%  Time=00:00:01  RemainingTime=00:00:01  Mem=666.902
+Completed  80%  Time=00:00:01  RemainingTime=00:00:01  Mem=669.652
+Completed  85%  Time=00:00:01  RemainingTime=00:00:01  Mem=672.09
+Completed  90%  Time=00:00:02  RemainingTime=00:00:00  Mem=676.777
+Completed  95%  Time=00:00:02  RemainingTime=00:00:00  Mem=678.965
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=681.965
+[NetExtr] Net extraction duration is 2.48 seconds.
+ CapExtractionCounters PolyExt=27352 PolyExtReal=27352 CapEnvD=549931 CapEnvND=27357 NumCap=1885270 OtFgain=8824 Area=370092 EdgeSingle=86889 EdgeSingleFringe=28422 EdgeMulti=217734 EdgeMultiFringe=20090 CacheEdgeQuery=304623 CacheEdgeHit=227736 CacheFringeQuery=53622 CacheFringeHit=43640 CacheAreaQuery=473944 CacheAreaHit=435810 TVEnginesQuery=308149
+[Extract] Core extraction duration is 2.49 seconds.
+----- Reducing 2761 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 111643 capacitors, 172238 resistors, 163510 nodes
+Reduced to 32944 nodes,  (79.852%)
+Reduced to 29377 resistors,  (82.9439%)
+Reduced to 36636 capacitors: 3692 Cc and 32944 Cg (67.1847%)
+[Reduc] Fill and Net reduction duration is 0.17 seconds.
+[CircWrt] Final circuit write duration is 0.19 seconds.
+noTVengine: 11 layers
+Partition 3 total time is 3.34 seconds.
+INFO: child process for partition 3 [pid: 174369] exited with status 0
+Extracting partition 4
+[XinLoad] Xin reading and cleaning duration is 0.06 seconds.
+Ary stats nx=79 ny=77 dx=11359 dy=11496 nentry=113330  max/cell=97 av/cell=18.6306
+ Stats DB 4 58055 0 0 0 0 0 30021 7044 0
+[DBinit] Import design duration is 0.05 seconds.
+----- Extracting 1105 nets ----- 
+Completed   0%  Time=00:00:00  RemainingTime=00:00:01  Mem=363.012
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.012
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.137
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.262
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.324
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=363.512
+Completed  10%  Time=00:00:00  RemainingTime=00:00:01  Mem=366.488
+Completed  15%  Time=00:00:00  RemainingTime=00:00:01  Mem=367.801
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=368.863
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=369.988
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=371.051
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=372.113
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=373.301
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=375.113
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=378.066
+Completed  55%  Time=00:00:00  RemainingTime=00:00:00  Mem=379.316
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=380.191
+Completed  65%  Time=00:00:00  RemainingTime=00:00:00  Mem=381.129
+Completed  70%  Time=00:00:00  RemainingTime=00:00:00  Mem=382.129
+Completed  75%  Time=00:00:00  RemainingTime=00:00:00  Mem=383.441
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=384.379
+Completed  85%  Time=00:00:00  RemainingTime=00:00:00  Mem=385.254
+ Processing 1000 of 1105 nets (90.4977%) ...
+Completed  90%  Time=00:00:00  RemainingTime=00:00:00  Mem=386.191
+Completed  95%  Time=00:00:00  RemainingTime=00:00:00  Mem=387.316
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=387.879
+[NetExtr] Net extraction duration is 0.71 seconds.
+ CapExtractionCounters PolyExt=9630 PolyExtReal=9630 CapEnvD=191508 CapEnvND=9630 NumCap=649219 OtFgain=3306 Area=129631 EdgeSingle=34740 EdgeSingleFringe=10528 EdgeMulti=72277 EdgeMultiFringe=6593 CacheEdgeQuery=107017 CacheFringeQuery=18867 CacheAreaQuery=165511 TVEnginesQuery=108441
+[Extract] Core extraction duration is 0.72 seconds.
+----- Reducing 1105 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 40387 capacitors, 61087 resistors, 58188 nodes
+Reduced to 13242 nodes,  (77.2427%)
+Reduced to 11367 resistors,  (81.3921%)
+Reduced to 15498 capacitors: 2256 Cc and 13242 Cg (61.6263%)
+[Reduc] Fill and Net reduction duration is 0.05 seconds.
+[CircWrt] Final circuit write duration is 0.08 seconds.
+noTVengine: 11 layers
+Partition 4 total time is 0.97 seconds.
+INFO: child process for partition 4 [pid: 174432] exited with status 0
+  
+xTract_partition1 Elp=00:00:07 Cpu=00:00:07 Usr=6.9    Sys=0.7    Mem=936.8 
+xTract_partition2 Elp=00:00:04 Cpu=00:00:03 Usr=2.8    Sys=0.4    Mem=682.6 
+xTract_partition3 Elp=00:00:03 Cpu=00:00:03 Usr=2.9    Sys=0.4    Mem=682.5 
+xTract_partition4 Elp=00:00:01 Cpu=00:00:00 Usr=0.9    Sys=0.0    Mem=388.4 
+xTractor          Elp=00:00:16 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=336.3 
+  
+Done          Elp=00:00:16 Cpu=00:00:15 Usr=13.7   Sys=1.7    Mem=936.8 
+

@@ -1,0 +1,13 @@
+run_in_same_process: start time = 1660199307
+Adjust DP_NUM_X_TILES from 3 to 2
+Adjust DP_NUM_Y_TILES from 3 to 2
+total number of split nets: 1 (0.00869868%)
+Adjust DP_PARTITIONED_SPLITNETS_FILE from 1 to 0
+  
+createTopCutCoords Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+loadNetSet         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+printTextCountFile Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+groupXtrJobs       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+PartitionPP        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=561.5 

@@ -1,0 +1,12 @@
+-pre_stitch
+-stitch_num_jobs 1
+-num_cores 1
+-xout_offset_file xout_offset
+-i xout
+-bidirectional
+-random_access_xout
+-skip_xtract_pp xout
+-gpd_dir ../aes_cipher_top.gpd
+-direct_gpd
+-xout_nn_stitch 394
+-num_parts 4

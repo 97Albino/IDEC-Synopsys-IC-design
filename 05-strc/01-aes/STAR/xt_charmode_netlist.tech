@@ -1,0 +1,17 @@
+-fs_adjust xt_charmode_caps
+-xout2spf
+-i xout
+-o xout
+-num_parts 4
+-bidirectional
+-skip_xtract_pp xout_split
+-hn_file hnfile.hn
+-net_info_file netlist.netinfo
+-ground_tiny_fs_coupling
+-retain_non_fs_net_total_cap
+-inter_pic_level_connections
+-random_access_xout
+-num_cores 1
+-stitched_nodes_prefix stitched_nodes
+-xout_nn_stitch 394
+-new_ip_handling

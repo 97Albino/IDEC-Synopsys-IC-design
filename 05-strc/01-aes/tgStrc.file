@@ -1,0 +1,22 @@
+NDM_DATABASE: aes
+BLOCK: aes_cipher_top/route_opt
+*****************************
+*COUPLING OPTIONS
+*****************************
+COUPLE_TO_GROUND: NO
+OPERATING_TEMPERATURE: 100
+TCAD_GRD_FILE: /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32nm_1p9m_Cmin.nxtgrd
+MAPPING_FILE: /home/KNUEEhdd1/idec/techfiles/saed28edk/saed32nm_tf_itf_tluplus.map
+REMOVE_DANGLING_NETS: YES
+NETLIST_FORMAT: SPEF
+*****************************
+*SETTINGS FOR PHYSICAL ECO
+*****************************
+REDUCTION: NO_EXTRA_LOOPS
+NETLIST_NODE_SECTION: YES
+*****************************
+*OUTPUT DATA:
+*******************************
+NETLIST_FILE:  ./aes_cipher_top.spef
+STAR_DIRECTORY: STAR
+
